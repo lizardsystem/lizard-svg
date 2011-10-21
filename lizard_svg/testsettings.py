@@ -16,6 +16,25 @@ SETTINGS_DIR = os.path.dirname(os.path.realpath(__file__))
 BUILDOUT_DIR = os.path.abspath(os.path.join(SETTINGS_DIR, '..'))
 LOGGING = setup_logging(BUILDOUT_DIR)
 
+# Absolute path to the directory that holds user-uploaded media.
+MEDIA_ROOT = os.path.join(BUILDOUT_DIR, 'var', 'media')
+# Absolute path to the directory where django-staticfiles'
+# "bin/django build_static" places all collected static files from all
+# applications' /media directory.
+STATIC_ROOT = os.path.join(BUILDOUT_DIR, 'var', 'static')
+
+# URL that handles the media served from MEDIA_ROOT. Make sure to use a
+# trailing slash if there is a path component (optional in other cases).
+MEDIA_URL = '/media/'
+# URL for the per-application /media static files collected by
+# django-staticfiles.  Use it in templates like
+# "{{ MEDIA_URL }}mypackage/my.css".
+STATIC_URL = '/static_media/'
+# URL prefix for admin media -- CSS, JavaScript and images. Make sure to use a
+# trailing slash.  Uses STATIC_URL as django-staticfiles nicely collects
+# admin's static media into STATIC_ROOT/admin.
+ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
+
 # ENGINE: 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
 # In case of geodatabase, prepend with:
 # django.contrib.gis.db.backends.(postgis)
