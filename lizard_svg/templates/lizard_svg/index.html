@@ -1,0 +1,34 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title>only page of this application.  contains a scrollbar and a svg.</title>
+    <link type="text/css" href="{{ STATIC_URL }}jquery/css/ui-lightness/jquery-ui-1.8.16.custom.css" rel="Stylesheet" />	
+    <script type="text/javascript" src="{{ STATIC_URL }}jquery/js/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}jquery/js/jquery-ui-1.8.16.custom.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}lizard_svg/style.css"/>
+    <script type="text/javascript" src="{{ STATIC_URL }}lizard_svg/slidebar.js"></script>
+  </head>
+  <body>
+    
+    <div class="sidebarbox sidebarbox-stretched automatic-tree filetree pane">
+      <h2>a toy color chooser</h2>
+      <select onChange=
+	      "document.bgColor=this.options[this.selectedIndex].value">
+	<option value="40E0D0"> Torquoise </option>
+	<option value="2E8B57"> Sea Green </option>
+	<option value="87CEEB" selected="true"> Sky Blue </option>
+	<option value="F4A460"> Sandy Brown </option>
+	<option value="FFF0F5"> Lavender Blush </option>
+	<option value="FF1493"> Deep Pink </option>
+	<option value="FFFFFF"> White </option>
+      </select>
+      <h2>the slide bar</h2>
+      <div id="mySliderDiv" style="width:260px; margin:15px;"></div>
+      <h2>the image</h2>
+      {% include "overzicht.svg" %}
+    </div>
+  </body>
+</html>

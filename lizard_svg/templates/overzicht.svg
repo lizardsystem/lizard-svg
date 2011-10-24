@@ -1,0 +1,2127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1052.3622"
+   height="744.09448"
+   id="svg3500"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="Overzicht.svg"
+   viewBox="0 0 1060.7143 530.30304"
+   preserveAspectRatio="xMidYMid meet">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.51784152"
+     inkscape:cx="859.58364"
+     inkscape:cy="385.60369"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg3500"
+     showgrid="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="975"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="false">
+    <inkscape:grid
+       snapvisiblegridlinesonly="true"
+       enabled="true"
+       visible="true"
+       empspacing="5"
+       id="grid3566"
+       type="xygrid" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3502">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path4733" />
+    </marker>
+    <inkscape:perspective
+       id="perspective3508"
+       persp3d-origin="372.04724 : 350.78739 : 1"
+       vp_z="744.09448 : 526.18109 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 248.65158 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="567.21259 : 248.65158 : 1"
+       persp3d-origin="283.60629 : 165.76772 : 1"
+       id="perspective3519" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 248.65158 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="567.21259 : 248.65158 : 1"
+       persp3d-origin="283.60629 : 165.76772 : 1"
+       id="perspective3533" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 248.65158 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="567.21259 : 248.65158 : 1"
+       persp3d-origin="283.60629 : 165.76772 : 1"
+       id="perspective3547" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 248.65158 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="567.21259 : 248.65158 : 1"
+       persp3d-origin="283.60629 : 165.76772 : 1"
+       id="perspective3561" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3576" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3602" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3702" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3768" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3808" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3857" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3915" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3946" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3983" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective4011" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective4036" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective4058" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective4888" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective4888-7" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective4888-3" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective4888-5" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective4888-9" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective4888-1" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective4888-6" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective4888-0" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective5002" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective5024" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective5561" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective6095" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective6095-3" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective6095-1" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective6095-7" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective6095-4" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective6153" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective6153-5" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7505" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7505-9" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7505-4" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7505-2" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7505-7" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7505-8" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7635" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7635-8" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7635-7" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7635-6" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7635-86" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7635-2" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7635-1" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7770" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7823" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7823-9" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7823-2" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7823-22" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7915" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7915-1" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7915-2" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7998" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7998-9" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7998-2" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7998-1" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective7998-20" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective8101" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective8136" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective8173" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective8173-8" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective8219" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective8256" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective8287" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective8309" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective8361" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective8392" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective8423" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective4747" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective4043" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3139" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3105" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3105-4" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3105-9" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3105-8" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3154" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       vp_x="0 : 0.5 : 1"
+       vp_y="0 : 1000 : 0"
+       vp_z="1 : 0.5 : 1"
+       persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3139-1" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3104" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3928" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3928-8" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3972" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3972-4" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3972-5" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3972-7" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3972-52" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3972-6" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3972-2" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective4059" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3097" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3097-7" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3097-0" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3097-4" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3097-8" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3170" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3201" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective4012" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective4012-1" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective4012-2" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective4052" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective4085" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective4113" />
+    <inkscape:perspective
+       id="perspective3929"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <metadata
+     id="metadata3505">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     style="fill:#eaf7a6;fill-opacity:0.51764706000000005;stroke:none;stroke-width:0.98913174999999998;stroke-miterlimit:4;stroke-opacity:0.51764706000000005;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect3895"
+     width="734.9668"
+     height="465.20691"
+     x="238.10002"
+     y="75.104553" />
+  <path
+     style="fill:#82fae4;fill-opacity:0.51764706;stroke:none"
+     d="m 238.10439,245.77333 27.52652,39.91346 129.37464,46.10692 52.98854,24.77387 70.8808,42.6661 80.51507,37.84897 59.87017,6.19346 106.66527,44.04243 204.3844,-77.07425 0,36.47264 -0.68816,4.12898 -40.60161,16.5159 -25.46203,23.39755 -139.00893,41.97794 -70.88079,4.12898 -70.19262,-24.08571 -15.82775,-13.76325 -27.52651,-3.44082 -50.2359,45.41875 -62.62283,-1.37632 42.6661,-55.05304 -79.13875,-13.07509 -47.48324,-17.20408 -35.09631,-23.39754 -12.38694,-5.5053 -43.35427,-33.71999 -52.98854,-66.06365 -1.37633,-79.82691 z"
+     id="path3111" />
+  <rect
+     style="fill:#c2c2c2;stroke:#000000;stroke-width:1.03989899"
+     height="74.960106"
+     width="734.65466"
+     y="-4.578793"
+     x="237.78395"
+     id="rectTitel" />
+  <text
+     style="font-size:44px;font-family:Arial"
+     y="44.381142"
+     x="262.32788"
+     id="Titel">Hoofdpersleidingen Hoekse Waard</text>
+  <g
+     transform="translate(108.828,-128.203) scale(0.97893,0.986108) "
+     id="1">
+    <text
+       id="2"
+       xml:space="preserve"
+       x="567.66254"
+       y="497.30316"
+       style="font-size:14.99768829px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Times New Roman" />
+  </g>
+  <g
+     transform="translate(160.294,-145.181) scale(0.97893,0.986108) "
+     id="1-8">
+    <text
+       id="2-4"
+       xml:space="preserve"
+       x="567.66254"
+       y="497.30316"
+       style="font-size:14.99768829px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Times New Roman" />
+  </g>
+  <path
+     id="path4074"
+     d="m 599.52094,410.4743 0,0 z"
+     style="fill:none;stroke:#6e6e6e;stroke-width:4.91256332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     id="path4082"
+     d="m 479.09135,358.27311 0,0 z"
+     style="fill:none;stroke:#6e6e6e;stroke-width:4.91256332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <text
+     style="font-size:20px;font-family:Arial"
+     y="323.93915"
+     x="494.26984"
+     id="naarnumansdorp">Numansdorp</text>
+  <text
+     style="font-size:20px;font-family:Arial"
+     y="164.71722"
+     x="530.66119"
+     id="naaroudbeijerland">Oud-Beijerland</text>
+  <text
+     style="font-size:20px;font-family:Arial"
+     y="415.66858"
+     x="779.50372"
+     id="naarstrijen">Strijen</text>
+  <line
+     x1="407.10538"
+     y1="313.08652"
+     x2="394.94928"
+     y2="301.97858"
+     style="stroke:#000000;stroke-width:0.86134756;stroke-opacity:1"
+     id="line67-4" />
+  <circle
+     transform="matrix(0.848036,0,0,0.830986,277.90925,37.714191)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="pomprgnieuwendijk"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  <line
+     x1="406.79446"
+     y1="301.98367"
+     x2="394.42642"
+     y2="313.16315"
+     style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
+     id="line69-4-13" />
+  <line
+     x1="482.10541"
+     y1="341.46753"
+     x2="469.94931"
+     y2="330.35959"
+     style="stroke:#000000;stroke-width:0.86134756;stroke-opacity:1"
+     id="line67-4-6" />
+  <circle
+     transform="matrix(0.848036,0,0,0.830986,352.90925,66.095191)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="pomprgzuidbeijerland"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  <line
+     x1="481.79446"
+     y1="330.36465"
+     x2="469.42642"
+     y2="341.54413"
+     style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
+     id="line69-4-13-3" />
+  <line
+     x1="615.87427"
+     y1="414.47552"
+     x2="603.7182"
+     y2="403.36758"
+     style="stroke:#000000;stroke-width:0.86134756;stroke-opacity:1"
+     id="line67-4-4" />
+  <circle
+     transform="matrix(0.848036,0,0,0.830986,486.67815,139.10319)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="pomprgnumansdorp"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  <line
+     x1="615.56335"
+     y1="403.37265"
+     x2="603.19531"
+     y2="414.55212"
+     style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
+     id="line69-4-13-9" />
+  <line
+     x1="622.4953"
+     y1="302.44952"
+     x2="610.33917"
+     y2="291.34158"
+     style="stroke:#000000;stroke-width:0.86134756;stroke-opacity:1"
+     id="line67-4-5" />
+  <circle
+     transform="matrix(0.848036,0,0,0.830986,493.29915,27.077191)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="pomprgklaaswaal"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  <line
+     x1="622.18439"
+     y1="291.34665"
+     x2="609.81635"
+     y2="302.52612"
+     style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
+     id="line69-4-13-33" />
+  <line
+     x1="616.1853"
+     y1="380.57852"
+     x2="604.02917"
+     y2="369.47058"
+     style="stroke:#000000;stroke-width:0.86134756;stroke-opacity:1"
+     id="line67-4-68" />
+  <circle
+     transform="matrix(0.848036,0,0,0.830986,486.98915,105.20619)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="pomprgnumansdorpnoord"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  <line
+     x1="615.87439"
+     y1="369.47568"
+     x2="603.50635"
+     y2="380.65515"
+     style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
+     id="line69-4-13-98" />
+  <path
+     sodipodi:nodetypes="ccc"
+     id="leidingKlaaswaalNumansdorpnoord"
+     d="m 601.36922,374.508 -10.46163,0 0,34.93442"
+     style="fill:none;stroke:#000000;stroke-width:3.06558585;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     id="path7607"
+     d="m 591.09357,409.47521 -6.53346,0"
+     style="fill:none;stroke:#000000;stroke-width:2.56245828;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)" />
+  <path
+     id="effluentNumansdorp"
+     d="m 569.79909,417.12406 -8.903,17.32986"
+     style="fill:none;stroke:#000000;stroke-width:3.04257655;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     id="leidingKlaaswaal"
+     d="m 610.8748,367.47521 5,-31 0,-31"
+     style="fill:none;stroke:#000000;stroke-width:2.99961901;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     id="leidingNieuwendijkZuidbeijerland"
+     d="m 474.9122,363.64678 84.17754,41.26642"
+     style="fill:none;stroke:#000000;stroke-width:2.97047877;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)" />
+  <path
+     inkscape:label="#leidingZuidbeijerland"
+     id="leidingZuidbeijerland"
+     d="m 475.8748,364.47521 0,-20"
+     style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     id="leidingNieuwendijk"
+     d="m 475.8833,364.48371 -75.017,-38.64286 0,-9.66071"
+     style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     id="path7621"
+     d="m 684.93646,266.69209 c 0,5.2191 1.49117,13.42055 1.49117,13.42055 l 2.23676,8.20144 -4.47351,21.62198 12.67495,16.40289 26.84109,11.18378 20.13081,20.13081 1.49117,9.69262 -11.92937,-1.49117 -14.91171,8.94702 12.67495,35.78811 22.36757,14.16613 -11.18378,19.38523 29.07784,26.0955 0,13.13615"
+     style="fill:none;stroke:#434406;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.51764706;stroke-dasharray:none"
+     sodipodi:nodetypes="ccccccccccccccc" />
+  <path
+     id="path7625"
+     d="m 560.42366,255.50831 -14.16613,-9.69261 -16.40288,-6.71028 -2.23676,-10.43819 -23.85874,0.74558 5.96468,-42.49838 7.45586,0 5.2191,-39.51604 -13.42054,-10.4382 0.74558,-14.16613"
+     style="fill:none;stroke:#434406;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.51764706;stroke-dasharray:none" />
+  <line
+     x1="669.1723"
+     y1="228.00452"
+     x2="657.01617"
+     y2="216.89656"
+     style="stroke:#000000;stroke-width:0.86134756;stroke-opacity:1"
+     id="line67-4-5-7" />
+  <circle
+     transform="matrix(0.848036,0,0,0.830986,539.97615,-47.367807)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="pomprgwestmaas"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  <line
+     x1="668.86139"
+     y1="216.90166"
+     x2="656.49329"
+     y2="228.08113"
+     style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
+     id="line69-4-13-33-2" />
+  <line
+     x1="701.97827"
+     y1="207.12851"
+     x2="689.8222"
+     y2="196.02057"
+     style="stroke:#000000;stroke-width:0.86134756;stroke-opacity:1"
+     id="line67-4-5-8" />
+  <circle
+     transform="matrix(0.848036,0,0,0.830986,572.78215,-68.243809)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="pomprgMijnsheerenland"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  <line
+     x1="701.66736"
+     y1="196.02565"
+     x2="689.29932"
+     y2="207.20512"
+     style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
+     id="line69-4-13-33-0" />
+  <line
+     x1="683.33832"
+     y1="110.57451"
+     x2="671.18219"
+     y2="99.46656"
+     style="stroke:#000000;stroke-width:0.86134756;stroke-opacity:1"
+     id="line67-4-5-1" />
+  <circle
+     transform="matrix(0.848036,0,0,0.830986,554.14215,-164.79781)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="pomprgheienoord"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  <line
+     x1="683.02734"
+     y1="99.471649"
+     x2="670.6593"
+     y2="110.65112"
+     style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
+     id="line69-4-13-33-8" />
+  <line
+     x1="680.35626"
+     y1="139.27951"
+     x2="668.2002"
+     y2="128.17157"
+     style="stroke:#000000;stroke-width:0.86134756;stroke-opacity:1"
+     id="line67-4-5-2" />
+  <circle
+     transform="matrix(0.848036,0,0,0.830986,551.16015,-136.09281)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="pomprgnieuweweg"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  <line
+     x1="680.04535"
+     y1="128.17665"
+     x2="667.67731"
+     y2="139.35612"
+     style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
+     id="line69-4-13-33-25" />
+  <line
+     x1="566.28131"
+     y1="145.24451"
+     x2="554.12518"
+     y2="134.13657"
+     style="stroke:#000000;stroke-width:0.86134756;stroke-opacity:1"
+     id="line67-4-5-5" />
+  <circle
+     transform="matrix(0.848036,0,0,0.830986,437.08515,-130.12781)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="pomprgirenestraat"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  <line
+     x1="565.9704"
+     y1="134.14165"
+     x2="553.60229"
+     y2="145.32112"
+     style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
+     id="line69-4-13-33-9" />
+  <line
+     x1="586.03931"
+     y1="126.23251"
+     x2="573.88318"
+     y2="115.12456"
+     style="stroke:#000000;stroke-width:0.86134756;stroke-opacity:1"
+     id="line67-4-5-6" />
+  <circle
+     transform="matrix(0.848036,0,0,0.830986,456.84315,-149.13981)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="pomprgdegorzen"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  <line
+     x1="585.72839"
+     y1="115.12965"
+     x2="573.36029"
+     y2="126.30912"
+     style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
+     id="line69-4-13-33-82" />
+  <path
+     id="leidingWestmaas"
+     d="m 667.5198,215.77658 10.11881,-24.37949"
+     style="fill:none;stroke:#000000;stroke-width:2.87463498;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     inkscape:label="#path7750"
+     id="leidingMijnsheerenland"
+     d="m 676.21288,192.90158 11.85903,5.07014"
+     style="fill:none;stroke:#000000;stroke-width:3.15977597;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     id="leidingHeienoord"
+     d="m 674.53641,125.59846 1.78767,-11.85307"
+     style="fill:none;stroke:#000000;stroke-width:3.076298;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     id="leidingNieuweweg"
+     d="m 665.83091,133.27894 -46.98317,-8.66759 -9.96613,-9.95169"
+     style="fill:none;stroke:#000000;stroke-width:2.72042084;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)" />
+  <path
+     id="leidingDegorzen"
+     d="m 585.58171,115.56885 4.84374,-4.56069"
+     style="fill:none;stroke:#000000;stroke-width:2.61628985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)" />
+  <path
+     id="leidingIrenestraat"
+     d="m 565.96496,133.93523 7.65023,-6.95123"
+     style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     id="path7795"
+     d="m 592.6414,98.813282 -5.81381,-5.8604"
+     style="fill:none;stroke:#000000;stroke-width:3.05767941;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <line
+     x1="866.93927"
+     y1="448.13852"
+     x2="854.7832"
+     y2="437.03058"
+     style="stroke:#000000;stroke-width:0.86134756;stroke-opacity:1"
+     id="line67-4-4-1" />
+  <circle
+     transform="matrix(0.848036,0,0,0.830986,737.74315,172.76619)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="pomprgstrijensas"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  <line
+     x1="866.62836"
+     y1="437.03568"
+     x2="854.26031"
+     y2="448.21515"
+     style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
+     id="line69-4-13-9-1" />
+  <line
+     x1="879.80029"
+     y1="342.07953"
+     x2="867.64417"
+     y2="330.97159"
+     style="stroke:#000000;stroke-width:0.86134756;stroke-opacity:1"
+     id="line67-4-4-6" />
+  <circle
+     transform="matrix(0.848036,0,0,0.830986,750.60415,66.707191)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="pomprgzweedsestraat"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  <line
+     x1="879.48938"
+     y1="330.97665"
+     x2="867.12134"
+     y2="342.15613"
+     style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
+     id="line69-4-13-9-7" />
+  <line
+     x1="914.8479"
+     y1="405.38675"
+     x2="902.69177"
+     y2="394.27878"
+     style="stroke:#000000;stroke-width:0.86134756;stroke-opacity:1"
+     id="line67-4-4-19" />
+  <circle
+     transform="matrix(0.848036,0,0,0.830986,785.99578,129.67032)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="pomprgschenkel"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  <line
+     x1="915.22504"
+     y1="394.28387"
+     x2="902.85699"
+     y2="405.46335"
+     style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
+     id="line69-4-13-9-9" />
+  <path
+     id="leidingSchenkel"
+     d="m 909.27234,390.80827 0,-20 -6.71328,-6.36059"
+     style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     id="leidingZweedsestraat"
+     d="m 866.97278,331.55361 c -2.39553,-2.04488 -11.88287,-8.97678 -11.88287,-8.97678 l -26.2097,25.56833"
+     style="fill:none;stroke:#000000;stroke-width:2.8053956;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)" />
+  <g
+     style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="g5198-33-8-5-4"
+     transform="matrix(0.848036,0,0,0.830986,261.95461,210.31316)">
+    <line
+       id="line67-4-4-3-2"
+       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       y2="173.01303"
+       x2="653.01306"
+       y1="186.38022"
+       x1="667.34747" />
+    <circle
+       sodipodi:ry="10"
+       sodipodi:rx="10"
+       sodipodi:cy="325"
+       sodipodi:cx="145"
+       d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+       id="circle71-1-9-2-2"
+       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       r="10"
+       cy="325"
+       cx="145"
+       transform="translate(515,-145)" />
+    <line
+       id="line69-4-13-9-5-0"
+       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       y2="186.47241"
+       x2="652.39648"
+       y1="173.01915"
+       x1="666.98083" />
+  </g>
+  <g
+     style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="g5198-33-8-5"
+     transform="matrix(0.848036,0,0,0.830986,12.835613,258.63616)">
+    <line
+       id="line67-4-4-3"
+       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       y2="173.01303"
+       x2="653.01306"
+       y1="186.38022"
+       x1="667.34747" />
+    <circle
+       sodipodi:ry="10"
+       sodipodi:rx="10"
+       sodipodi:cy="325"
+       sodipodi:cx="145"
+       d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+       id="circle71-1-9-2"
+       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       r="10"
+       cy="325"
+       cx="145"
+       transform="translate(515,-145)" />
+    <line
+       id="line69-4-13-9-5"
+       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       y2="186.47241"
+       x2="652.39648"
+       y1="173.01915"
+       x1="666.98083" />
+  </g>
+  <g
+     style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="g5198-33-8-5-7"
+     transform="matrix(0.848036,0,0,0.830986,39.396613,-45.515842)">
+    <line
+       id="line67-4-4-3-7"
+       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       y2="173.01303"
+       x2="653.01306"
+       y1="186.38022"
+       x1="667.34747" />
+    <circle
+       sodipodi:ry="10"
+       sodipodi:rx="10"
+       sodipodi:cy="325"
+       sodipodi:cx="145"
+       d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+       id="circle71-1-9-2-0"
+       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       r="10"
+       cy="325"
+       cx="145"
+       transform="translate(515,-145)" />
+    <line
+       id="line69-4-13-9-5-2"
+       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       y2="186.47241"
+       x2="652.39648"
+       y1="173.01915"
+       x1="666.98083" />
+  </g>
+  <path
+     sodipodi:nodetypes="cccccccccccccccccccccc"
+     id="path7968"
+     d="m 511.51173,391.12512 45.74458,-135.09241 20.73374,-17.06318 23.03751,10.38628 52.21833,-17.06316 10.75083,31.15882 23.0375,2.22565 2.30375,-17.06317 13.05458,3.70937 13.8225,-5.19313 2.30375,-12.6119 22.26959,0.74187 11.51874,10.38627 8.44708,9.64439 14.59041,-0.74186 22.26961,22.99819 41.46749,2.22561 1.53583,25.9657 72.18416,8.90252 0,11.12815 -14.67926,20.9337 36.57061,44.19034"
+     style="fill:none;stroke:#434406;stroke-width:2.02467537;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.51764706;stroke-dasharray:none" />
+  <path
+     id="path7978"
+     d="m 510.51361,120.92019 c -2.26196,3.83584 -21.11155,18.41199 -21.11155,18.41199 l -24.12747,-6.90449 -32.4213,6.13732 -13.5717,14.57616 -37.69918,5.37017 -17.34162,24.54931 -58.81072,-8.43882 -44.48503,65.20911 -20.35756,-12.27465"
+     style="fill:none;stroke:#434406;stroke-width:2.04013133;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.51764706;stroke-dasharray:none" />
+  <path
+     id="path7982"
+     d="m 934.01859,427.62557 8.14492,-75.93671 -11.92937,-43.24397 5.96469,-50.69982 -14.91172,-64.12037 -84.99676,-26.84108 -28.33226,-61.13803 -41.75279,5.96469 -67.10271,-23.858738 -71.57622,13.420538 -29.82343,-13.420538 -17.89406,16.402878 -46.22631,-5.964678 -23.85874,23.858738"
+     style="fill:none;stroke:#434406;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.51764706;stroke-dasharray:none"
+     sodipodi:nodetypes="cccccccccccccc" />
+  <path
+     id="path7984"
+     d="m 579.82471,239.76231 11.92193,-26.17518 2.98047,-46.19145 34.27553,-3.07944 1.49024,-63.12833"
+     style="fill:none;stroke:#434406;stroke-width:2.03165913;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.51764706;stroke-dasharray:none" />
+  <line
+     x1="748.57727"
+     y1="164.6295"
+     x2="736.4212"
+     y2="153.52156"
+     style="stroke:#000000;stroke-width:0.86134756;stroke-opacity:1"
+     id="line67-4-5-8-3" />
+  <circle
+     transform="matrix(0.848036,0,0,0.830986,619.38115,-110.74281)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="pomprgblaaksedijk"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  <line
+     x1="748.26636"
+     y1="153.52666"
+     x2="735.89832"
+     y2="164.70612"
+     style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
+     id="line69-4-13-33-0-3" />
+  <line
+     x1="812.88428"
+     y1="234.9015"
+     x2="800.72821"
+     y2="223.79356"
+     style="stroke:#000000;stroke-width:0.86134756;stroke-opacity:1"
+     id="line67-4-5-8-9" />
+  <circle
+     transform="matrix(0.848036,0,0,0.830986,683.68815,-40.470807)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="pomprgboezemkade"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  <line
+     x1="812.57336"
+     y1="223.79865"
+     x2="800.20532"
+     y2="234.97812"
+     style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
+     id="line69-4-13-33-0-0" />
+  <line
+     x1="924.44232"
+     y1="227.81851"
+     x2="912.28619"
+     y2="216.71057"
+     style="stroke:#000000;stroke-width:0.86134756;stroke-opacity:1"
+     id="line67-4-5-8-6" />
+  <circle
+     transform="matrix(0.848036,0,0,0.830986,795.24615,-47.553807)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="pomprgmijlpolder"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  <line
+     x1="924.13135"
+     y1="216.71565"
+     x2="911.76331"
+     y2="227.89513"
+     style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
+     id="line69-4-13-33-0-8" />
+  <line
+     x1="844.38531"
+     y1="186.62451"
+     x2="832.22919"
+     y2="175.51657"
+     style="stroke:#000000;stroke-width:0.86134756;stroke-opacity:1"
+     id="line67-4-5-8-0" />
+  <circle
+     transform="matrix(0.848036,0,0,0.830986,715.18915,-88.747809)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="pomprgnassaulaan"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  <line
+     x1="844.07434"
+     y1="175.52165"
+     x2="831.7063"
+     y2="186.70113"
+     style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
+     id="line69-4-13-33-0-6" />
+  <line
+     x1="870.1073"
+     y1="187.37051"
+     x2="857.95117"
+     y2="176.26257"
+     style="stroke:#000000;stroke-width:0.86134756;stroke-opacity:1"
+     id="line67-4-5-8-8" />
+  <circle
+     transform="matrix(0.848036,0,0,0.830986,740.91115,-88.001809)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="pomprgsimonsdijkje"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  <line
+     x1="869.79639"
+     y1="176.26765"
+     x2="857.42834"
+     y2="187.44713"
+     style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
+     id="line69-4-13-33-0-1" />
+  <path
+     id="leidingBlaaksedijk"
+     d="m 750.8597,159.63946 43.60846,0 0.72081,14.19362 32.07565,24.83881"
+     style="fill:none;stroke:#000000;stroke-width:2.87781525;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     id="leidingBoezemkade"
+     d="m 811.88778,223.61917 14.41488,-22.15827 8.10837,-12.71376"
+     style="fill:none;stroke:#000000;stroke-width:2.65792871;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     id="leidingMijlpolder"
+     d="m 870.85989,186.20844 40.55521,31.28199"
+     style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     id="leidingNassaulaan"
+     d="m 846.85796,181.69533 8.36201,0"
+     style="fill:none;stroke:#000000;stroke-width:3.08221889;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     id="leidingSimonsdijkje"
+     d="m 864.43621,173.81554 0,-19.58165"
+     style="fill:none;stroke:#000000;stroke-width:2.88748074;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)" />
+  <g
+     style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="g5198-33-8-5-4-8-8"
+     transform="matrix(0.848036,0,0,0.830986,304.35961,-7.211843)">
+    <line
+       id="line67-4-4-3-2-3-1"
+       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       y2="173.01303"
+       x2="653.01306"
+       y1="186.38022"
+       x1="667.34747" />
+    <circle
+       sodipodi:ry="10"
+       sodipodi:rx="10"
+       sodipodi:cy="325"
+       sodipodi:cx="145"
+       d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+       id="circle71-1-9-2-2-7-7"
+       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       r="10"
+       cy="325"
+       cx="145"
+       transform="translate(515,-145)" />
+    <line
+       id="line69-4-13-9-5-0-5-0"
+       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       y2="186.47241"
+       x2="652.39648"
+       y1="173.01915"
+       x1="666.98083" />
+  </g>
+  <path
+     id="path8163"
+     d="m 434.44063,147.41934 21.20729,21.02089"
+     style="fill:none;stroke:#000000;stroke-width:3.04189801;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <line
+     x1="468.0506"
+     y1="179.72751"
+     x2="455.8945"
+     y2="168.61957"
+     style="stroke:#000000;stroke-width:0.86134756;stroke-opacity:1"
+     id="line67-4-3" />
+  <circle
+     transform="matrix(0.848036,0,0,0.830986,338.85445,-95.644809)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="pomprgnieuwbeijerland"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  <line
+     x1="467.73969"
+     y1="168.62465"
+     x2="455.37161"
+     y2="179.80412"
+     style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
+     id="line69-4-13-7" />
+  <line
+     x1="397.77908"
+     y1="239.00151"
+     x2="385.62299"
+     y2="227.89357"
+     style="stroke:#000000;stroke-width:0.86134756;stroke-opacity:1"
+     id="line67-4-55" />
+  <circle
+     transform="matrix(0.848036,0,0,0.830986,268.58295,-36.370807)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="pomprgpiershil"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  <line
+     x1="397.46817"
+     y1="227.89865"
+     x2="385.10013"
+     y2="239.07812"
+     style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
+     id="line69-4-13-30" />
+  <path
+     id="leidingNieuwbeijerland"
+     d="m 461.07437,182.53133 0,18.64226"
+     style="fill:none;stroke:#000000;stroke-width:2.80803251;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)" />
+  <path
+     inkscape:label="#leidingPiershil"
+     id="leidingPiershil"
+     d="m 398.6782,230.82685 48.68117,-13.34794"
+     style="fill:none;stroke:#000000;stroke-width:2.61905026;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)" />
+  <g
+     style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="g5198-33-8-5-0-0"
+     transform="matrix(0.848036,0,0,0.830986,-99.188887,64.923163)">
+    <line
+       id="line67-4-4-3-8-6"
+       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       y2="173.01303"
+       x2="653.01306"
+       y1="186.38022"
+       x1="667.34747" />
+    <circle
+       sodipodi:ry="10"
+       sodipodi:rx="10"
+       sodipodi:cy="325"
+       sodipodi:cx="145"
+       d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+       id="circle71-1-9-2-8-5"
+       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       r="10"
+       cy="325"
+       cx="145"
+       transform="translate(515,-145)" />
+    <line
+       id="line69-4-13-9-5-23-0"
+       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       y2="186.47241"
+       x2="652.39648"
+       y1="173.01915"
+       x1="666.98083" />
+  </g>
+  <text
+     style="font-size:20px;font-family:Arial"
+     y="203.27887"
+     x="377.5791"
+     id="naarpiershil">Piershil</text>
+  <g
+     id="g5198-33-95-8"
+     transform="matrix(0.69307725,0,0,0.71831926,-197.69632,238.89167)">
+    <line
+       id="line67-4-55-2"
+       style="stroke:#000000;stroke-width:1.02606392;stroke-opacity:1"
+       y2="173.01303"
+       x2="653.01306"
+       y1="186.38022"
+       x1="667.34747" />
+    <circle
+       sodipodi:ry="10"
+       sodipodi:rx="10"
+       sodipodi:cy="325"
+       sodipodi:cx="145"
+       d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+       id="circle71-1-66-7"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+       r="10"
+       cy="325"
+       cx="145"
+       transform="translate(515,-145)" />
+    <line
+       id="line69-4-13-30-2"
+       style="stroke:#000000;stroke-width:1.03829753;stroke-opacity:1"
+       y2="186.47241"
+       x2="652.39648"
+       y1="173.01915"
+       x1="666.98083" />
+  </g>
+  <text
+     style="font-size:20px;font-family:Arial"
+     y="252.68695"
+     x="841.13232"
+     id="naarbinnenmaas">Binnenmaas</text>
+  <path
+     sodipodi:nodetypes="ccccc"
+     id="leidingStrijensas"
+     d="m 860.86677,435.04149 0,-33.76687 -30.28282,0 -10.67183,-17.61078 0,-9.78103"
+     style="fill:none;stroke:#000000;stroke-width:2.96053457;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)" />
+  <text
+     inkscape:label="#Q2"
+     transform="scale(0.94137069,1.0622808)"
+     style="font-size:14.37125874px;font-family:Arial"
+     y="269.186"
+     x="646.0246"
+     id="rgklaaswaal">%LASTVALUE(NF2)%</text>
+  <text
+     inkscape:label="#rgnumansdorpnoord"
+     transform="scale(0.94137069,1.0622808)"
+     style="font-size:14.37125874px;font-family:Arial"
+     y="358.31137"
+     x="659.46429"
+     id="rgnumansdorpnoord">%LASTVALUE(NF2)%</text>
+  <text
+     inkscape:label="#rgnumansdorp"
+     transform="scale(0.94137069,1.0622808)"
+     style="font-size:14.37125874px;font-family:Arial"
+     y="388.54425"
+     x="659.46429"
+     id="rgnumansdorp">%LASTVALUE(NF2)%</text>
+  <text
+     inkscape:label="#rgzuidbeijerland"
+     transform="scale(0.94137069,1.0622808)"
+     style="font-size:14.37125874px;font-family:Arial"
+     y="320.74921"
+     x="516.79694"
+     id="rgzuidbeijerland">%LASTVALUE(NF2)%</text>
+  <text
+     inkscape:label="#rgnieuwendijk"
+     transform="scale(0.94137069,1.0622808)"
+     style="font-size:14.37125874px;font-family:Arial"
+     y="293.26474"
+     x="437.19269"
+     id="rgnieuwendijk">%LASTVALUE(NF2)%</text>
+  <path
+     id="leidingNumansdorp"
+     d="m 590.59759,409.52201 10.35134,-0.22389"
+     style="fill:none;stroke:#000000;stroke-width:2.87822676;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     id="path7805"
+     d="m 296.85913,326.33895 30.56902,0 c 0,0 69.71225,24.23153 71.20342,24.97712 1.49117,0.74558 61.13803,29.82342 61.13803,29.82342 l 0,11.55658 -42.49839,14.53892 -39.51604,-5.2191 -84.62396,-60.39244 -3.35514,-11.92937 7.08306,-3.35513 z"
+     style="fill:#dcf8b9;fill-opacity:0.51764706;stroke:#b3b3b3;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <text
+     inkscape:label="#rgpiershil"
+     transform="scale(0.94137069,1.0622808)"
+     style="font-size:14.37125874px;font-family:Arial"
+     y="207.87463"
+     x="409.75537"
+     id="rgpiershil">%LASTVALUE(NF2)%</text>
+  <text
+     inkscape:label="#rgnieuwbeijerland"
+     transform="scale(0.94137069,1.0622808)"
+     style="font-size:14.37125874px;font-family:Arial"
+     y="153.45807"
+     x="485.05069"
+     id="rgnieuwbeijerland">%LASTVALUE(NF2)%</text>
+  <text
+     inkscape:label="#rgirenestraat"
+     transform="scale(0.94137069,1.0622808)"
+     style="font-size:14.37125874px;font-family:Arial"
+     y="137.26265"
+     x="604.93835"
+     id="rgirenestraat">%LASTVALUE(NF2)%</text>
+  <text
+     inkscape:label="#rgdegorzen"
+     transform="scale(0.94137069,1.0622808)"
+     style="font-size:14.37125874px;font-family:Arial"
+     y="116.53252"
+     x="579.3526"
+     id="rgdegorzen">%LASTVALUE(NF2)%</text>
+  <text
+     inkscape:label="#rgheienoord"
+     transform="scale(0.94137069,1.0622808)"
+     style="font-size:14.37125874px;font-family:Arial"
+     y="89.972038"
+     x="721.53638"
+     id="rgheienoord">%LASTVALUE(NF2)%</text>
+  <text
+     inkscape:label="#rgnieuweweg"
+     transform="scale(0.94137069,1.0622808)"
+     style="font-size:14.37125874px;font-family:Arial"
+     y="131.4323"
+     x="726.65356"
+     id="rgnieuweweg">%LASTVALUE(NF2)%</text>
+  <text
+     inkscape:label="#rgMijnsheerenland"
+     transform="scale(0.94137069,1.0622808)"
+     style="font-size:14.37125874px;font-family:Arial"
+     y="194.59441"
+     x="750.4118"
+     id="rgMijnsheerenland">%LASTVALUE(NF2)%</text>
+  <text
+     inkscape:label="#rgwestmaas"
+     transform="scale(0.94137069,1.0622808)"
+     style="font-size:14.37125874px;font-family:Arial"
+     y="213.38109"
+     x="713.86072"
+     id="rgwestmaas">%LASTVALUE(NF2)%</text>
+  <path
+     id="leidingWestmaasMijnsheerenland"
+     d="m 677.49648,192.44069 9.63429,-40.25754 -6.53755,-12.04286"
+     style="fill:none;stroke:#000000;stroke-width:2.87463522;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <text
+     inkscape:label="#rgblaaksedijk"
+     transform="scale(0.94137069,1.0622808)"
+     style="font-size:14.37125874px;font-family:Arial"
+     y="139.53001"
+     x="781.11475"
+     id="rgblaaksedijk">%LASTVALUE(NF2)%</text>
+  <text
+     inkscape:label="#rgmijlpolder"
+     transform="scale(0.94137069,1.0622808)"
+     style="font-size:14.37125874px;font-family:Arial"
+     y="214.35281"
+     x="986.53204"
+     id="rgmijlpolder">%LASTVALUE(NF2)%</text>
+  <text
+     inkscape:label="#rgsimonsdijkje"
+     transform="scale(0.94137069,1.0622808)"
+     style="font-size:14.37125874px;font-family:Arial"
+     y="174.18819"
+     x="928.05023"
+     id="rgsimonsdijkje">%LASTVALUE(NF2)%</text>
+  <text
+     inkscape:label="#rgnassaulaan"
+     transform="scale(0.94137069,1.0622808)"
+     style="font-size:14.37125874px;font-family:Arial"
+     y="160.58406"
+     x="877.60968"
+     id="rgnassaulaan">%LASTVALUE(NF2)%</text>
+  <line
+     x1="836.15552"
+     y1="235.24745"
+     x2="823.99945"
+     y2="224.13951"
+     style="stroke:#000000;stroke-width:0.86134756;stroke-opacity:1"
+     id="line67-4-55-2-5" />
+  <circle
+     transform="matrix(0.848036,0,0,0.830986,706.9594,-40.124866)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="pomprghoeksedijk"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  <line
+     x1="835.8446"
+     y1="224.14459"
+     x2="823.47656"
+     y2="235.32407"
+     style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
+     id="line69-4-13-30-2-1" />
+  <text
+     inkscape:label="#rghoeksedijk"
+     transform="scale(0.94137069,1.0622808)"
+     style="font-size:14.37125874px;font-family:Arial"
+     y="220.83098"
+     x="893.32666"
+     id="rghoeksedijk">%LASTVALUE(NF2)%</text>
+  <path
+     id="leidingHoeksedijk"
+     d="m 826.69904,222.24697 -6.96809,-8.68851"
+     style="fill:none;stroke:#000000;stroke-width:2.91553116;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <text
+     inkscape:label="#rgstrijensas"
+     transform="scale(0.94137069,1.0622808)"
+     style="font-size:14.37125874px;font-family:Arial"
+     y="415.82376"
+     x="923.66406"
+     id="rgstrijensas">%LASTVALUE(NF2)%</text>
+  <text
+     inkscape:label="#rgschenkel"
+     transform="scale(0.94137069,1.0622808)"
+     style="font-size:14.37125874px;font-family:Arial"
+     y="382.46121"
+     x="976.66327"
+     id="rgschenkel">%LASTVALUE(NF2)%</text>
+  <text
+     inkscape:label="#rgzweedsestraat"
+     transform="scale(0.94137069,1.0622808)"
+     style="font-size:14.37125874px;font-family:Arial"
+     y="320.59473"
+     x="937.91907"
+     id="rgzweedsestraat">%LASTVALUE(NF2)%</text>
+  <line
+     x1="902.56329"
+     y1="363.58987"
+     x2="890.40717"
+     y2="352.48193"
+     style="stroke:#000000;stroke-width:0.86134756;stroke-opacity:1"
+     id="line67-4-4-6-1" />
+  <circle
+     transform="matrix(0.848036,0,0,0.830986,773.36714,88.217541)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="pomprgmookhoek"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  <line
+     x1="902.25238"
+     y1="352.487"
+     x2="889.88428"
+     y2="363.66647"
+     style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
+     id="line69-4-13-9-7-2" />
+  <path
+     id="leidingMookhoek"
+     d="m 879.85353,342.84143 10.59228,9.56003"
+     style="fill:none;stroke:#000000;stroke-width:2.76544356;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <text
+     inkscape:label="#rgmookhoek"
+     transform="scale(0.94137069,1.0622808)"
+     style="font-size:14.37125874px;font-family:Arial"
+     y="341.32486"
+     x="964.23584"
+     id="rgmookhoek">%LASTVALUE(NF2)%</text>
+  <text
+     inkscape:label="#rgboezemkade"
+     transform="scale(0.94137069,1.0622808)"
+     style="font-size:14.37125874px;font-family:Arial"
+     y="236.37857"
+     x="849.09985"
+     id="rgboezemkade">%LASTVALUE(NF2)%</text>
+  <rect
+     id="rect19-8"
+     style="fill:#f3faf3;fill-opacity:0.51764706;stroke:#000000;stroke-width:2.02008343;stroke-opacity:1"
+     height="209.28062"
+     width="146.24167"
+     y="326.08426"
+     x="241.01736" />
+  <text
+     transform="scale(0.95439383,1.0477855)"
+     style="font-size:19.71341515px;font-family:Arial"
+     y="332.61902"
+     x="292.09317"
+     id="4ATS-7">Legenda</text>
+  <text
+     transform="scale(0.99163841,1.0084321)"
+     style="font-size:13.14231968px;font-family:Arial"
+     y="371.16519"
+     x="286.34897"
+     id="4ATS">Gemaal</text>
+  <path
+     id="path3772-1"
+     d="m 253.09609,450.18677 22.47788,0"
+     style="fill:none;stroke:#000000;stroke-width:2.59601831;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     id="path3772-4"
+     d="m 252.53367,476.4158 22.47788,0"
+     style="fill:#00e600;stroke:#17e017;stroke-width:2.59601831;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.40116278;stroke-dasharray:none" />
+  <text
+     transform="scale(1.031439,0.96951926)"
+     style="font-size:13.14229012px;font-family:Arial"
+     y="467.62665"
+     x="275.60727"
+     id="4ATS-1-0">Geen afvoer</text>
+  <text
+     transform="scale(1.031439,0.96951926)"
+     style="font-size:13.14229012px;font-family:Arial"
+     y="493.97003"
+     x="275.75806"
+     id="4ATS-1-4">Afvoer</text>
+  <g
+     style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="g5198-33-8-5-0-0-2"
+     transform="matrix(0.69307725,0,0,0.71831926,-197.08745,294.56335)">
+    <line
+       id="line67-4-4-3-8-6-9"
+       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       y2="173.01303"
+       x2="653.01306"
+       y1="186.38022"
+       x1="667.34747" />
+    <circle
+       sodipodi:ry="10"
+       sodipodi:rx="10"
+       sodipodi:cy="325"
+       sodipodi:cx="145"
+       d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+       id="circle71-1-9-2-8-5-4"
+       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       r="10"
+       cy="325"
+       cx="145"
+       transform="translate(515,-145)" />
+    <line
+       id="line69-4-13-9-5-23-0-4"
+       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       y2="186.47241"
+       x2="652.39648"
+       y1="173.01915"
+       x1="666.98083" />
+  </g>
+  <text
+     transform="scale(0.99163841,1.0084321)"
+     style="font-size:13.14231968px;font-family:Arial"
+     y="424.35376"
+     x="286.28415"
+     id="4ATS-5">RWZI</text>
+  <text
+     transform="scale(0.87112512,1.1479407)"
+     style="font-size:15.81733608px;font-family:Arial"
+     y="447.30762"
+     x="288.42398"
+     id="Q2-7">
+    <tspan
+       id="tspan3103"
+       style="font-size:13.55500126px">67</tspan>
+  </text>
+  <text
+     transform="scale(0.94646223,1.0565662)"
+     style="font-size:15.48701382px;font-family:Arial"
+     y="479.89679"
+     x="299.43402"
+     id="4ATS-1-4-0">
+    <tspan
+       id="tspan3099"
+       style="font-size:13.14239597px">Gemeten afvoer</tspan>
+  </text>
+  <text
+     transform="scale(0.94646223,1.0565662)"
+     style="font-size:15.48701382px;font-family:Arial"
+     y="495.26169"
+     x="300.08084"
+     id="4ATS-1-4-0-9">
+    <tspan
+       id="tspan3101"
+       style="font-size:13.14239597px">in m3/h</tspan>
+  </text>
+  <text
+     transform="scale(0.99163841,1.0084321)"
+     style="font-size:13.14231968px;font-family:Arial"
+     y="398.02112"
+     x="286.5878"
+     id="4ATS-1">Gemaal in bedrijf</text>
+  <line
+     x1="265.06384"
+     y1="399.85455"
+     x2="255.129"
+     y2="390.25259"
+     style="stroke:#000000;stroke-width:0.72397572;stroke-opacity:1"
+     id="line67-4-55-2-4" />
+  <circle
+     transform="matrix(0.69307725,0,0,0.71831926,159.47529,161.81775)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:none;stroke:#00e600;stroke-width:1;stroke-opacity:1"
+     id="circle71-1-66-7-0"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  <line
+     x1="264.80975"
+     y1="390.25702"
+     x2="254.70168"
+     y2="399.92075"
+     style="stroke:#000000;stroke-width:0.73260754;stroke-opacity:1"
+     id="line69-4-13-30-2-9" />
+</svg>
