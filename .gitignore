@@ -41,3 +41,5 @@ etc/*.apache.conf
 */*/*/*~
 */*/*/*/*~
 
+# ignore files produces automatically
+lizard_svg/media/lizard_svg/slidebar.js
