@@ -39,7 +39,7 @@ class Slider
   manageObject: (itemId, colorSequence) ->
     #console.log getObjectClass(this) // Slider
     that = this
-    $.getJSON "http://localhost:8000/api/?item=#{itemId}",
+    $.getJSON "/api/?item=#{itemId}",
       (data) -> that.managed.push
         key: itemId
         value: data
