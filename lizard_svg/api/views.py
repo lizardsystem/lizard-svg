@@ -1,13 +1,20 @@
-import datetime
 from djangorestframework.views import View
+from random import uniform
 
 
 class TimeseriesView(View):
     """
     REST view for timeseries.
     """
+
+    colors = ['#ff7f00', '#7f00ff', '#000000', '#00ff7f']
     def get(self, request):
-        return [
-            {'datetime': datetime.datetime.now(), 'value': 3.14159265},
-            {'datetime': datetime.datetime.now(), 'value': 2.71828183},
-            {'datetime': datetime.datetime.now(), 'value': 1.61803666},]
+        result = []
+        level = 0
+        while level < 256:
+            result.append({'item': request.REQUEST['item'],
+                           'datetime': level,
+                           'color': self.colors[int(uniform(0, 4))],
+                           })
+            level += int(uniform(0, 64))
+        return result
