@@ -13,7 +13,7 @@ class TimeseriesView(View):
         level = 0
         while level < 256:
             result.append({'item': request.REQUEST['item'],
-                           'datetime': level,
+                           'timestamp': level,
                            'color': self.colors[int(uniform(0, 4))],
                            })
             level += int(uniform(0, 64))

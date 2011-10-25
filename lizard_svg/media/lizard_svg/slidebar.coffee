@@ -1,3 +1,14 @@
+getObjectClass = (obj) ->
+    if (obj && obj.constructor && obj.constructor.toString)
+       arr = obj.constructor.toString().match(
+            /function\s*(\w+)/);
+
+        if (arr && arr.length == 2)
+            return arr[1]
+
+    return undefined;
+
+
 class ColorTimeSeries
   constructor: ->
 
@@ -11,20 +22,27 @@ class Slider
       max: 255
       length: 255
       animate: true
-      #slide: @onChange
+      slide: @onChange
       change: @onChange
 
   onChange: (event, ui) ->
-    console.log event, ui.value
-    console.log this.managed
-    for item in @managed
-        setStyleSub('#leidingNieuweweg', 'stroke', '#' + dec2hex(ui.value) + '00' + dec2hex(ui.value))
+    #console.log getObjectClass(this) // undefined
+    that = window.slider
+    for item in that.managed
+        key = item.key
+        for candidate in item.value
+          if candidate.timestamp > ui.value
+            break
+        setStyleSub(key, 'stroke', candidate.color)
     null
 
   manageObject: (itemId, colorSequence) ->
+    #console.log getObjectClass(this) // Slider
     that = this
     $.getJSON "http://localhost:8000/api/?item=#{itemId}",
-          (data) -> that.managed.push [itemId, data]
+      (data) -> that.managed.push
+        key: itemId
+        value: data
 
 
 dec2hex = (i) ->
