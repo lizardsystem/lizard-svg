@@ -12,6 +12,8 @@ admin.autodiscover()
 urlpatterns = patterns(
     '',
     (r'^admin/', include(admin.site.urls)),
+    (r'^ui/', include('lizard_ui.urls')),
+    
     (r'^foo/$',             direct_to_template, {'template': 'lizard_svg/index.html'}),
     (r'^foo/(?P<id>\d+)/$', direct_to_template, {'template': 'lizard_svg/detail.html'}),
     (r'^api/', include('lizard_svg.api.urls')),
