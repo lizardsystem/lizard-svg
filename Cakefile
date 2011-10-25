@@ -1,3 +1,4 @@
+# Run this with $ cake assets:watch
 
 {spawn, exec} = require 'child_process'
 sys = require 'sys'
