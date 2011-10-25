@@ -14,6 +14,7 @@ urlpatterns = patterns(
     (r'^admin/', include(admin.site.urls)),
     (r'^foo/$',             direct_to_template, {'template': 'lizard_svg/index.html'}),
     (r'^foo/(?P<id>\d+)/$', direct_to_template, {'template': 'lizard_svg/detail.html'}),
+    (r'^api/', include('lizard_svg.api.urls')),
     # url(r'^something/',
     #     direct.import.views.some_method,
     #     name="name_it"),

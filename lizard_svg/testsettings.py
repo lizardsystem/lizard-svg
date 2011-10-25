@@ -60,6 +60,7 @@ SITE_ID = 1
 INSTALLED_APPS = [
     'lizard_svg',
     'lizard_ui',
+    'djangorestframework',
     'staticfiles',
     'compressor',
     'south',
