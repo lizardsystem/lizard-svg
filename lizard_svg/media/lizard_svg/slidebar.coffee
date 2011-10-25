@@ -22,13 +22,12 @@ class Slider
       max: 255
       length: 255
       animate: true
-      slide: @onChange
-      change: @onChange
+      slide: _.bind(@onChange, this)
+      change: _.bind(@onChange, this)
 
   onChange: (event, ui) ->
-    #console.log getObjectClass(this) // undefined
-    that = window.slider
-    for item in that.managed
+    console.log getObjectClass(this) // undefined
+    for item in @managed
         key = item.key
         for candidate in item.value
           if candidate.timestamp > ui.value
