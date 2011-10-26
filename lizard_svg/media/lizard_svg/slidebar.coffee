@@ -26,6 +26,14 @@ class Slider
       change: $.proxy(@onChange, this)
 
   onChange: (event, ui) ->
+    that = this
+    rioolgemalen = [{key: i.key} for i in @managed when i.key.indexOf("pomprg") == 0]
+    #$.get "/api/update/?keys=#{rioolgemalen}",
+    #    (data) -> that.updateLabels data
+    $.post "/api/update/",
+        timestamp: ui.value
+        keys: rioolgemalen,
+        (data) -> that.updateLabels data
 
   onSlide: (event, ui) ->
     for item in @managed
@@ -36,9 +44,15 @@ class Slider
         setStyleSub(key, 'stroke', candidate.color)
     null
 
+  updateLabels: (data) ->
+    console.log data
+    for key, value of data
+        key = key.substr(4)
+        $("#" + key)[0].childNodes[0].nodeValue = value
+
   manageObject: (itemId, colorSequence) ->
     that = this
-    $.getJSON "/api/?item=#{itemId}",
+    $.get "/api/bootstrap/?item=#{itemId}",
       (data) -> that.managed.push
         key: itemId
         value: data
