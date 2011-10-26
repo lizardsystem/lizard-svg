@@ -9,21 +9,24 @@ getObjectClass = (obj) ->
     return undefined;
 
 
-class ColorTimeSeries
-  constructor: ->
-
-
 class Slider
-  constructor: (itemId, @managed=[]) ->
-    $('#' + itemId).slider
+  constructor: (@itemId, @managed=[]) ->
+    @slider = $('#' + @itemId).slider
       value: 0
       orientation: "horizontal"
       min: 0
       max: 255
       length: 255
       animate: true
+      # create: $.proxy(@onCreate, this)
       slide: $.proxy(@onSlide, this)
       change: $.proxy(@onChange, this)
+
+  initialize: ->
+    console.log "initializing"
+    console.log @slider
+    @slider.triggerHandler('slide', null, value: 0)
+    @slider.triggerHandler('change', null, value: 0)
 
   onChange: (event, ui) ->
     that = this
@@ -45,17 +48,17 @@ class Slider
     null
 
   updateLabels: (data) ->
-    console.log data
     for key, value of data
         key = key.substr(4)
         $("#" + key)[0].childNodes[0].nodeValue = value
 
-  manageObject: (itemId, colorSequence) ->
+  manageObject: (item) ->
     that = this
-    $.get "/api/bootstrap/?item=#{itemId}",
-      (data) -> that.managed.push
-        key: itemId
-        value: data
+    $.get "/api/bootstrap/?item=#{item}",
+      (data) ->
+        that.managed.push
+          key: item
+          value: data
 
 
 dec2hex = (i) ->
@@ -71,53 +74,9 @@ setStyleSub = (itemId, sub, value) ->
 
 $('document').ready ->
   window.slider = new Slider('mySliderDiv')
-  # for i in $(grep id=.leiding[A-Z] ./lizard_svg/templates/overzicht.svg | cut -d\" -f2 | sort); do echo "  window.slider.manageObject('$i')"; done
-  window.slider.manageObject('leidingBlaaksedijk')
-  window.slider.manageObject('leidingBoezemkade')
-  window.slider.manageObject('leidingDegorzen')
-  window.slider.manageObject('leidingHeienoord')
-  window.slider.manageObject('leidingHoeksedijk')
-  window.slider.manageObject('leidingIrenestraat')
-  window.slider.manageObject('leidingKlaaswaal')
-  window.slider.manageObject('leidingKlaaswaalNumansdorpnoord')
-  window.slider.manageObject('leidingMijlpolder')
-  window.slider.manageObject('leidingMijnsheerenland')
-  window.slider.manageObject('leidingMookhoek')
-  window.slider.manageObject('leidingNassaulaan')
-  window.slider.manageObject('leidingNieuwbeijerland')
-  window.slider.manageObject('leidingNieuwendijk')
-  window.slider.manageObject('leidingNieuwendijkZuidbeijerland')
-  window.slider.manageObject('leidingNieuweweg')
-  window.slider.manageObject('leidingNumansdorp')
-  window.slider.manageObject('leidingPiershil')
-  window.slider.manageObject('leidingSchenkel')
-  window.slider.manageObject('leidingSimonsdijkje')
-  window.slider.manageObject('leidingStrijensas')
-  window.slider.manageObject('leidingWestmaas')
-  window.slider.manageObject('leidingWestmaasMijnsheerenland')
-  window.slider.manageObject('leidingZuidbeijerland')
-  window.slider.manageObject('leidingZweedsestraat')
-  # for i in $(grep id=.pomprg[A-Z] ./lizard_svg/templates/overzicht.svg | cut -d\" -f2 | sort); do echo "  window.slider.manageObject('$i')"; done
-  window.slider.manageObject('pomprgblaaksedijk')
-  window.slider.manageObject('pomprgboezemkade')
-  window.slider.manageObject('pomprgdegorzen')
-  window.slider.manageObject('pomprgheienoord')
-  window.slider.manageObject('pomprghoeksedijk')
-  window.slider.manageObject('pomprgirenestraat')
-  window.slider.manageObject('pomprgklaaswaal')
-  window.slider.manageObject('pomprgmijlpolder')
-  window.slider.manageObject('pomprgMijnsheerenland')
-  window.slider.manageObject('pomprgmookhoek')
-  window.slider.manageObject('pomprgnassaulaan')
-  window.slider.manageObject('pomprgnieuwbeijerland')
-  window.slider.manageObject('pomprgnieuwendijk')
-  window.slider.manageObject('pomprgnieuweweg')
-  window.slider.manageObject('pomprgnumansdorp')
-  window.slider.manageObject('pomprgnumansdorpnoord')
-  window.slider.manageObject('pomprgpiershil')
-  window.slider.manageObject('pomprgschenkel')
-  window.slider.manageObject('pomprgsimonsdijkje')
-  window.slider.manageObject('pomprgstrijensas')
-  window.slider.manageObject('pomprgwestmaas')
-  window.slider.manageObject('pomprgzuidbeijerland')
-  window.slider.manageObject('pomprgzweedsestraat')
+  for element in $("path")
+    if element.id.indexOf("leiding") == 0
+      window.slider.manageObject(element.id)
+  for element in $("circle")
+    if element.id.indexOf("pomprg") == 0
+      window.slider.manageObject(element.id)
