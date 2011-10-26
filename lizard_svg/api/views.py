@@ -1,5 +1,6 @@
 from djangorestframework.views import View
 from random import uniform
+import time
 
 
 class Bootstrap(View):
@@ -18,6 +19,7 @@ class Bootstrap(View):
                            'color': self.colors[int(uniform(0, len(self.colors)))],
                            })
             level += int(uniform(0, 64))
+        time.sleep(0.05)  # faking database latency
         return result
 
 
@@ -42,6 +44,7 @@ class Update(View):
         ##       GROUP BY key) latest ON rioolgemalen.key = latest.key
         ##                           AND rioolgemalen.timestamp = latest.timestamp
         ## 
+        time.sleep(0.5)  # faking database latency
         return dict((k, int(uniform(0, 64))) for k in keys)
 
     def get(self, request):
