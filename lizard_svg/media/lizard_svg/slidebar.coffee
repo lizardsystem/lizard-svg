@@ -11,7 +11,8 @@ getObjectClass = (obj) ->
 
 class Slider
   constructor: (@itemId, @managed=[]) ->
-    this.waiting = 0
+    @waiting = 0
+    @stroke_re = new RegExp("stroke:[^;]+;", "g");
     @slider = $('#' + @itemId).slider
       value: 0
       orientation: "horizontal"
@@ -43,7 +44,7 @@ class Slider
         for candidate in item.value
           if candidate.timestamp > ui.value
             break
-        setStyleSub(key, 'stroke', candidate.color)
+        @setStyleStroke(key, candidate.color)
     null
 
   updateLabels: (data) ->
@@ -63,16 +64,14 @@ class Slider
         if that.waiting == 0
           that.initialize()
 
+  setStyleStroke: (itemId, value) ->
+    item = $("#" + itemId)
+    styleOrig = item.attr('style')
+    item.attr('style', styleOrig.replace @stroke_re, "stroke:#{value};")
+
 
 dec2hex = (i) ->
    ((i >> 0) + 0x10000).toString(16).substr(-2)
-
-
-setStyleSub = (itemId, sub, value) ->
-  re = new RegExp(sub + ":[^;]+;","g");
-  item = $("#" + itemId)
-  styleOrig = item.attr('style')
-  item.attr('style', styleOrig.replace re, "#{sub}:#{value};")
 
 
 $('document').ready ->
