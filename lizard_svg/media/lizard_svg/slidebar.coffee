@@ -22,11 +22,12 @@ class Slider
       max: 255
       length: 255
       animate: true
-      slide: _.bind(@onChange, this)
-      change: _.bind(@onChange, this)
+      slide: $.proxy(@onSlide, this)
+      change: $.proxy(@onChange, this)
 
   onChange: (event, ui) ->
-    console.log getObjectClass(this) // undefined
+
+  onSlide: (event, ui) ->
     for item in @managed
         key = item.key
         for candidate in item.value
@@ -36,7 +37,6 @@ class Slider
     null
 
   manageObject: (itemId, colorSequence) ->
-    #console.log getObjectClass(this) // Slider
     that = this
     $.getJSON "/api/?item=#{itemId}",
       (data) -> that.managed.push
