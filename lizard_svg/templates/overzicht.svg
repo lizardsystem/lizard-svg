@@ -1759,35 +1759,35 @@
      style="font-size:14.37125874px;font-family:Arial"
      y="269.186"
      x="646.0246"
-     id="rgklaaswaal">%LASTVALUE(NF2)%</text>
+     id="rgklaaswaal"> </text>
   <text
      inkscape:label="#rgnumansdorpnoord"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="358.31137"
      x="659.46429"
-     id="rgnumansdorpnoord">%LASTVALUE(NF2)%</text>
+     id="rgnumansdorpnoord"> </text>
   <text
      inkscape:label="#rgnumansdorp"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="388.54425"
      x="659.46429"
-     id="rgnumansdorp">%LASTVALUE(NF2)%</text>
+     id="rgnumansdorp"> </text>
   <text
      inkscape:label="#rgzuidbeijerland"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="320.74921"
      x="516.79694"
-     id="rgzuidbeijerland">%LASTVALUE(NF2)%</text>
+     id="rgzuidbeijerland"> </text>
   <text
      inkscape:label="#rgnieuwendijk"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="293.26474"
      x="437.19269"
-     id="rgnieuwendijk">%LASTVALUE(NF2)%</text>
+     id="rgnieuwendijk"> </text>
   <path
      id="leidingNumansdorp"
      d="m 590.59759,409.52201 10.35134,-0.22389"
@@ -1802,56 +1802,56 @@
      style="font-size:14.37125874px;font-family:Arial"
      y="207.87463"
      x="409.75537"
-     id="rgpiershil">%LASTVALUE(NF2)%</text>
+     id="rgpiershil"> </text>
   <text
      inkscape:label="#rgnieuwbeijerland"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="153.45807"
      x="485.05069"
-     id="rgnieuwbeijerland">%LASTVALUE(NF2)%</text>
+     id="rgnieuwbeijerland"> </text>
   <text
      inkscape:label="#rgirenestraat"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="137.26265"
      x="604.93835"
-     id="rgirenestraat">%LASTVALUE(NF2)%</text>
+     id="rgirenestraat"> </text>
   <text
      inkscape:label="#rgdegorzen"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="116.53252"
      x="579.3526"
-     id="rgdegorzen">%LASTVALUE(NF2)%</text>
+     id="rgdegorzen"> </text>
   <text
      inkscape:label="#rgheienoord"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="89.972038"
      x="721.53638"
-     id="rgheienoord">%LASTVALUE(NF2)%</text>
+     id="rgheienoord"> </text>
   <text
      inkscape:label="#rgnieuweweg"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="131.4323"
      x="726.65356"
-     id="rgnieuweweg">%LASTVALUE(NF2)%</text>
+     id="rgnieuweweg"> </text>
   <text
      inkscape:label="#rgMijnsheerenland"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="194.59441"
      x="750.4118"
-     id="rgMijnsheerenland">%LASTVALUE(NF2)%</text>
+     id="rgMijnsheerenland"> </text>
   <text
      inkscape:label="#rgwestmaas"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="213.38109"
      x="713.86072"
-     id="rgwestmaas">%LASTVALUE(NF2)%</text>
+     id="rgwestmaas"> </text>
   <path
      id="leidingWestmaasMijnsheerenland"
      d="m 677.49648,192.44069 9.63429,-40.25754 -6.53755,-12.04286"
@@ -1862,28 +1862,28 @@
      style="font-size:14.37125874px;font-family:Arial"
      y="139.53001"
      x="781.11475"
-     id="rgblaaksedijk">%LASTVALUE(NF2)%</text>
+     id="rgblaaksedijk"> </text>
   <text
      inkscape:label="#rgmijlpolder"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="214.35281"
      x="986.53204"
-     id="rgmijlpolder">%LASTVALUE(NF2)%</text>
+     id="rgmijlpolder"> </text>
   <text
      inkscape:label="#rgsimonsdijkje"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="174.18819"
      x="928.05023"
-     id="rgsimonsdijkje">%LASTVALUE(NF2)%</text>
+     id="rgsimonsdijkje"> </text>
   <text
      inkscape:label="#rgnassaulaan"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="160.58406"
      x="877.60968"
-     id="rgnassaulaan">%LASTVALUE(NF2)%</text>
+     id="rgnassaulaan"> </text>
   <line
      x1="836.15552"
      y1="235.24745"
@@ -1916,7 +1916,7 @@
      style="font-size:14.37125874px;font-family:Arial"
      y="220.83098"
      x="893.32666"
-     id="rghoeksedijk">%LASTVALUE(NF2)%</text>
+     id="rghoeksedijk"> </text>
   <path
      id="leidingHoeksedijk"
      d="m 826.69904,222.24697 -6.96809,-8.68851"
@@ -1927,21 +1927,21 @@
      style="font-size:14.37125874px;font-family:Arial"
      y="415.82376"
      x="923.66406"
-     id="rgstrijensas">%LASTVALUE(NF2)%</text>
+     id="rgstrijensas"> </text>
   <text
      inkscape:label="#rgschenkel"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="382.46121"
      x="976.66327"
-     id="rgschenkel">%LASTVALUE(NF2)%</text>
+     id="rgschenkel"> </text>
   <text
      inkscape:label="#rgzweedsestraat"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="320.59473"
      x="937.91907"
-     id="rgzweedsestraat">%LASTVALUE(NF2)%</text>
+     id="rgzweedsestraat"> </text>
   <line
      x1="902.56329"
      y1="363.58987"
@@ -1978,14 +1978,14 @@
      style="font-size:14.37125874px;font-family:Arial"
      y="341.32486"
      x="964.23584"
-     id="rgmookhoek">%LASTVALUE(NF2)%</text>
+     id="rgmookhoek"> </text>
   <text
      inkscape:label="#rgboezemkade"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="236.37857"
      x="849.09985"
-     id="rgboezemkade">%LASTVALUE(NF2)%</text>
+     id="rgboezemkade"> </text>
   <rect
      id="rect19-8"
      style="fill:#f3faf3;fill-opacity:0.51764706;stroke:#000000;stroke-width:2.02008343;stroke-opacity:1"

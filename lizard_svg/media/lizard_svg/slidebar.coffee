@@ -11,6 +11,7 @@ getObjectClass = (obj) ->
 
 class Slider
   constructor: (@itemId, @managed=[]) ->
+    this.waiting = 0
     @slider = $('#' + @itemId).slider
       value: 0
       orientation: "horizontal"
@@ -23,10 +24,8 @@ class Slider
       change: $.proxy(@onChange, this)
 
   initialize: ->
-    console.log "initializing"
-    console.log @slider
-    @slider.triggerHandler('slide', null, value: 0)
-    @slider.triggerHandler('change', null, value: 0)
+    @onChange(null, value: 0)
+    @onSlide(null, value: 0)
 
   onChange: (event, ui) ->
     that = this
@@ -54,11 +53,15 @@ class Slider
 
   manageObject: (item) ->
     that = this
+    that.waiting += 1
     $.get "/api/bootstrap/?item=#{item}",
       (data) ->
         that.managed.push
           key: item
           value: data
+        that.waiting -= 1
+        if that.waiting == 0
+          that.initialize()
 
 
 dec2hex = (i) ->
