@@ -26,6 +26,7 @@
   #
   */
   var Slider, dec2hex, getObjectClass;
+  var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
   getObjectClass = function(obj) {
     var arr;
     if (obj && obj.constructor && obj.constructor.toString) {
@@ -39,6 +40,8 @@
     function Slider(itemId, managed) {
       this.itemId = itemId;
       this.managed = managed != null ? managed : [];
+      this.onSlide = __bind(this.onSlide, this);
+      this.onChange = __bind(this.onChange, this);
       this.waiting = 0;
       this.stroke_re = new RegExp("stroke:[^;]+;", "g");
       this.slider = $('#' + this.itemId).slider({
@@ -48,8 +51,8 @@
         max: 255,
         length: 255,
         animate: true,
-        slide: $.proxy(this.onSlide, this),
-        change: $.proxy(this.onChange, this)
+        slide: this.onSlide,
+        change: this.onChange
       });
     }
     Slider.prototype.initialize = function() {

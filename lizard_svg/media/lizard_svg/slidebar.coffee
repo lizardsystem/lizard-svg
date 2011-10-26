@@ -48,14 +48,14 @@ class Slider
       length: 255
       animate: true
       # create: $.proxy(@onCreate, this)
-      slide: $.proxy(@onSlide, this)
-      change: $.proxy(@onChange, this)
+      slide: @onSlide
+      change: @onChange
 
   initialize: ->
     @onChange(null, value: 0)
     @onSlide(null, value: 0)
 
-  onChange: (event, ui) ->
+  onChange: (event, ui) =>
     that = this
     rioolgemalen = [{key: i.key} for i in @managed when i.key.indexOf("pomprg") == 0]
     #$.get "/api/update/?keys=#{rioolgemalen}",
@@ -65,7 +65,7 @@ class Slider
         keys: rioolgemalen,
         (data) -> that.updateLabels data
 
-  onSlide: (event, ui) ->
+  onSlide: (event, ui) =>
     for item in @managed
         key = item.key
         for candidate in item.value
