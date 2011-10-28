@@ -19,7 +19,7 @@ class Bootstrap(View):
                            'color': self.colors[int(uniform(0, len(self.colors)))],
                            })
             level += int(uniform(0, 64))
-        time.sleep(0.05)  # faking database latency
+        time.sleep(uniform(0.01, 0.05))  # faking database latency
         return result
 
 
