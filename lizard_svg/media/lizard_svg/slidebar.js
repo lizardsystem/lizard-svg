@@ -24,8 +24,7 @@
   #
   #******************************************************************************
   #
-  */
-  var Slider, dec2hex, getObjectClass;
+  */  var Slider, dec2hex, getObjectClass;
   var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
   getObjectClass = function(obj) {
     var arr;
