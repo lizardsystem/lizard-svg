@@ -97,10 +97,6 @@ class Slider
     item.attr('style', styleOrig.replace @stroke_re, "stroke:#{value};")
 
 
-dec2hex = (i) ->
-   ((i >> 0) + 0x10000).toString(16).substr(-2)
-
-
 $('document').ready ->
   window.slider = new Slider('mySliderDiv')
   for element in $("path")
