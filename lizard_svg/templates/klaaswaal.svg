@@ -2135,11 +2135,11 @@
    y="477.67365"
    style="font-size:20.0397644px;font-family:Arial"
    transform="scale(0.98765023,1.0125042)">%LASTVALUE(NF1)%</text>
-<path
+<a xlink:href="/overzicht"><path
    style="fill:#dcf3f3;fill-opacity:1;stroke:#000000;stroke-width:1.50177073;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
    d="m 947.21145,450.99048 -41.10921,0 0,18.43346 -29.36374,-24.57797 29.36374,-24.57796 0,18.43348 58.72746,0 0,12.28899 -17.61825,0"
-   id="terug" />
-<text
+   id="terug" /></a>
+<a xlink:href="/overzicht"><text
    id="Q8-1-9-4"
    x="923.32611"
    y="457.59888"
@@ -2148,7 +2148,7 @@
   <tspan
      style="font-size:12px"
      id="tspan3120-48-8">Terug naar overzicht</tspan>
-</text>
+</text></a>
 <text
    id="Q5"
    x="567.25397"

@@ -2434,12 +2434,12 @@
      style="font-size:12px"
      id="tspan3120-48-7-0">RG Strijen</tspan>
 </text>
-<path
+<a xlink:href="/overzicht"><path
    style="fill:#dcf3f3;fill-opacity:1;stroke:#000000;stroke-width:1.50177073;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
    d="m 989.24582,885.84687 -41.1092,0 0,18.43346 -29.3638,-24.57797 29.3638,-24.57796 0,18.43348 58.72738,0 0,12.28899 -17.61818,0"
    id="terug"
-   inkscape:connector-curvature="0" />
-<text
+   inkscape:connector-curvature="0" /></a>
+<a xlink:href="/overzicht"><text
    id="Q8-1-9-4"
    x="965.88611"
    y="887.0849"
@@ -2448,7 +2448,7 @@
   <tspan
      style="font-size:12px"
      id="tspan3120-48-8">Terug naar overzicht</tspan>
-</text>
+</text></a>
 <line
    id="line69-1"
    style="stroke:#000000;stroke-width:1.1559577;stroke-opacity:1"
