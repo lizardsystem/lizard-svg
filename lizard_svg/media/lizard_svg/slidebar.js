@@ -25,7 +25,7 @@
   #******************************************************************************
   #
   */
-  var Slider, getObjectClass;
+  var Slider, dec2hex, getObjectClass;
   var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
   getObjectClass = function(obj) {
     var arr;
@@ -139,6 +139,9 @@
     };
     return Slider;
   })();
+  dec2hex = function(i) {
+    return ((i >> 0) + 0x10000).toString(16).substr(-2);
+  };
   $('document').ready(function() {
     var element, _i, _j, _len, _len2, _ref, _ref2, _results;
     window.slider = new Slider('mySliderDiv');

@@ -47,7 +47,6 @@ class Slider
       max: 255
       length: 255
       animate: true
-      # create: $.proxy(@onCreate, this)
       slide: @onSlide
       change: @onChange
 
