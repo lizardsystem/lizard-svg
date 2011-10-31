@@ -21,7 +21,7 @@ urlpatterns = patterns(
     (r'^api/', include('lizard_svg.api.urls')),
     (r'^stroomschema_rwzi/(?P<svg_name>\w+)/$', stroomschema_rwzi),
     (r'^stroomschema/(?P<svg_name>\w+)/$', stroomschema),
-    (r'^(?P<svg_name>\w+)/$', overview),
+    (r'^((?P<svg_name>\w+)/)?$', overview),
     # url(r'^something/',
     #     direct.import.views.some_method,
     #     name="name_it"),
