@@ -1,7 +1,6 @@
 # (c) Nelen & Schuurmans.  GPL licensed, see LICENSE.txt.
 from django.conf.urls.defaults import include
 from django.conf.urls.defaults import patterns
-from django.conf.urls.defaults import url
 from django.contrib import admin
 
 
@@ -17,7 +16,7 @@ urlpatterns = patterns(
     '',
     (r'^admin/', include(admin.site.urls)),
     (r'^ui/', include('lizard_ui.urls')),
-    
+
     (r'^api/', include('lizard_svg.api.urls')),
     (r'^stroomschema_rwzi/(?P<svg_name>\w+)/$', stroomschema_rwzi),
     (r'^stroomschema/(?P<svg_name>\w+)/$', stroomschema),

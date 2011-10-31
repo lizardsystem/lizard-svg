@@ -79,41 +79,6 @@
      height="465.20691"
      x="2.7290323"
      y="75.104553" />
-  <a xlink:href="/stroomschema/piershil"><path
-     id="gebiedPiershil"
-     d="m 325.05269,255.50831 -14.16613,-9.69262 -16.40288,-6.71028 -2.23676,-10.43819 -23.85874,0.74558 5.96468,-42.49838 7.45586,0 5.2191,-39.51603 -13.42054,-10.4382 1.14047,-15.10307 -20.71666,17.47506 -24.12747,-6.90449 -32.4213,6.13732 -13.5717,14.57616 -37.69918,5.37017 -17.34162,24.54931 -58.810714,-8.43882 -44.485032,65.20911 -20.3575617,-12.27465 -0.3504635,21.18148 24.3302442,36.00876 130.166797,46.34912 41.60472,20.07245 73.47734,44.03774 45.74086,-135.76276 z"
-     style="fill:#000000;fill-opacity:0"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cccccccccccccccccccccccccc"
-     inkscape:label="#path7625-7" /></a>
-  <a xlink:href="/stroomschema/oudbeijerland"><path
-     id="gebiedOudbeijerland"
-     style="fill:#000000;fill-opacity:0"
-     d="m 295.69858,104.05581 -23.4145,23.89728 -0.72416,14.72458 13.03487,10.62101 -5.06912,39.10463 -7.24159,0 -6.15536,42.00126 23.77658,-0.48277 2.17248,10.13824 16.29359,6.75882 12.79349,9.17269 19.06954,-15.69013 13.63835,-25.2249 2.65525,-45.98414 34.27689,-3.37941 1.20694,-62.76052 -2.65526,0.96555 -29.69055,-13.759037 -18.10399,16.172897 z"
-     sodipodi:nodetypes="cccccccccccccccccccc"
-     inkscape:connector-curvature="0"
-     transform="matrix(1.0079368,0,0,1.0079368,0,-6.9914253)" /></a>
-  <a xlink:href="/stroomschema/binnenmaas"><path
-     id="gebiedBinnenmaas"
-     style="fill:#000000;fill-opacity:0"
-     d="m 567.49989,111.78018 29.20778,61.07082 83.76115,26.31113 14.96597,62.27775 -6.51744,52.62228 12.91419,42.96682 -4.11112,39.1348 -39.83634,-45.35051 14.11735,-20.26139 -0.36585,-11.57147 -71.21659,-10.10806 -1.96127,-24.01797 -41.54867,-3.7415 -20.78942,-20.63855 -16.05221,-1.93109 -18.94884,-17.86261 -20.97046,-0.72416 -3.59063,12.31071 -12.76332,5.55189 -13.24609,-4.58634 -2.77594,17.37983 -22.44896,-2.89663 -11.70725,-29.93195 -51.89812,16.41429 -21.48341,-9.89685 13.63835,-25.2249 2.65525,-45.98414 34.27689,-3.37941 1.20694,-62.76052 -2.65526,0.96555 70.72628,-13.759037 65.89854,23.414497 z"
-     inkscape:connector-curvature="0"
-     transform="matrix(1.0079368,0,0,1.0079368,0,-6.9914253)"
-     sodipodi:nodetypes="ccccccccccccccccccccccccccccccccc" /></a>
-  <a xlink:href="/stroomschema/klaaswaal"><path
-     id="gebiedNumansdorp"
-     style="fill:#000000;fill-opacity:0"
-     d="m 324.56609,253.07529 18.923,-13.09886 21.5523,8.37447 52.26298,-15.79084 11.66342,31.88829 20.07622,1.78266 4.53623,22.38383 -4.02639,22.28279 12.36952,16.32507 25.95732,10.20038 19.67154,20.39469 2.14919,9.15347 -11.01068,-0.67515 -15.03152,8.2503 11.93452,35.53967 22.07338,14.33061 -10.15023,19.29766 28.5057,27.25393 -0.40676,14.48861 -7.64954,0.74408 -108.02628,-44.76765 -57.66269,-4.74439 -64.47514,-29.56125 -23.35703,-11.92182 45.74086,-135.76276 z"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cccccccccccccccccccccccccc"
-     inkscape:label="#path7625-7" /></a>
-  <a xlink:href="/stroomschema/strijen"><path
-     id="gebiedStrijen"
-     style="fill:#000000;fill-opacity:0"
-     d="m 697.72042,396.16378 -39.83634,-45.35051 14.11735,-20.26139 -0.36585,-11.57147 -71.21659,-10.10806 -1.96127,-24.01797 -41.54867,-3.7415 -20.78942,-20.63855 -16.05221,-1.93109 -18.94884,-17.86261 -20.97046,-0.72416 -3.59063,12.31071 -12.76332,5.55189 -13.24609,-4.58634 -3.90796,17.60905 3.36849,22.43679 -3.99468,22.10733 12.27212,16.19652 25.75292,10.12006 19.51664,20.2341 2.13227,9.08139 -10.92398,-0.66983 -14.91316,8.18533 11.84054,35.25982 21.89957,14.21777 -10.0703,19.1457 28.28124,27.03933 -0.40356,14.37452 162.34686,-60.57397 z"
-     inkscape:connector-curvature="0"
-     transform="matrix(1.0079368,0,0,1.0079368,0,-6.9914253)"
-     sodipodi:nodetypes="cccccccccccccccccccccccccccc" /></a>
   <path
      style="fill:#82fae4;fill-opacity:0.51764706;stroke:none"
      d="m 2.7334224,245.77333 27.5265216,39.91346 129.374636,46.10692 52.98854,24.77387 70.8808,42.6661 80.51507,37.84897 59.87017,6.19346 106.66527,44.04243 204.3844,-77.07425 0,36.47264 -0.68816,4.12898 -40.60161,16.5159 -25.46203,23.39755 -139.00893,41.97794 -70.88079,4.12898 -70.19262,-24.08571 -15.82775,-13.76325 -27.52651,-3.44082 -50.2359,45.41875 -62.62283,-1.37632 42.6661,-55.05304 -79.13875,-13.07509 -47.48324,-17.20408 -35.09631,-23.39754 -12.38694,-5.5053 -43.354265,-33.71999 -52.9885426,-66.06365 -1.37633,-79.82691 z"
@@ -634,7 +599,7 @@
      d="m 631.60181,331.55361 c -2.39553,-2.04488 -11.88287,-8.97678 -11.88287,-8.97678 l -26.2097,25.56833"
      style="fill:none;stroke:#000000;stroke-width:2.8053956;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
      inkscape:connector-curvature="0" />
-  <a xlink:href="/stroomschema_rwzi/strijen"><g
+  <g
      id="g5198-33-8-5-4"
      transform="matrix(0.848036,0,0,0.830986,26.583644,210.31316)">
     <line
@@ -657,14 +622,14 @@
        sodipodi:cy="325"
        sodipodi:cx="145"
        d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
-       id="rwzi-strijen"
+       id="circle-rwzi-strijen"
        style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        r="10"
        cy="325"
        cx="145"
        transform="translate(515,-145)" />
-  </g></a>
-  <a xlink:href="/stroomschema_rwzi/klaaswaal"><g
+  </g>
+  <g
      style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      id="g5198-33-8-5"
      transform="matrix(0.848036,0,0,0.830986,-222.53536,258.63616)">
@@ -681,7 +646,7 @@
        sodipodi:cy="325"
        sodipodi:cx="145"
        d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
-       id="rwzi-klaaswaal"
+       id="circle-rwzi-klaaswaal"
        style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        r="10"
        cy="325"
@@ -694,8 +659,8 @@
        x2="652.39648"
        y1="173.01915"
        x1="666.98083" />
-  </g></a>
-  <a xlink:href="/stroomschema_rwzi/oudbeijerland"><g
+  </g>
+  <g
      style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      id="g5198-33-8-5-7"
      transform="matrix(0.848036,0,0,0.830986,-195.97436,-45.515842)">
@@ -712,7 +677,7 @@
        sodipodi:cy="325"
        sodipodi:cx="145"
        d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
-       id="rwzi-oudbeijerland"
+       id="circle-rwzi-oudbeijerland"
        style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        r="10"
        cy="325"
@@ -725,7 +690,7 @@
        x2="652.39648"
        y1="173.01915"
        x1="666.98083" />
-  </g></a>
+  </g>
   <path
      sodipodi:nodetypes="cccccccccccccccccccccc"
      id="path7968"
@@ -914,18 +879,18 @@
        x2="653.01306"
        y1="186.38022"
        x1="667.34747" />
-    <a xlink:href="/stroomschema_rwzi/binnenmaas"><circle
+    <circle
        sodipodi:ry="10"
        sodipodi:rx="10"
        sodipodi:cy="325"
        sodipodi:cx="145"
        d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
-       id="rwzi-binnenmaas"
+       id="circle-rwzi-binnenmaas"
        style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        r="10"
        cy="325"
        cx="145"
-       transform="translate(515,-145)" /></a>
+       transform="translate(515,-145)" />
     <line
        id="line69-4-13-9-5-0-5-0"
        style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
@@ -1013,18 +978,18 @@
        x2="653.01306"
        y1="186.38022"
        x1="667.34747" />
-    <a xlink:href="/stroomschema_rwzi/piershil"><circle
+    <circle
        sodipodi:ry="10"
        sodipodi:rx="10"
        sodipodi:cy="325"
        sodipodi:cx="145"
        d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
-       id="rwzi-piershil"
+       id="circle-rwzi-piershil"
        style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        r="10"
        cy="325"
        cx="145"
-       transform="translate(515,-145)" /></a>
+       transform="translate(515,-145)" />
     <line
        id="line69-4-13-9-5-23-0"
        style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
@@ -1457,5 +1422,120 @@
      y2="399.92075"
      style="stroke:#000000;stroke-width:0.73260754;stroke-opacity:1"
      id="line69-4-13-30-2-9" />
+  <a xlink:href="/stroomschema/piershil">
+    <path
+	id="gebiedPiershil"
+	d="m 325.05269,255.50831 -14.16613,-9.69262 -16.40288,-6.71028 -2.23676,-10.43819 -23.85874,0.74558 5.96468,-42.49838 7.45586,0 5.2191,-39.51603 -13.42054,-10.4382 1.14047,-15.10307 -20.71666,17.47506 -24.12747,-6.90449 -32.4213,6.13732 -13.5717,14.57616 -37.69918,5.37017 -17.34162,24.54931 -58.810714,-8.43882 -44.485032,65.20911 -20.3575617,-12.27465 -0.3504635,21.18148 24.3302442,36.00876 130.166797,46.34912 41.60472,20.07245 73.47734,44.03774 45.74086,-135.76276 z"
+	style="fill:#000000;fill-opacity:0"
+	inkscape:connector-curvature="0"
+	sodipodi:nodetypes="cccccccccccccccccccccccccc"
+	inkscape:label="#path7625-7" />
+  </a>
+  <a xlink:href="/stroomschema/oudbeijerland">
+    <path
+	id="gebiedOudbeijerland"
+	style="fill:#000000;fill-opacity:0"
+	d="m 295.69858,104.05581 -23.4145,23.89728 -0.72416,14.72458 13.03487,10.62101 -5.06912,39.10463 -7.24159,0 -6.15536,42.00126 23.77658,-0.48277 2.17248,10.13824 16.29359,6.75882 12.79349,9.17269 19.06954,-15.69013 13.63835,-25.2249 2.65525,-45.98414 34.27689,-3.37941 1.20694,-62.76052 -2.65526,0.96555 -29.69055,-13.759037 -18.10399,16.172897 z"
+	sodipodi:nodetypes="cccccccccccccccccccc"
+	inkscape:connector-curvature="0"
+	transform="matrix(1.0079368,0,0,1.0079368,0,-6.9914253)" />
+  </a>
+  <a xlink:href="/stroomschema/binnenmaas">
+    <path
+	id="gebiedBinnenmaas"
+	style="fill:#000000;fill-opacity:0"
+	d="m 567.49989,111.78018 29.20778,61.07082 83.76115,26.31113 14.96597,62.27775 -6.51744,52.62228 12.91419,42.96682 -4.11112,39.1348 -39.83634,-45.35051 14.11735,-20.26139 -0.36585,-11.57147 -71.21659,-10.10806 -1.96127,-24.01797 -41.54867,-3.7415 -20.78942,-20.63855 -16.05221,-1.93109 -18.94884,-17.86261 -20.97046,-0.72416 -3.59063,12.31071 -12.76332,5.55189 -13.24609,-4.58634 -2.77594,17.37983 -22.44896,-2.89663 -11.70725,-29.93195 -51.89812,16.41429 -21.48341,-9.89685 13.63835,-25.2249 2.65525,-45.98414 34.27689,-3.37941 1.20694,-62.76052 -2.65526,0.96555 70.72628,-13.759037 65.89854,23.414497 z"
+	inkscape:connector-curvature="0"
+	transform="matrix(1.0079368,0,0,1.0079368,0,-6.9914253)"
+	sodipodi:nodetypes="ccccccccccccccccccccccccccccccccc" />
+  </a>
+  <a xlink:href="/stroomschema/klaaswaal">
+    <path
+	id="gebiedNumansdorp"
+	style="fill:#000000;fill-opacity:0"
+	d="m 324.56609,253.07529 18.923,-13.09886 21.5523,8.37447 52.26298,-15.79084 11.66342,31.88829 20.07622,1.78266 4.53623,22.38383 -4.02639,22.28279 12.36952,16.32507 25.95732,10.20038 19.67154,20.39469 2.14919,9.15347 -11.01068,-0.67515 -15.03152,8.2503 11.93452,35.53967 22.07338,14.33061 -10.15023,19.29766 28.5057,27.25393 -0.40676,14.48861 -7.64954,0.74408 -108.02628,-44.76765 -57.66269,-4.74439 -64.47514,-29.56125 -23.35703,-11.92182 45.74086,-135.76276 z"
+	inkscape:connector-curvature="0"
+	sodipodi:nodetypes="cccccccccccccccccccccccccc"
+	inkscape:label="#path7625-7" />
+  </a>
+  <a xlink:href="/stroomschema/strijen">
+    <path
+	id="gebiedStrijen"
+	style="fill:#000000;fill-opacity:0"
+	d="m 697.72042,396.16378 -39.83634,-45.35051 14.11735,-20.26139 -0.36585,-11.57147 -71.21659,-10.10806 -1.96127,-24.01797 -41.54867,-3.7415 -20.78942,-20.63855 -16.05221,-1.93109 -18.94884,-17.86261 -20.97046,-0.72416 -3.59063,12.31071 -12.76332,5.55189 -13.24609,-4.58634 -3.90796,17.60905 3.36849,22.43679 -3.99468,22.10733 12.27212,16.19652 25.75292,10.12006 19.51664,20.2341 2.13227,9.08139 -10.92398,-0.66983 -14.91316,8.18533 11.84054,35.25982 21.89957,14.21777 -10.0703,19.1457 28.28124,27.03933 -0.40356,14.37452 162.34686,-60.57397 z"
+	inkscape:connector-curvature="0"
+	transform="matrix(1.0079368,0,0,1.0079368,0,-6.9914253)"
+	sodipodi:nodetypes="cccccccccccccccccccccccccccc" />
+  </a>
+  <a xlink:href="/stroomschema_rwzi/strijen">
+    <circle
+	transform="matrix(0.848036,0,0,0.830986,463.32218,89.82019)"
+	cx="145"
+	cy="325"
+	r="10"
+	style="fill:#000000;fill-opacity:0;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:0"
+	id="circle-rwzi-strijen"
+	d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+	sodipodi:cx="145"
+	sodipodi:cy="325"
+	sodipodi:rx="10"
+	sodipodi:ry="10" />
+  </a>
+  <a xlink:href="/stroomschema_rwzi/klaaswaal">
+    <circle
+	transform="matrix(0.848036,0,0,0.830986,214.20318,138.14319)"
+	cx="145"
+	cy="325"
+	r="10"
+	style="fill:#000000;fill-opacity:0;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:0"
+	id="circle-rwzi-klaaswaal"
+	d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+	sodipodi:cx="145"
+	sodipodi:cy="325"
+	sodipodi:rx="10"
+	sodipodi:ry="10" />
+  </a>
+  <a xlink:href="/stroomschema_rwzi/oudbeijerland">
+    <circle
+	transform="matrix(0.848036,0,0,0.830986,240.76418,-166.00881)"
+	cx="145"
+	cy="325"
+	r="10"
+	style="fill:#000000;fill-opacity:0;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:0"
+	id="circle-rwzi-oudbeijerland"
+	d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+	sodipodi:cx="145"
+	sodipodi:cy="325"
+	sodipodi:rx="10"
+	sodipodi:ry="10" />
+  </a>
+  <a xlink:href="/stroomschema_rwzi/binnenmaas">
+    <circle
+	transform="matrix(0.848036,0,0,0.830986,505.72719,-127.70482)"
+	cx="145"
+	cy="325"
+	r="10"
+	style="fill:#000000;fill-opacity:0;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:0"
+	id="circle-rwzi-binnenmaas"
+	d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+	sodipodi:cx="145"
+	sodipodi:cy="325"
+	sodipodi:rx="10"
+	sodipodi:ry="10" />
+  </a>
+  <a xlink:href="/stroomschema_rwzi/piershil">
+  <circle
+     transform="matrix(0.848036,0,0,0.830986,102.17868,-55.569811)"
+     cx="145"
+     cy="325"
+     r="10"
+     style="fill:#000000;fill-opacity:0;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:0"
+     id="circle-rwzi-piershil-7"
+     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+     sodipodi:cx="145"
+     sodipodi:cy="325"
+     sodipodi:rx="10"
+     sodipodi:ry="10" />
+  </a>
 
 </svg>

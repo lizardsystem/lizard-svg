@@ -7,7 +7,7 @@ from django.shortcuts import redirect
 
 def overview(request, svg_name):
     if svg_name is None:
-        return redirect(to="/overzicht", permanent=True)
+        return redirect('/overzicht')
     t = loader.get_template('lizard_svg/index.html')
     c = RequestContext(request, {
         'svg_dot_svg': svg_name + ".svg",
