@@ -11,9 +11,9 @@
    contentStyleType="text/css"
    zoomAndPan="magnify"
    version="1.0"
-   width="1236.3739"
-   height="962.52667"
-   viewBox="0 0 1236.3739 962.52667"
+   width="1250"
+   height="600"
+   viewBox="0 0 1250 600"
    preserveAspectRatio="xMidYMid meet"
    id="svg2830"
    inkscape:version="0.48.1 r9760"
@@ -45,9 +45,9 @@
      id="namedview73"
      showgrid="true"
      inkscape:snap-global="false"
-     inkscape:zoom="1.1326492"
-     inkscape:cx="649.35996"
-     inkscape:cy="568.96482"
+     inkscape:zoom="1"
+     inkscape:cx="1102.5804"
+     inkscape:cy="364.82364"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
@@ -62,7 +62,8 @@
        empspacing="5"
        visible="true"
        enabled="true"
-       snapvisiblegridlinesonly="true" />
+       snapvisiblegridlinesonly="true"
+       dotted="true" />
   </sodipodi:namedview>
   <defs
      id="defs3">
@@ -330,17 +331,23 @@
       <path
          id="line1-pattern-pomp"
          style="stroke:#000000;stroke-width:1.5;stroke-opacity:1"
-         d="m 4.5,4.5 17,17" />
+         d="m 4.5,4.5 17,17"
+         inkscape:connector-curvature="0" />
       <path
          id="line2-pattern-pomp"
          style="stroke:#000000;stroke-width:1.5;stroke-opacity:1"
-         d="m 4.5,21.5 17,-17" />
+         d="m 4.5,21.5 17,-17"
+         inkscape:connector-curvature="0" />
       <circle
          cx="13"
          cy="13"
          r="12"
          style="fill:none;stroke:#000000;stroke-width:1.5;stroke-opacity:1"
-         id="circle20590" />
+         id="circle20590"
+         sodipodi:cx="13"
+         sodipodi:cy="13"
+         sodipodi:rx="12"
+         sodipodi:ry="12" />
     </marker>
     <marker
        inkscape:stockid="marker-pomp"
@@ -411,24 +418,24 @@
      id="title">Numansdorp RWZI Stroomschema</title>
   <rect
      id="rectTitel"
-     x="31.176979"
-     y="30.600555"
-     width="999.70776"
+     x="24.113892"
+     y="22.776323"
+     width="1201.0057"
      height="74.788322"
      style="fill:#d8d8d8;stroke:#000000;stroke-width:1.21167982" />
   <text
      id="Titel"
-     x="329.81769"
-     y="75.345642"
+     x="28.754578"
+     y="67.521416"
      style="font-size:44px;font-family:Arial">Stroomschema Strijen</text>
   <text
      id="DateEnd"
-     x="255.49988"
-     y="98.86261"
+     x="29.112"
+     y="91.038383"
      style="font-size:20px;font-family:Arial">Meting %LASTVALUETIME(DF1)% van %LASTVALUETIME(DF2)%</text>
   <!--blokken-->
   <g
-     transform="matrix(0.59012081,0,0,0.6228414,-331.38751,105.72264)"
+     transform="matrix(0.59012081,0,0,0.6228414,-338.45059,97.898416)"
      id="g5198-33">
     <line
        x1="667.34747"
@@ -458,144 +465,144 @@
        id="line69-4-13" />
   </g>
   <rect
-     x="31.920465"
-     y="145.77684"
+     x="24.857378"
+     y="137.95261"
      width="255.66483"
      height="437.71542"
      style="fill:none;stroke:#000000;stroke-width:3.86278701;stroke-opacity:1"
      id="rect19-8" />
   <path
      style="fill:#ed2f04;fill-opacity:1;stroke:#ff0703;stroke-width:2.22754288;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.92441861;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
-     d="m 73.510281,282.19387 -25.703626,0"
+     d="m 66.447193,274.36965 -25.703626,0"
      id="path7045-7-2-14"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <text
      id="4ATS-7"
-     x="70"
-     y="164"
-     style="font-size:28;font-family:Arial"
-     transform="scale(0.9,1.1)">Legenda</text>
+     x="61.840591"
+     y="156.10074"
+     style="font-size:27.85964775px;font-family:Arial"
+     transform="scale(0.90453403,1.1055416)">Legenda</text>
   <text
      id="4ATS"
-     x="85"
-     y="207.09756"
-     style="font-size:18px;font-family:Arial"
-     transform="scale(0.975,1.025)">Pomp</text>
+     x="77.731529"
+     y="199.40189"
+     style="font-size:17.99437332px;font-family:Arial"
+     transform="scale(0.9753048,1.0253205)">Pomp</text>
   <text
      id="4ATS-1"
-     x="85"
-     y="243.95934"
-     style="font-size:18px;font-family:Arial"
-     transform="scale(0.975,1.025)">Overstortlocatie</text>
+     x="77.731529"
+     y="236.25214"
+     style="font-size:17.99437332px;font-family:Arial"
+     transform="scale(0.9753048,1.0253205)">Overstortlocatie</text>
   <text
      id="4ATS-1-9"
-     x="85"
-     y="278.6922"
-     style="font-size:18px;font-family:Arial"
-     transform="scale(0.975,1.025)">Overstort afvoer</text>
+     x="77.731529"
+     y="270.974"
+     style="font-size:17.99437332px;font-family:Arial"
+     transform="scale(0.9753048,1.0253205)">Overstort afvoer</text>
   <text
      id="4ATS-1-0"
-     x="85"
-     y="314.62201"
-     style="font-size:18px;font-family:Arial"
-     transform="scale(0.975,1.025)">Geen afvoer</text>
+     x="77.731529"
+     y="306.89258"
+     style="font-size:17.99437332px;font-family:Arial"
+     transform="scale(0.9753048,1.0253205)">Geen afvoer</text>
   <text
      id="4ATS-1-4"
-     x="85"
-     y="343.27753"
-     style="font-size:18px;font-family:Arial"
-     transform="scale(0.975,1.025)">Afvoer</text>
+     x="77.731529"
+     y="335.53918"
+     style="font-size:17.99437332px;font-family:Arial"
+     transform="scale(0.9753048,1.0253205)">Afvoer</text>
   <text
      id="4ATS-1-4-0"
-     x="85"
-     y="372.11432"
-     style="font-size:18px;font-family:Arial"
-     transform="scale(0.975,1.025)">Gemeten afvoer in m³/h</text>
+     x="77.731529"
+     y="364.36694"
+     style="font-size:17.99437332px;font-family:Arial"
+     transform="scale(0.9753048,1.0253205)">Gemeten afvoer in m³/h</text>
   <text
      id="4ATS-1-4-0-4"
-     x="85"
-     y="402.01974"
-     style="font-size:18px;font-family:Arial"
-     transform="scale(0.975,1.025)">Water niveau in pompput</text>
+     x="77.731529"
+     y="394.26312"
+     style="font-size:17.99437332px;font-family:Arial"
+     transform="scale(0.9753048,1.0253205)">Water niveau in pompput</text>
   <text
      id="4ATS-1-4-0-9-0-8"
-     x="85"
-     y="449.80594"
-     style="font-size:18px;font-family:Arial"
-     transform="scale(0.975,1.025)">Maximale berging</text>
+     x="77.731529"
+     y="442.03439"
+     style="font-size:17.99437332px;font-family:Arial"
+     transform="scale(0.9753048,1.0253205)">Maximale berging</text>
   <text
      id="4ATS-1-4-0-40"
-     x="85"
-     y="481.67627"
-     style="font-size:18px;display:inline;font-family:Arial"
-     transform="scale(0.975,1.025)">Gewenste pompinzet</text>
+     x="77.731529"
+     y="473.89481"
+     style="font-size:17.99437332px;display:inline;font-family:Arial"
+     transform="scale(0.9753048,1.0253205)">Gewenste pompinzet</text>
   <text
      id="4ATS-1-4-0-40-8"
-     x="85"
-     y="514.62775"
-     style="font-size:18px;display:inline;font-family:Arial"
-     transform="scale(0.975,1.025)">Berekende vulling (%)</text>
+     x="77.731529"
+     y="506.836"
+     style="font-size:17.99437332px;display:inline;font-family:Arial"
+     transform="scale(0.9753048,1.0253205)">Berekende vulling (%)</text>
   <text
      id="4ATS-1-4-0-40-8-5"
-     x="85"
-     y="549.43274"
-     style="font-size:18px;display:inline;font-family:Arial"
-     transform="scale(0.975,1.025)">Gewenste vulling (%)</text>
+     x="77.731529"
+     y="541.63013"
+     style="font-size:17.99437332px;display:inline;font-family:Arial"
+     transform="scale(0.9753048,1.0253205)">Gewenste vulling (%)</text>
   <path
      style="fill:none;stroke:#000000;stroke-width:3.61098027;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 43.312525,318.53041 29.506037,0"
+     d="m 36.249437,310.70619 29.506037,0"
      id="path3772-1"
      inkscape:connector-curvature="0" />
   <rect
-     x="862.42023"
-     y="160.065"
+     x="855.35724"
+     y="152.24075"
      width="131.94853"
      height="67.634491"
      style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1"
      id="bongerd_rwa-7-3" />
   <path
      style="fill:none;stroke:#16f90c;stroke-width:3.61098027;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 43.312525,347.61646 29.506037,0"
+     d="m 36.249437,339.79224 29.506037,0"
      id="path3772-1-1"
      inkscape:connector-curvature="0" />
   <text
      id="Q2-7"
-     x="52.870594"
-     y="341.94785"
+     x="44.986805"
+     y="334.93811"
      style="font-size:18.67040825px;font-family:Arial"
      transform="scale(0.89590009,1.1161959)">1.3</text>
   <rect
-     x="37.755562"
-     y="396.65973"
+     x="30.69248"
+     y="388.83548"
      width="35.134747"
      height="20.172604"
      style="fill:none;stroke:#000000;stroke-width:0.28707814;stroke-opacity:1"
      id="rijksstraatweg-1" />
   <rect
-     x="37.728825"
-     y="410.45416"
+     x="30.665743"
+     y="402.62991"
      width="35.188221"
      height="7.324142"
      style="fill:#9dc2de;stroke:#000000;stroke-width:0.18537293;stroke-opacity:1"
      id="molendijk-7" />
   <path
      style="fill:#ed2f04;fill-opacity:1;stroke:#0c0703;stroke-width:2.22754288;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.9254902;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
-     d="m 73.510281,245.8761 -25.70363,0"
+     d="m 66.447193,238.05188 -25.70363,0"
      id="path7045-7-2-14-0"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <rect
-     x="37.772858"
-     y="447.50128"
+     x="30.709776"
+     y="439.67703"
      width="35.100155"
      height="15.9762"
      style="fill:#ff0703;fill-opacity:0.9254902;stroke:#ff0703;stroke-width:0.27343905;stroke-opacity:0.9254902"
      id="molendijk-7-4" />
   <text
      id="Q8-1-7"
-     x="978.34027"
-     y="270.02167"
+     x="971.1889"
+     y="262.29419"
      style="font-size:20.0397644px;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">
     <tspan
@@ -604,8 +611,8 @@
   </text>
   <text
      id="Q8-1-9-1-4"
-     x="1204.7086"
-     y="577.87268"
+     x="1197.5573"
+     y="570.14526"
      style="font-size:20.0397644px;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">
     <tspan
@@ -614,7 +621,8 @@
   </text>
   <a
      href="/overzicht"
-     id="a12549">
+     id="a12549"
+     transform="translate(201.93692,-819.82422)">
     <path
        style="fill:#dcf3f3;fill-opacity:1;stroke:#000000;stroke-width:1.50177073;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 989.24582,885.84687 -41.1092,0 0,18.43346 -29.3638,-24.57797 29.3638,-24.57796 0,18.43348 58.72738,0 0,12.28899 -17.61818,0"
@@ -623,7 +631,8 @@
   </a>
   <a
      href="/overzicht"
-     id="a12552">
+     id="a12552"
+     transform="translate(206.38709,-819.82422)">
     <text
        id="Q8-1-9-4"
        x="965.88611"
@@ -632,77 +641,34 @@
        transform="scale(0.98765023,1.0125042)">
       <tspan
          style="font-size:12px"
-         id="tspan3120-48-8">Terug naar overzicht</tspan>
+         id="tspan3120-48-8">overzicht</tspan>
     </text>
   </a>
   <text
      id="txtNeerslag"
-     x="860.11316"
-     y="941.16699"
+     x="810.43494"
+     y="129.49261"
      style="font-size:20.0397644px;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q12-1">Neerslag: %LASTVALUE(NF1)% mm/5min</text>
-  <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="basins"
-     style="display:inline"
-     transform="translate(-6.4375,18.499997)">
-    <rect
-       x="868.45929"
-       y="141.09338"
-       width="131.94853"
-       height="67.634491"
-       style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-       id="SYSY-007_P1_H.meting"
-       inkscape:label="#industrieterrein" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer3"
-     inkscape:label="values"
-     style="display:inline"
-     transform="translate(-6.4375,18.499997)">
-    <text
-       id="SYSY-013_P1_Pomp.aantal"
-       x="982.8429"
-       y="235.72701"
-       style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;font-family:Arial"
-       transform="scale(0.98765023,1.0125042)"
-       inkscape:label="#Q2-1">--</text>
-    <text
-       id="RGD_SYSY-041E1_VG.perc.afgeleid"
-       x="890.77045"
-       y="198.11412"
-       style="font-size:20.0397644px;font-family:Arial"
-       transform="scale(0.98765023,1.0125042)"
-       inkscape:label="#Q2-1">--</text>
-    <text
-       id="RGD_SYSY-041E1_VG.perc.setpoint"
-       x="951.53882"
-       y="197.24214"
-       style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;font-family:Arial"
-       transform="scale(0.98765023,1.0125042)"
-       inkscape:label="#Q2-1">--</text>
-  </g>
   <line
-     x1="740.89484"
-     y1="229.05742"
-     x2="740.17816"
-     y2="243.09747"
+     x1="733.83185"
+     y1="221.23318"
+     x2="733.11517"
+     y2="235.27322"
      style="stroke:#000000;stroke-width:2.87095952;stroke-opacity:1;display:inline"
      id="Q1_index-4" />
   <rect
-     x="670.14703"
-     y="159.75725"
+     x="663.08405"
+     y="151.93301"
      width="131.94853"
      height="67.634491"
      style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1;display:inline"
      id="bongerd_rwa-7-3-4" />
   <text
      id="Q8-1-7-8"
-     x="771.5127"
-     y="269.71771"
+     x="764.36133"
+     y="261.99023"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">
     <tspan
@@ -712,13 +678,13 @@
   <line
      id="line69-1-2"
      style="stroke:#000000;stroke-width:1.1559577;stroke-opacity:1;display:inline"
-     y2="260.19943"
-     x2="732.79236"
-     y1="245.03436"
-     x1="748.82886" />
+     y2="252.37515"
+     x2="725.72937"
+     y1="237.21011"
+     x1="741.76587" />
   <rect
-     x="669.7486"
-     y="159.28563"
+     x="662.68561"
+     y="151.4614"
      width="131.94853"
      height="67.634491"
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
@@ -726,36 +692,36 @@
      inkscape:label="#industrieterrein" />
   <text
      id="SYSY-013_P2_Pomp.aantal"
-     x="769.49731"
-     y="253.69446"
+     x="762.34595"
+     y="245.96703"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <text
      id="RGD_SYSY-041E2_VG.perc.afgeleid"
-     x="689.57501"
-     y="216.0817"
+     x="682.42365"
+     y="208.3542"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <text
      id="RGD_SYSY-041E2_VG.perc.setpoint"
-     x="754.81299"
-     y="216.0817"
+     x="747.66162"
+     y="208.3542"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <rect
-     x="503.76929"
-     y="159.8784"
+     x="496.70618"
+     y="152.05417"
      width="131.94853"
      height="67.634491"
      style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1;display:inline"
      id="bongerd_rwa-7-3-2" />
   <text
      id="Q8-1-7-3"
-     x="619.25427"
-     y="269.83685"
+     x="612.10291"
+     y="262.10938"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">
     <tspan
@@ -763,8 +729,8 @@
        id="tspan3120-4-2">S.Stevinweg DWA</tspan>
   </text>
   <rect
-     x="503.37085"
-     y="159.40678"
+     x="496.30774"
+     y="151.58255"
      width="131.94853"
      height="67.634491"
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
@@ -772,43 +738,43 @@
      inkscape:label="#industrieterrein" />
   <text
      id="SYSY-007_P1_Pomp.aantal"
-     x="617.23889"
-     y="253.81357"
+     x="610.08752"
+     y="246.08614"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <text
      id="RGD_SYSY-041S1_VG.perc.afgeleid"
-     x="521.11639"
-     y="216.20108"
+     x="513.96503"
+     y="208.47359"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <text
      id="RGD_SYSY-041S1_VG.perc.setpoint"
-     x="590.82397"
-     y="216.20108"
+     x="583.67261"
+     y="208.47359"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <line
-     x1="382.25906"
-     y1="228.85567"
-     x2="381.51199"
-     y2="242.04314"
+     x1="375.19595"
+     y1="221.0314"
+     x2="374.44888"
+     y2="234.2189"
      style="stroke:#000000;stroke-width:2.84064913;stroke-opacity:1;display:inline"
      id="Q1_index-4-9" />
   <rect
-     x="311.49606"
-     y="159.57066"
+     x="304.43295"
+     y="151.74643"
      width="131.94853"
      height="67.634491"
      style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1;display:inline"
      id="bongerd_rwa-7-3-4-5" />
   <text
      id="Q8-1-7-8-4"
-     x="396.2272"
-     y="269.5329"
+     x="389.07584"
+     y="261.80542"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">
     <tspan
@@ -816,8 +782,8 @@
        id="tspan3120-4-8-3">S.Stevinweg RWA</tspan>
   </text>
   <rect
-     x="311.09763"
-     y="159.09904"
+     x="304.03452"
+     y="151.27481"
      width="131.94853"
      height="67.634491"
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
@@ -825,36 +791,36 @@
      inkscape:label="#industrieterrein" />
   <text
      id="SYSY-007_P2_Pomp.aantal"
-     x="404.33691"
-     y="255.48492"
+     x="397.18555"
+     y="247.75749"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <text
      id="RGD_SYSY-041S2_VG.perc.afgeleid"
-     x="326.43924"
-     y="215.89713"
+     x="319.28787"
+     y="208.16963"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <text
      id="RGD_SYSY-041S2_VG.perc.setpoint"
-     x="391.67722"
-     y="215.89713"
+     x="384.52585"
+     y="208.16963"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <rect
-     x="1049.0344"
-     y="160.18532"
+     x="1041.9714"
+     y="152.36105"
      width="131.94853"
      height="67.634491"
      style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1;display:inline"
      id="bongerd_rwa-7-3-4-5-4" />
   <text
      id="Q8-1-7-8-4-2"
-     x="1153.4601"
-     y="268.16431"
+     x="1146.3087"
+     y="260.43689"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">
     <tspan
@@ -864,13 +830,13 @@
   <line
      id="line69-1-2-1-7"
      style="stroke:#000000;stroke-width:1.1559577;stroke-opacity:1;display:inline"
-     y2="258.62747"
-     x2="1111.6798"
-     y1="243.46239"
-     x1="1127.7163" />
+     y2="250.80325"
+     x2="1104.6168"
+     y1="235.63815"
+     x1="1120.6533" />
   <rect
-     x="1048.636"
-     y="159.7137"
+     x="1041.573"
+     y="151.88943"
      width="131.94853"
      height="67.634491"
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
@@ -878,36 +844,36 @@
      inkscape:label="#industrieterrein" />
   <text
      id="SYSY-003_Pomp.aantal"
-     x="1151.4447"
-     y="252.14105"
+     x="1144.2933"
+     y="244.41362"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <text
      id="RGD_CRKW-003_VG.perc.afgeleid-5-3-5"
-     x="1073.2003"
-     y="216.50391"
+     x="1066.049"
+     y="208.77641"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">-</text>
   <text
      id="RGD_CRKW-003_VG.perc.setpoint-2-8-0"
-     x="1138.4387"
-     y="216.50391"
+     x="1131.2874"
+     y="208.77641"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">-</text>
   <rect
-     x="1049.0172"
-     y="345.61646"
+     x="1041.9542"
+     y="337.79221"
      width="131.94853"
      height="67.634491"
      style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1;display:inline"
      id="bongerd_rwa-7-3-24" />
   <text
      id="Q8-1-7-86"
-     x="1149.0453"
-     y="459.20807"
+     x="1141.8939"
+     y="451.48059"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">
     <tspan
@@ -915,8 +881,8 @@
        id="tspan3120-4-5">Handelstraat</tspan>
   </text>
   <rect
-     x="1048.6188"
-     y="345.14484"
+     x="1041.5558"
+     y="337.32059"
      width="131.94853"
      height="67.634491"
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
@@ -924,66 +890,66 @@
      inkscape:label="#industrieterrein" />
   <text
      id="SYSY-RG-01_Q.setpoint"
-     x="1207.9259"
-     y="505.75403"
+     x="1200.7745"
+     y="498.02658"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">Setpoint: %LASTVALUE(NF3)% m3/h</text>
   <text
      id="RGD_SYSY-004_VG.perc.afgeleid"
-     x="1073.1824"
-     y="399.64569"
+     x="1066.031"
+     y="391.91821"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <text
      id="RGD_SYSY-004_VG.perc.setpoint"
-     x="1138.4207"
-     y="399.64569"
+     x="1131.2693"
+     y="391.91821"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <path
      style="fill:none;stroke:#000000;stroke-width:2.28179073;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 576.52562,228.8011 0,85.135 495.04048,0 0,30.57045"
+     d="m 569.46254,220.97688 0,85.135 495.04036,0 0,30.57045"
      id="path3640"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:2.23942614;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 381.63236,263.59408 0,67.78344 674.11694,0 0,13.03909"
+     d="m 374.56928,255.76986 0,67.78344 674.11682,0 0,13.03909"
      id="path3642"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:2.14966679;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 740.27419,264.39295 0,31.91421 349.27411,0 0,46.62012"
+     d="m 733.21111,256.56873 0,31.91421 349.27399,0 0,46.62012"
      id="path3644"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:2.13914776;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 935.15146,227.69441 0,55.50836 174.20684,0 0,61.01648"
+     d="m 928.08838,219.87019 0,55.50836 174.20672,0 0,61.01648"
      id="path3646"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:2.4621079;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 1119.7985,265.89602 0,78.40863"
+     d="m 1112.7353,258.0718 0,78.40863"
      id="path3648"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <rect
-     x="1048.8945"
-     y="520.82965"
+     x="1041.8315"
+     y="513.00574"
      width="131.94853"
      height="67.634491"
      style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1;display:inline"
      id="bongerd_rwa-7-3-24-1" />
   <text
      id="Q8-1-7-86-8"
-     x="1118.0995"
-     y="595.04443"
+     x="1110.9481"
+     y="587.31702"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">
     <tspan
@@ -991,8 +957,8 @@
        id="tspan3120-4-5-4">Hoofdgebied</tspan>
   </text>
   <rect
-     x="1048.4961"
-     y="520.35803"
+     x="1041.4331"
+     y="512.53412"
      width="131.94853"
      height="67.634491"
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
@@ -1000,29 +966,29 @@
      inkscape:label="#industrieterrein" />
   <text
      id="RGD_SYSY-001_VG.perc.afgeleid"
-     x="1073.0581"
-     y="572.69513"
+     x="1065.9067"
+     y="564.96771"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <text
      id="RGD_SYSY-001_VG.perc.setpoint"
-     x="1138.296"
-     y="572.69513"
+     x="1131.1447"
+     y="564.96771"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <rect
-     x="862.00305"
-     y="373.29449"
+     x="854.94006"
+     y="365.47025"
      width="131.94853"
      height="67.634491"
      style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1;display:inline"
      id="bongerd_rwa-7-3-24-1-0" />
   <text
      id="Q8-1-7-86-8-7"
-     x="949.56964"
-     y="478.64432"
+     x="942.41827"
+     y="470.91687"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">
     <tspan
@@ -1030,8 +996,8 @@
        id="tspan3120-4-5-4-6">Binnensingel</tspan>
   </text>
   <rect
-     x="861.60461"
-     y="372.82288"
+     x="854.54163"
+     y="364.99863"
      width="131.94853"
      height="67.634491"
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
@@ -1039,48 +1005,48 @@
      inkscape:label="#industrieterrein" />
   <text
      id="SYSY-002_Pomp.aantal"
-     x="977.92963"
-     y="458.67014"
+     x="970.77826"
+     y="450.94263"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <text
      id="RGD_SYSY-003_VG.perc.afgeleid"
-     x="883.83215"
-     y="426.9823"
+     x="876.68079"
+     y="419.25482"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <text
      id="RGD_SYSY-003_VG.perc.setpoint"
-     x="949.07013"
-     y="426.9823"
+     x="941.91876"
+     y="419.25482"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <path
      style="fill:none;stroke:#000000;stroke-width:2.5381012;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 1118.7641,412.90861 0,106.47276"
+     d="m 1111.7009,405.08439 0,106.47276"
      id="path4658"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 934.81314,440.09867 0,52.47461 165.81946,0 0,26.98307"
+     d="m 927.75006,432.27445 0,52.47461 165.81934,0 0,26.98307"
      id="path4662"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
   <rect
-     x="633.53125"
-     y="393.11951"
+     x="626.46826"
+     y="385.29526"
      width="131.94853"
      height="67.634491"
      style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1;display:inline"
      id="bongerd_rwa-7-3-24-1-1" />
   <text
      id="Q8-1-7-86-8-6"
-     x="789.30286"
-     y="455.33545"
+     x="782.15149"
+     y="447.60797"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">
     <tspan
@@ -1088,8 +1054,8 @@
        id="tspan3120-4-5-4-5">Bosweg</tspan>
   </text>
   <rect
-     x="633.13281"
-     y="392.64789"
+     x="626.06982"
+     y="384.82364"
      width="131.94853"
      height="67.634491"
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
@@ -1097,42 +1063,42 @@
      inkscape:label="#industrieterrein" />
   <text
      id="SYSY-001_Pomp.aantal"
-     x="815.06537"
-     y="409.47601"
+     x="807.914"
+     y="401.74854"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <text
      id="RGD_SYSY-002_VG.perc.afgeleid"
-     x="652.5011"
-     y="446.56201"
+     x="645.34973"
+     y="438.83453"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <text
      id="RGD_SYSY-002_VG.perc.setpoint"
-     x="717.73907"
-     y="446.56201"
+     x="710.58771"
+     y="438.83453"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <path
      style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 766.82906,421.5955 66.18889,0 0,104.35612 213.65775,0"
+     d="m 759.76598,413.77128 66.18889,0 0,104.35612 213.65763,0"
      id="path4730"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
   <rect
-     x="365.70886"
-     y="391.85968"
+     x="358.64575"
+     y="384.03543"
      width="131.94853"
      height="67.634491"
      style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1;display:inline"
      id="bongerd_rwa-7-3-24-1-1-7" />
   <text
      id="Q8-1-7-86-8-6-7"
-     x="518.13232"
-     y="456.06641"
+     x="510.98096"
+     y="448.33893"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">
     <tspan
@@ -1140,8 +1106,8 @@
        id="tspan3120-4-5-4-5-7">Dam</tspan>
   </text>
   <rect
-     x="365.31039"
-     y="391.38806"
+     x="358.24728"
+     y="383.56381"
      width="131.94853"
      height="67.634491"
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
@@ -1149,42 +1115,42 @@
      inkscape:label="#industrieterrein" />
   <text
      id="SYSY-009_Pomp.aantal"
-     x="543.89478"
-     y="410.20697"
+     x="536.74341"
+     y="402.47949"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <text
      id="RGD_SYSY-010_VG.perc.afgeleid"
-     x="381.32986"
-     y="445.31769"
+     x="374.1785"
+     y="437.59021"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <text
      id="RGD_SYSY-010_VG.perc.setpoint"
-     x="446.56784"
-     y="445.31769"
+     x="439.41647"
+     y="437.59021"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <path
      style="fill:none;stroke:#000000;stroke-width:1.61215663;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-     d="m 498.65645,424.33564 133.05093,0"
+     d="m 491.59337,416.51142 133.05093,0"
      id="path4730-6"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <rect
-     x="632.88568"
-     y="515.32037"
+     x="625.82269"
+     y="507.49625"
      width="131.94853"
      height="67.634491"
      style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1;display:inline"
      id="bongerd_rwa-7-3-24-1-1-0" />
   <text
      id="Q8-1-7-86-8-6-1"
-     x="788.64874"
-     y="576.02887"
+     x="781.49738"
+     y="568.30145"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">
     <tspan
@@ -1192,8 +1158,8 @@
        id="tspan3120-4-5-4-5-2">Nieuwe Haven</tspan>
   </text>
   <rect
-     x="632.48724"
-     y="514.84875"
+     x="625.42426"
+     y="507.02457"
      width="131.94853"
      height="67.634491"
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
@@ -1201,36 +1167,36 @@
      inkscape:label="#industrieterrein" />
   <text
      id="SYSY-012_Pomp.aantal"
-     x="820.48633"
-     y="534.12054"
+     x="813.33496"
+     y="526.39307"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <text
      id="RGD_SYSY-007_VG.perc.afgeleid"
-     x="651.84698"
-     y="567.25549"
+     x="644.69562"
+     y="559.52808"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <text
      id="RGD_SYSY-007_VG.perc.setpoint"
-     x="717.08496"
-     y="567.25549"
+     x="709.93359"
+     y="559.52808"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <rect
-     x="365.06329"
-     y="514.06055"
+     x="358.00018"
+     y="506.23636"
      width="131.94853"
      height="67.634491"
      style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1;display:inline"
      id="bongerd_rwa-7-3-24-1-1-7-8" />
   <text
      id="Q8-1-7-86-8-6-7-9"
-     x="515.45367"
-     y="574.78455"
+     x="508.30231"
+     y="567.05713"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">
     <tspan
@@ -1238,8 +1204,8 @@
        id="tspan3120-4-5-4-5-7-8">Hoogt</tspan>
   </text>
   <rect
-     x="364.66486"
-     y="513.58893"
+     x="357.60175"
+     y="505.76474"
      width="131.94853"
      height="67.634491"
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
@@ -1247,214 +1213,260 @@
      inkscape:label="#industrieterrein" />
   <text
      id="SYSY-010_Pomp.aantal"
-     x="547.29102"
-     y="532.87622"
+     x="540.13965"
+     y="525.14874"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <text
      id="RGD_SYSY-006_VG.perc.afgeleid"
-     x="380.67664"
-     y="566.01117"
+     x="373.52527"
+     y="558.28375"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <text
      id="RGD_SYSY-006_VG.perc.setpoint"
-     x="445.91464"
-     y="566.01117"
+     x="438.76328"
+     y="558.28375"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <path
      style="fill:none;stroke:#000000;stroke-width:1.61215663;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-     d="m 498.01089,546.53654 133.05093,0"
+     d="m 490.94781,538.71232 133.05093,0"
      id="path4730-6-7"
      inkscape:connector-curvature="0" />
   <path
      style="fill:none;stroke:#000000;stroke-width:2.0429101;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 763.57918,546.32214 283.57872,0"
+     d="m 756.5161,538.49792 283.5786,0"
      id="path4915"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1.71187913;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 1178.1792,548.34141 225.945,0"
+     d="m 1171.116,540.51719 71.945,0"
      id="path4917"
-     inkscape:connector-curvature="0" />
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
   <text
      id="SYSY-005_Pomp.aantal"
-     x="1160.4551"
-     y="439.41699"
+     x="1153.3037"
+     y="431.68951"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
      inkscape:label="#Q2-1">--</text>
   <text
      id="Q2-7-7"
-     x="50.987923"
-     y="444.5806"
-     style="font-size:18.67040825000000100px;display:inline;font-family:Arial;fill:#c04a4a;fill-opacity:1"
+     x="43.104134"
+     y="437.57089"
+     style="font-size:18.67040825px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.89590009,1.1161959)">1.3</text>
   <rect
-     x="38.101955"
-     y="511.36005"
+     x="31.038874"
+     y="503.5358"
      width="35.039707"
      height="23.861725"
-     style="fill:#9dc2de;fill-opacity:1;stroke:#ff0703;stroke-width:0.33388770000000001;stroke-opacity:0.92549020000000004;display:inline"
+     style="fill:#9dc2de;fill-opacity:1;stroke:#ff0703;stroke-width:0.3338877;stroke-opacity:0.9254902;display:inline"
      id="molendijk-7-4-9" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1.95162046;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 39.705675,512.23068 0,22.12052 32.715158,-0.88482"
+     d="m 32.642587,504.40646 0,22.12052 32.715158,-0.88482"
      id="path4350"
      inkscape:connector-curvature="0" />
   <text
      id="Q2-7-4"
-     x="49.500534"
-     y="474.2211"
+     x="41.616745"
+     y="467.21152"
      style="font-size:18.67040825px;display:inline;font-family:Arial"
      transform="scale(0.89590009,1.1161959)">1.3</text>
   <rect
-     x="38.37878"
-     y="547.11694"
+     x="31.315699"
+     y="539.29303"
      width="35.039707"
      height="23.861725"
      style="fill:#9dc2de;fill-opacity:1;stroke:#ff0703;stroke-width:0.3338877;stroke-opacity:0.9254902;display:inline"
      id="molendijk-7-4-9-8" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1.95162046;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-     d="m 39.982497,547.98759 0,22.12051 32.715155,-0.88482"
+     d="m 32.919409,540.16337 0,22.12051 32.715155,-0.88482"
      id="path4350-2"
      inkscape:connector-curvature="0" />
   <text
      id="Q2-7-7-1"
-     x="49.500534"
-     y="506.65118"
+     x="41.616745"
+     y="499.64169"
      style="font-size:18.67040825px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.89590009,1.1161959)">1.3</text>
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 563.59962,253.29531 -0.20358,0"
+     d="m 556.53654,245.47109 -0.20358,0"
      id="path23981-7"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 589.59962,253.29531 -0.20358,0"
+     d="m 582.53654,245.47109 -0.20358,0"
      id="path23981-9"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 741.24563,251.80353 -0.20358,0"
+     d="m 734.18255,243.97931 -0.20358,0"
      id="path23981-0"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 921.35435,251.80353 -0.20358,0"
+     d="m 914.29127,243.97931 -0.20358,0"
      id="path23981-2"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 947.35435,251.80353 -0.20358,0"
+     d="m 940.29127,243.97931 -0.20358,0"
      id="path23981-4"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 1106.3361,438.33624 -0.2036,0"
+     d="m 1099.2729,430.51202 -0.2036,0"
      id="path23981-04"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 1132.3361,438.33624 -0.2036,0"
+     d="m 1125.2729,430.51202 -0.2036,0"
      id="path23981-96"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 921.19127,459.72382 -0.20358,0"
+     d="m 914.12819,451.8996 -0.20358,0"
      id="path23981-79"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 947.19127,459.72382 -0.20358,0"
+     d="m 940.12819,451.8996 -0.20358,0"
      id="path23981-5"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 791.5072,409.6599 -0.20358,0"
+     d="m 784.44412,401.83568 -0.20358,0"
      id="path23981-99"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 791.5072,435.6599 -0.20358,0"
+     d="m 784.44412,427.83568 -0.20358,0"
      id="path23981-21"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 519.1369,411.86711 -0.20358,0"
+     d="m 512.07382,404.04289 -0.20358,0"
      id="path23981-06"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 520.92936,533.60754 -0.20358,0"
+     d="m 513.86628,525.78332 -0.20358,0"
      id="path23981-90"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 520.92936,559.60754 -0.20358,0"
+     d="m 513.86628,551.78332 -0.20358,0"
      id="path23981-6"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 790.651,534.04899 -0.20358,0"
+     d="m 783.58792,526.22477 -0.20358,0"
      id="path23981-3"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 790.651,560.04899 -0.20358,0"
+     d="m 783.58792,552.22477 -0.20358,0"
      id="path23981-38"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 1203.6337,535.48993 -0.2036,0"
+     d="m 1196.5705,527.66571 -0.2036,0"
      id="path23981-51"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 1203.6337,561.48993 -0.2036,0"
+     d="m 1196.5705,553.66571 -0.2036,0"
      id="path23981-964"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 1120.1746,250.46174 -0.2035,0"
+     d="m 1113.1114,242.63752 -0.2035,0"
      id="path23981-17"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 381.3056,252.04672 -0.20358,0"
+     d="m 374.24252,244.2225 -0.20358,0"
      id="path23981-1"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 519.1369,437.86711 -0.20358,0"
+     d="m 512.07382,430.04289 -0.20358,0"
      id="path23981-960"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
+  <a
+     style="display:inline"
+     href="/overzicht"
+     id="a12552-7"
+     transform="translate(201.93688,-849.82421)">
+    <text
+       id="Q8-1-9-4-1"
+       x="965.88611"
+       y="887.0849"
+       style="font-size:20.0397644px;font-family:Arial"
+       transform="scale(0.98765023,1.0125042)">
+      <tspan
+         style="font-size:12px"
+         id="tspan3120-48-8-1">Terug naar</tspan>
+    </text>
+  </a>
+  <rect
+     x="854.9588"
+     y="151.76913"
+     width="131.94853"
+     height="67.634491"
+     style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
+     id="SYSY-007_P1_H.meting"
+     inkscape:label="#industrieterrein" />
+  <text
+     id="SYSY-013_P1_Pomp.aantal"
+     x="969.17352"
+     y="246.27104"
+     style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
+     transform="scale(0.98765023,1.0125042)"
+     inkscape:label="#Q2-1">--</text>
+  <text
+     id="RGD_SYSY-041E1_VG.perc.afgeleid"
+     x="877.10107"
+     y="208.65813"
+     style="font-size:20.0397644px;display:inline;font-family:Arial"
+     transform="scale(0.98765023,1.0125042)"
+     inkscape:label="#Q2-1">--</text>
+  <text
+     id="RGD_SYSY-041E1_VG.perc.setpoint"
+     x="937.86945"
+     y="207.78615"
+     style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
+     transform="scale(0.98765023,1.0125042)"
+     inkscape:label="#Q2-1">--</text>
 </svg>
