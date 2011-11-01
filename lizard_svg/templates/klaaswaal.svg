@@ -1834,31 +1834,31 @@
    x="449.96146"
    y="153.33765"
    style="font-size:20.0397644px;font-family:Arial"
-   transform="scale(0.98765023,1.0125042)">%LASTVALUE(NF1)%</text>
+   transform="scale(0.98765023,1.0125042)">-</text>
 <text
    id="Q6"
    x="587.82794"
    y="323.05783"
    style="font-size:20.0397644px;font-family:Arial"
-   transform="scale(0.98765023,1.0125042)">%LASTVALUE(NF1)%</text>
+   transform="scale(0.98765023,1.0125042)">-</text>
 <text
    id="Q4"
    x="455.29651"
    y="264.05722"
    style="font-size:20.0397644px;font-family:Arial"
-   transform="scale(0.98765023,1.0125042)">%LASTVALUE(NF1)%</text>
+   transform="scale(0.98765023,1.0125042)">-</text>
 <text
    id="Q8"
    x="518.30908"
    y="367.13263"
    style="font-size:20.0397644px;font-family:Arial"
-   transform="scale(0.98765024,1.0125042)">%LASTVALUE(NF1)%</text>
+   transform="scale(0.98765024,1.0125042)">-</text>
 <text
    id="Q10"
    x="786.96295"
    y="232.54924"
    style="font-size:20.0397644px;font-family:Arial"
-   transform="scale(0.98765023,1.0125042)">%LASTVALUE(NF1)%</text>
+   transform="scale(0.98765023,1.0125042)">-</text>
 <text
    xml:space="preserve"
    style="font-size:12.87906933px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
@@ -2134,7 +2134,7 @@
    x="560.99652"
    y="477.67365"
    style="font-size:20.0397644px;font-family:Arial"
-   transform="scale(0.98765023,1.0125042)">%LASTVALUE(NF1)%</text>
+   transform="scale(0.98765023,1.0125042)">-</text>
 <a xlink:href="/overzicht"><path
    style="fill:#dcf3f3;fill-opacity:1;stroke:#000000;stroke-width:1.50177073;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
    d="m 947.21145,450.99048 -41.10921,0 0,18.43346 -29.36374,-24.57797 29.36374,-24.57796 0,18.43348 58.72746,0 0,12.28899 -17.61825,0"
@@ -2154,7 +2154,7 @@
    x="567.25397"
    y="296.06992"
    style="font-size:20.0397644px;font-family:Arial"
-   transform="scale(0.98765023,1.0125042)">%LASTVALUE(NF1)%</text>
+   transform="scale(0.98765023,1.0125042)">-</text>
 <line
    id="line69-1"
    style="stroke:#000000;stroke-width:1.1559577;stroke-opacity:1"
@@ -2283,28 +2283,28 @@
    y="153.29614"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="CRKW-003_Pomp.aantal"
    x="510.93674"
    y="264.03793"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="CRKW-001_Pomp.aantal"
    x="842.58313"
    y="231.77457"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="CRKW-002_Pomp.aantal"
    x="645.91949"
    y="321.58878"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="txtNeerslag"
    x="817.55322"
@@ -2318,68 +2318,68 @@
    y="186.4315"
    style="font-size:20.0397644px;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_CRKW-001_VG.perc.afgeleid"
    x="299.9888"
    y="298.91724"
    style="font-size:20.0397644px;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_CRKW-004_VG.perc.afgeleid"
    x="502.01572"
    y="442.79434"
    style="font-size:20.0397644px;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_CRKW-002_VG.perc.afgeleid"
    x="700.46704"
    y="354.72409"
    style="font-size:20.0397644px;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_CRKW-008_VG.perc.afgeleid"
    x="908.93408"
    y="264.03793"
    style="font-size:20.0397644px;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_CRKW-003_VG.perc.setpoint"
    x="369.69644"
    y="186.43149"
    style="font-size:20.03976439999999900px;font-family:Arial;fill:#c04a4a;fill-opacity:1"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)% </text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_CRKW-001_VG.perc.setpoint"
    x="370.59036"
    y="298.91724"
    style="font-size:20.03976439999999900px;font-family:Arial;fill:#c04a4a;fill-opacity:1"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_CRKW-004_VG.perc.setpoint"
    x="580.6629"
    y="441.92236"
    style="font-size:20.03976439999999900px;font-family:Arial;fill:#c04a4a;fill-opacity:1"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_CRKW-002_VG.perc.setpoint"
    x="782.69012"
    y="353.85214"
    style="font-size:20.03976439999999900px;font-family:Arial;fill:#c04a4a;fill-opacity:1"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_CRKW-008_VG.perc.setpoint"
    x="976.67194"
    y="264.03793"
    style="font-size:20.03976439999999900px;font-family:Arial;fill:#c04a4a;fill-opacity:1"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 </svg>

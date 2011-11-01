@@ -16,8 +16,8 @@
    viewBox="0 0 1236.3739 962.52667"
    preserveAspectRatio="xMidYMid meet"
    id="svg2830"
-   inkscape:version="0.48.1 "
-   sodipodi:docname="Strijen.svg"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="strijen.svg"
    style="display:inline"><metadata
    id="metadata75">
   <rdf:RDF>
@@ -39,16 +39,16 @@
    guidetolerance="10"
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
-   inkscape:window-width="1680"
-   inkscape:window-height="1001"
+   inkscape:window-width="1360"
+   inkscape:window-height="743"
    id="namedview73"
    showgrid="true"
    inkscape:snap-global="false"
-   inkscape:zoom="0.80090393"
-   inkscape:cx="624.72157"
-   inkscape:cy="526.6324"
-   inkscape:window-x="-4"
-   inkscape:window-y="-4"
+   inkscape:zoom="3.2036157"
+   inkscape:cx="97.094247"
+   inkscape:cy="676.75222"
+   inkscape:window-x="1920"
+   inkscape:window-y="312"
    inkscape:window-maximized="1"
    inkscape:current-layer="svg2830"
    fit-margin-top="30"
@@ -2149,7 +2149,7 @@
    style="font-size:20px;font-family:Arial">Meting %LASTVALUETIME(DF1)% van %LASTVALUETIME(DF2)%</text>
 <text
    id="4ATS"
-   x="92.810585"
+   x="87.284805"
    y="207.09756"
    style="font-size:18.28053665px;font-family:Arial"
    transform="scale(0.93581559,1.0685866)">Pomp</text>
@@ -2250,14 +2250,16 @@
 
 
 
+
   pompLegenda<path
    style="fill:#ed2f04;fill-opacity:1;stroke:#ff0703;stroke-width:2.22754288;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.92441861;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
-   d="m 73.510281,282.19387 -17.703626,0"
+   d="m 73.510281,282.19387 -25.703626,0"
    id="path7045-7-2-14"
-   inkscape:connector-curvature="0" />
+   inkscape:connector-curvature="0"
+   sodipodi:nodetypes="cc" />
 <text
    id="4ATS-1"
-   x="89.147636"
+   x="84.492355"
    y="243.95934"
    style="font-size:18.28053665px;font-family:Arial"
    transform="scale(0.9733784,1.0273497)">Overstortlocatie</text>
@@ -2280,18 +2282,18 @@
    y="915.0481" />    </text>
 <path
    style="fill:none;stroke:#000000;stroke-width:3.61098027;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-   d="m 42.256526,318.53041 29.506037,0"
+   d="m 43.312525,318.53041 29.506037,0"
    id="path3772-1"
    inkscape:connector-curvature="0" />
 <text
    id="4ATS-1-0"
-   x="88.611511"
+   x="84.438797"
    y="314.62201"
    style="font-size:18.28053665px;font-family:Arial"
    transform="scale(0.9733784,1.0273497)">Geen afvoer</text>
 <text
    id="4ATS-1-4"
-   x="90.841949"
+   x="85.322479"
    y="343.27753"
    style="font-size:18.28053665px;font-family:Arial"
    transform="scale(0.9733784,1.0273497)">Afvoer</text>
@@ -2304,7 +2306,7 @@
    id="bongerd_rwa-7-3" />
 <path
    style="fill:none;stroke:#16f90c;stroke-width:3.61098027;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-   d="m 41.642154,347.61646 29.506037,0"
+   d="m 43.312525,347.61646 29.506037,0"
    id="path3772-1-1"
    inkscape:connector-curvature="0" />
 <text
@@ -2316,36 +2318,36 @@
 <text
    xml:space="preserve"
    style="font-size:8.66635227px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-   x="180.33867"
+   x="86.229439"
    y="380.20758"
    id="text4010"
    sodipodi:linespacing="125%"
    transform="scale(0.96354338,1.037836)"><tspan
    sodipodi:role="line"
    id="tspan4012"
-   x="180.33867"
+   x="86.229439"
    y="380.20758">  </tspan>   </text>
 <text
    id="4ATS-1-4-0"
-   x="88.226318"
+   x="84.438797"
    y="372.11432"
    style="font-size:18.28053665px;font-family:Arial"
    transform="scale(0.9733784,1.0273497)">Gemeten afvoer</text>
 <text
    id="4ATS-1-4-0-9"
-   x="226.85878"
+   x="84.135315"
    y="372.52557"
    style="font-size:18.28053665px;font-family:Arial"
    transform="scale(0.9733784,1.0273497)">in m3/h</text>
 <rect
-   x="38.127201"
+   x="37.755562"
    y="396.65973"
    width="35.134747"
    height="20.172604"
    style="fill:none;stroke:#000000;stroke-width:0.28707814;stroke-opacity:1"
    id="rijksstraatweg-1" />
 <rect
-   x="38.130917"
+   x="37.728825"
    y="410.45416"
    width="35.188221"
    height="7.324142"
@@ -2353,29 +2355,30 @@
    id="molendijk-7" />
 <text
    id="4ATS-1-4-0-4"
-   x="87.720215"
+   x="85.277847"
    y="402.01974"
    style="font-size:18.28053665px;font-family:Arial"
    transform="scale(0.9733784,1.0273497)">Water niveau</text>
 <text
    id="4ATS-1-4-0-9-0"
-   x="88.545509"
+   x="84.135315"
    y="424.35922"
    style="font-size:18.28053665px;font-family:Arial"
    transform="scale(0.9733784,1.0273497)">in pompput</text>
 <path
    style="fill:#ed2f04;fill-opacity:1;stroke:#0c0703;stroke-width:2.22754288;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.9254902;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
-   d="m 71.045843,245.8761 -17.70363,0"
+   d="m 73.510281,245.8761 -25.70363,0"
    id="path7045-7-2-14-0"
-   inkscape:connector-curvature="0" />
+   inkscape:connector-curvature="0"
+   sodipodi:nodetypes="cc" />
 <text
    id="4ATS-1-9"
-   x="88.997627"
+   x="84.492355"
    y="278.6922"
    style="font-size:18.28053665px;font-family:Arial"
    transform="scale(0.9733784,1.0273497)">Overstort afvoer</text>
 <rect
-   x="37.37077"
+   x="37.772858"
    y="447.50128"
    width="35.100155"
    height="15.9762"
@@ -2383,7 +2386,7 @@
    id="molendijk-7-4" />
 <text
    id="4ATS-1-4-0-9-0-8"
-   x="84.780838"
+   x="84.144241"
    y="449.80594"
    style="font-size:18.28053665px;font-family:Arial"
    transform="scale(0.9733784,1.0273497)">maximale berging</text>
@@ -2434,21 +2437,29 @@
      style="font-size:12px"
      id="tspan3120-48-7-0">RG Strijen</tspan>
 </text>
-<a xlink:href="/overzicht"><path
-   style="fill:#dcf3f3;fill-opacity:1;stroke:#000000;stroke-width:1.50177073;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-   d="m 989.24582,885.84687 -41.1092,0 0,18.43346 -29.3638,-24.57797 29.3638,-24.57796 0,18.43348 58.72738,0 0,12.28899 -17.61818,0"
-   id="terug"
-   inkscape:connector-curvature="0" /></a>
-<a xlink:href="/overzicht"><text
-   id="Q8-1-9-4"
-   x="965.88611"
-   y="887.0849"
-   style="font-size:20.0397644px;font-family:Arial"
-   transform="scale(0.98765023,1.0125042)">
-  <tspan
-     style="font-size:12px"
-     id="tspan3120-48-8">Terug naar overzicht</tspan>
-</text></a>
+<a
+   href="/overzicht"
+   id="a12549">
+  <path
+     style="fill:#dcf3f3;fill-opacity:1;stroke:#000000;stroke-width:1.50177073;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 989.24582,885.84687 -41.1092,0 0,18.43346 -29.3638,-24.57797 29.3638,-24.57796 0,18.43348 58.72738,0 0,12.28899 -17.61818,0"
+     id="terug"
+     inkscape:connector-curvature="0" />
+</a>
+<a
+   href="/overzicht"
+   id="a12552">
+  <text
+     id="Q8-1-9-4"
+     x="965.88611"
+     y="887.0849"
+     style="font-size:20.0397644px;font-family:Arial"
+     transform="scale(0.98765023,1.0125042)">
+    <tspan
+       style="font-size:12px"
+       id="tspan3120-48-8">Terug naar overzicht</tspan>
+  </text>
+</a>
 <line
    id="line69-1"
    style="stroke:#000000;stroke-width:1.1559577;stroke-opacity:1"
@@ -2561,21 +2572,21 @@
      y="235.72701"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+     inkscape:label="#Q2-1">--</text>
   <text
      id="RGD_SYSY-041E1_VG.perc.afgeleid"
      x="848.24493"
      y="198.11412"
      style="font-size:20.0397644px;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+     inkscape:label="#Q2-1">--</text>
   <text
      id="RGD_SYSY-041E1_VG.perc.setpoint"
      x="909.01331"
      y="197.24214"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;font-family:Arial"
      transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+     inkscape:label="#Q2-1">--</text>
 </g>
 <line
    x1="698.89484"
@@ -2651,21 +2662,21 @@
    y="253.69446"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_SYSY-041E2_VG.perc.afgeleid"
    x="647.0495"
    y="216.0817"
    style="font-size:20.0397644px;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_SYSY-041E2_VG.perc.setpoint"
    x="712.28748"
    y="216.0817"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <line
    id="line69-7"
    style="stroke:#000000;stroke-width:1.1559577;stroke-opacity:1;display:inline"
@@ -2776,21 +2787,21 @@
    y="370.9975"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_SYSY-041S1_VG.perc.afgeleid"
    x="533.26654"
    y="333.38477"
    style="font-size:20.0397644px;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_SYSY-041S1_VG.perc.setpoint"
    x="602.97412"
    y="333.38477"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <line
    x1="394.25906"
    y1="347.50433"
@@ -2865,21 +2876,21 @@
    y="372.66885"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_SYSY-041S2_VG.perc.afgeleid"
    x="338.58914"
    y="333.08081"
    style="font-size:20.0397644px;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_SYSY-041S2_VG.perc.setpoint"
    x="403.82712"
    y="333.08081"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <line
    x1="1019.8518"
    y1="396.29883"
@@ -2954,7 +2965,7 @@
    y="416.96384"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_CRKW-003_VG.perc.afgeleid-5-3-5"
    x="971.9494"
@@ -3079,14 +3090,14 @@
    y="557.66962"
    style="font-size:20.0397644px;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_SYSY-004_VG.perc.setpoint"
    x="828.59412"
    y="557.66962"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <path
    style="fill:none;stroke:#000000;stroke-width:2.28179073;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
    d="m 585.53468,380.09908 0,135.135 157.04044,0"
@@ -3143,14 +3154,14 @@
    y="789.97784"
    style="font-size:20.0397644px;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_SYSY-001_VG.perc.setpoint"
    x="833.65094"
    y="789.97784"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <line
    id="line69-2-6-5"
    style="stroke:#000000;stroke-width:1.1559577;stroke-opacity:1;display:inline"
@@ -3261,21 +3272,21 @@
    y="652.2486"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_SYSY-003_VG.perc.afgeleid"
    x="566.14069"
    y="620.56128"
    style="font-size:20.0397644px;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_SYSY-003_VG.perc.setpoint"
    x="631.37866"
    y="620.56128"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <path
    style="fill:none;stroke:#000000;stroke-width:2.5381012;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
    d="m 812.76414,574.90861 0,164.47276"
@@ -3389,21 +3400,21 @@
    y="761.06268"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_SYSY-002_VG.perc.afgeleid"
    x="424.55008"
    y="798.14868"
    style="font-size:20.0397644px;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_SYSY-002_VG.perc.setpoint"
    x="489.78806"
    y="798.14868"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <path
    style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
    d="m 541.69316,777.57872 204.76863,0"
@@ -3512,21 +3523,21 @@
    y="761.79364"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_SYSY-010_VG.perc.afgeleid"
    x="153.37883"
    y="796.90436"
    style="font-size:20.0397644px;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_SYSY-010_VG.perc.setpoint"
    x="218.61679"
    y="796.90436"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <path
    style="fill:none;stroke:#000000;stroke-width:1.61215663;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
    d="m 273.52055,780.31886 133.05093,0"
@@ -3635,21 +3646,21 @@
    y="897.57336"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_SYSY-007_VG.perc.afgeleid"
    x="548.57166"
    y="930.7088"
    style="font-size:20.0397644px;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_SYSY-007_VG.perc.setpoint"
    x="613.80963"
    y="930.7088"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <line
    id="line69-2-6-7-7-0"
    style="stroke:#000000;stroke-width:1.1559577;stroke-opacity:1;display:inline"
@@ -3753,21 +3764,21 @@
    y="896.32904"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_SYSY-006_VG.perc.afgeleid"
    x="277.40115"
    y="929.46448"
    style="font-size:20.0397644px;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="RGD_SYSY-006_VG.perc.setpoint"
    x="342.63916"
    y="929.46448"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <path
    style="fill:none;stroke:#000000;stroke-width:1.61215663;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
    d="m 396.01089,914.53654 133.05093,0"
@@ -3789,7 +3800,7 @@
    y="597.44092"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">%LASTVALUE(NF2)%</text>
+   inkscape:label="#Q2-1">--</text>
 <text
    id="Q2-7-7"
    x="50.987923"
@@ -3822,7 +3833,7 @@
    transform="scale(0.89590009,1.1161959)">1.3</text>
 <text
    id="4ATS-1-4-0-40-8"
-   x="85.100922"
+   x="83.858604"
    y="514.62775"
    style="font-size:18.28053665px;display:inline;font-family:Arial"
    transform="scale(0.9733784,1.0273497)">Berekende vulling (%)</text>
@@ -3840,7 +3851,7 @@
    inkscape:connector-curvature="0" />
 <text
    id="4ATS-1-4-0-40-8-5"
-   x="85.385307"
+   x="84.590538"
    y="549.43274"
    style="font-size:18.28053665px;display:inline;font-family:Arial"
    transform="scale(0.9733784,1.0273497)">gewenste vulling (%)</text>

@@ -1050,35 +1050,35 @@
      style="font-size:14.37125874px;font-family:Arial"
      y="269.186"
      x="395.9946"
-     id="rgklaaswaal"> </text>
+     id="rgklaaswaal">-</text>
   <text
      inkscape:label="#rgnumansdorpnoord"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="358.31137"
      x="409.4343"
-     id="rgnumansdorpnoord"> </text>
+     id="rgnumansdorpnoord">-</text>
   <text
      inkscape:label="#rgnumansdorp"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="388.54425"
      x="409.4343"
-     id="rgnumansdorp"> </text>
+     id="rgnumansdorp">-</text>
   <text
      inkscape:label="#rgzuidbeijerland"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="320.74921"
      x="266.76694"
-     id="rgzuidbeijerland"> </text>
+     id="rgzuidbeijerland">-</text>
   <text
      inkscape:label="#rgnieuwendijk"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="293.26474"
      x="187.16254"
-     id="rgnieuwendijk"> </text>
+     id="rgnieuwendijk">-</text>
   <path
      id="leidingNumansdorp"
      d="m 355.22662,409.52201 10.35134,-0.22389"
@@ -1095,56 +1095,56 @@
      style="font-size:14.37125874px;font-family:Arial"
      y="207.87463"
      x="159.72523"
-     id="rgpiershil"> </text>
+     id="rgpiershil">-</text>
   <text
      inkscape:label="#rgnieuwbeijerland"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="153.45807"
      x="235.02054"
-     id="rgnieuwbeijerland"> </text>
+     id="rgnieuwbeijerland">-</text>
   <text
      inkscape:label="#rgirenestraat"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="137.26265"
      x="354.90836"
-     id="rgirenestraat"> </text>
+     id="rgirenestraat">-</text>
   <text
      inkscape:label="#rgdegorzen"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="116.53252"
      x="329.32257"
-     id="rgdegorzen"> </text>
+     id="rgdegorzen">-</text>
   <text
      inkscape:label="#rgheienoord"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="89.972038"
      x="471.50635"
-     id="rgheienoord"> </text>
+     id="rgheienoord">-</text>
   <text
      inkscape:label="#rgnieuweweg"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="131.4323"
      x="476.6235"
-     id="rgnieuweweg"> </text>
+     id="rgnieuweweg">-</text>
   <text
      inkscape:label="#rgMijnsheerenland"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="194.59441"
      x="500.38171"
-     id="rgMijnsheerenland"> </text>
+     id="rgMijnsheerenland">-</text>
   <text
      inkscape:label="#rgwestmaas"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="213.38109"
      x="463.83069"
-     id="rgwestmaas"> </text>
+     id="rgwestmaas">-</text>
   <path
      id="leidingWestmaasMijnsheerenland"
      d="m 442.12551,192.44069 9.63429,-40.25754 -6.53755,-12.04286"
@@ -1156,28 +1156,28 @@
      style="font-size:14.37125874px;font-family:Arial"
      y="139.53001"
      x="531.08466"
-     id="rgblaaksedijk"> </text>
+     id="rgblaaksedijk">-</text>
   <text
      inkscape:label="#rgmijlpolder"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="214.35281"
      x="736.50195"
-     id="rgmijlpolder"> </text>
+     id="rgmijlpolder">-</text>
   <text
      inkscape:label="#rgsimonsdijkje"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="174.18819"
      x="678.02014"
-     id="rgsimonsdijkje"> </text>
+     id="rgsimonsdijkje">-</text>
   <text
      inkscape:label="#rgnassaulaan"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="160.58406"
      x="627.57959"
-     id="rgnassaulaan"> </text>
+     id="rgnassaulaan">-</text>
   <line
      x1="600.78436"
      y1="235.24745"
@@ -1210,7 +1210,7 @@
      style="font-size:14.37125874px;font-family:Arial"
      y="220.83098"
      x="643.29657"
-     id="rghoeksedijk"> </text>
+     id="rghoeksedijk">-</text>
   <path
      id="leidingHoeksedijk"
      d="m 591.32807,222.24697 -6.96809,-8.68851"
@@ -1222,21 +1222,21 @@
      style="font-size:14.37125874px;font-family:Arial"
      y="415.82376"
      x="673.63397"
-     id="rgstrijensas"> </text>
+     id="rgstrijensas">-</text>
   <text
      inkscape:label="#rgschenkel"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="382.46121"
      x="726.63318"
-     id="rgschenkel"> </text>
+     id="rgschenkel">-</text>
   <text
      inkscape:label="#rgzweedsestraat"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="320.59473"
      x="687.88898"
-     id="rgzweedsestraat"> </text>
+     id="rgzweedsestraat">-</text>
   <line
      x1="667.19214"
      y1="363.58987"
@@ -1274,14 +1274,14 @@
      style="font-size:14.37125874px;font-family:Arial"
      y="341.32486"
      x="714.20575"
-     id="rgmookhoek"> </text>
+     id="rgmookhoek">-</text>
   <text
      inkscape:label="#rgboezemkade"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="236.37857"
      x="599.06976"
-     id="rgboezemkade"> </text>
+     id="rgboezemkade">-</text>
   <rect
      id="rect19-8"
      style="fill:#f3faf3;fill-opacity:0.51764706;stroke:#000000;stroke-width:2.02008343;stroke-opacity:1"
