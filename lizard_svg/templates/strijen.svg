@@ -636,8 +636,7 @@
      x="286.46429"
      y="101.68407"
      style="font-size:20.0397644px;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q12-1">Neerslag: %LASTVALUE(NF1)% mm/5min</text>
+     transform="scale(0.98765023,1.0125042)">Neerslag: %LASTVALUE(NF1)% mm/5min</text>
   <rect
      x="884.45422"
      y="331.63596"
@@ -655,63 +654,65 @@
        style="font-size:12px"
        id="tspan3120-4-5">Handelstraat</tspan>
   </text>
+  <text
+     id="SYSY-RG-01_Q.setpoint"
+     x="287.19818"
+     y="127.36298"
+     style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
+     transform="scale(0.98765023,1.0125042)">Setpoint: %LASTVALUE(NF3)% m3/h</text>
   <rect
      x="884.05579"
      y="331.16434"
      width="131.94853"
      height="67.634491"
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-     id="SYSY-005_N_H.meting"
-     inkscape:label="#industrieterrein" />
+     id="SYSY-005_N_H.meting"/>
   <text
-     id="SYSY-RG-01_Q.setpoint"
-     x="287.19818"
-     y="127.36298"
+     id="SYSY-005_Pomp.inzet"
+     x="993.83325"
+     y="425.60938"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">Setpoint: %LASTVALUE(NF3)% m3/h</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-004_VG.perc.afgeleid"
+     id="RGD_SYSY-005_VG.perc.afgeleid"
      x="906.56085"
      y="385.83807"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-004_VG.perc.setpoint"
+     id="RGD_SYSY-005_VG.perc.setpoint"
      x="971.79919"
      y="385.83807"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <path
-     style="fill:none;stroke:#000000;stroke-width:2.28179073;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 505.96254,214.82063 0,85.135 403.04036,0 0,30.57045"
-     id="path3640"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 505.96254,214.82063 0,85.135 403.04036,0 0,30.57045" 
+     id="SYSY-007_flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:2.23942614;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 351.06928,249.61361 0,67.78344 542.11682,0 0,13.03909"
-     id="path3642"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 351,200 0,26 m 0,24 0,68 542,0 0,13"
+     id="SYSY-004_flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:2.14966679;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 653.71111,250.41248 0,31.91421 273.27399,0 0,46.62012"
-     id="path3644"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 654,200 0,26 m 0,24 0,31.91421 273.27399,0 0,46.62012"
+     id="SYSY-006_flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:2.13914776;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      d="m 808.58838,213.71394 0,55.50836 138.20672,0 0,61.01648"
-     id="path3646"
+     id="SYSY-013_flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:2.4621079;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 957.2353,251.91555 0,78.40863"
-     id="path3648"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 957,200 0,26 m 0,24 0,82"
+     id="SYSY-003_flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <rect
@@ -737,32 +738,29 @@
      width="131.94853"
      height="67.634491"
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-     id="SYSY-RG-01_pompkelder_H.meting"
-     inkscape:label="#industrieterrein" />
+     id="SYSY-RG01_pompkelder_H.meting"/>
   <text
-     id="RGD_SYSY-001_VG.perc.afgeleid"
+     id="RGD_SYSY-RG01_VG.perc.afgeleid"
      x="843.66077"
      y="558.88733"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-001_VG.perc.setpoint"
+     id="RGD_SYSY-RG01_VG.perc.setpoint"
      x="908.89856"
      y="558.88733"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <path
      style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      d="m 632.26598,407.61503 66.18889,0 0,104.35612 123.65763,0"
-     id="path4730"
+     id="SYSY-001_flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:2.0429101;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      d="m 629.0161,532.34167 193.5786,0"
-     id="path4915"
+     id="SYSY-012_flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <rect
@@ -788,39 +786,35 @@
      width="131.94853"
      height="67.634491"
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-     id="SYSY-002_N_H.meting"
-     inkscape:label="#industrieterrein" />
+     id="SYSY-002_N_H.meting"/>
   <text
-     id="SYSY-002_Pomp.aantal"
+     id="SYSY-002_Pomp.inzet"
      x="843.70819"
      y="444.86249"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-003_VG.perc.afgeleid"
+     id="RGD_SYSY-002_VG.perc.afgeleid"
      x="749.61072"
      y="413.17468"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-003_VG.perc.setpoint"
+     id="RGD_SYSY-002_VG.perc.setpoint"
      x="814.84869"
      y="413.17468"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <path
-     style="fill:none;stroke:#000000;stroke-width:2.5381012;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      d="m 954.2009,398.92814 0,66.54547 -42,0 0,39.92729"
-     id="path4658"
+     id="SYSY-005_flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      d="m 807.25006,426.1182 0,52.47461 53.81934,0 0,26.98307"
-     id="path4662"
+     id="SYSY-002_flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
   <rect
@@ -846,29 +840,25 @@
      width="131.94853"
      height="67.634491"
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-     id="SYSY-001_N_H.meting"
-     inkscape:label="#industrieterrein" />
+     id="SYSY-001_N_H.meting"/>
   <text
-     id="SYSY-001_Pomp.aantal"
+     id="SYSY-001_Pomp.inzet"
      x="680.84406"
      y="395.6684"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-002_VG.perc.afgeleid"
+     id="RGD_SYSY-001_VG.perc.afgeleid"
      x="518.27979"
      y="432.75439"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-002_VG.perc.setpoint"
+     id="RGD_SYSY-001_VG.perc.setpoint"
      x="583.51776"
      y="432.75439"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <rect
      x="285.14575"
      y="377.87918"
@@ -892,33 +882,29 @@
      width="131.94853"
      height="67.634491"
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-     id="SYSY-009_N_H.meting"
-     inkscape:label="#industrieterrein" />
+     id="SYSY-009_N_H.meting"/>
   <text
-     id="SYSY-009_Pomp.aantal"
+     id="SYSY-009_Pomp.inzet"
      x="462.32431"
      y="396.39935"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-010_VG.perc.afgeleid"
+     id="RGD_SYSY-009_VG.perc.afgeleid"
      x="299.75977"
      y="431.51007"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-010_VG.perc.setpoint"
+     id="RGD_SYSY-009_VG.perc.setpoint"
      x="364.99774"
      y="431.51007"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <path
-     style="fill:none;stroke:#000000;stroke-width:1.61215663;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
      d="m 418.09337,410.35517 83.05093,0"
-     id="path4730-6"
+     id="SYSY-009_flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <rect
@@ -944,29 +930,25 @@
      width="131.94853"
      height="67.634491"
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-     id="SYSY-012_N_H.meting"
-     inkscape:label="#industrieterrein" />
+     id="SYSY-012_N_H.meting"/>
   <text
-     id="SYSY-012_Pomp.aantal"
+     id="SYSY-012_Pomp.inzet"
      x="686.26501"
      y="520.31281"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-007_VG.perc.afgeleid"
+     id="RGD_SYSY-012_VG.perc.afgeleid"
      x="517.62567"
      y="553.44769"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-007_VG.perc.setpoint"
+     id="RGD_SYSY-012_VG.perc.setpoint"
      x="582.86365"
      y="553.44769"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <rect
      x="284.50018"
      y="500.08008"
@@ -990,48 +972,37 @@
      width="131.94853"
      height="67.634491"
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-     id="SYSY-010_N_H.meting"
-     inkscape:label="#industrieterrein" />
+     id="SYSY-010_N_H.meting"/>
   <text
-     id="SYSY-010_Pomp.aantal"
+     id="SYSY-010_Pomp.inzet"
      x="465.72052"
      y="519.06848"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-006_VG.perc.afgeleid"
+     id="RGD_SYSY-010_VG.perc.afgeleid"
      x="299.10654"
      y="552.20337"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-006_VG.perc.setpoint"
+     id="RGD_SYSY-010_VG.perc.setpoint"
      x="364.34454"
      y="552.20337"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <path
-     style="fill:none;stroke:#000000;stroke-width:1.61215663;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
      d="m 417.44781,532.55607 83.05093,0"
-     id="path4730-6-7"
+     id="SYSY-010_flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:1.71187913;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      d="m 951.616,534.36094 71.945,0"
-     id="path4917"
+     id="SYSY-RG01_flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
-  <text
-     id="SYSY-005_Pomp.aantal"
-     x="993.83325"
-     y="425.60938"
-     style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
   <text
      id="Q2-7-7"
      x="23.570705"
@@ -1097,29 +1068,25 @@
      width="131.94853"
      height="67.634491"
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-     id="SYSY-013_P1_H.meting"
-     inkscape:label="#industrieterrein" />
+     id="SYSY-007_N_H.meting"/>
   <text
-     id="SYSY-007_P1_Pomp.aantal"
+     id="SYSY-007_Pomp.inzet"
      x="545.14691"
      y="240.00589"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-041S1_VG.perc.afgeleid"
+     id="RGD_SYSY-007_VG.perc.afgeleid"
      x="449.02441"
      y="202.39334"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-041S1_VG.perc.setpoint"
+     id="RGD_SYSY-007_VG.perc.setpoint"
      x="518.73199"
      y="202.39334"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
      d="m 492.39793,239.31484 -0.20358,0"
@@ -1142,13 +1109,6 @@
        style="font-size:12px"
        id="tspan3120-4-8">Edisonweg RWA</tspan>
   </text>
-  <line
-     x1="654.95001"
-     y1="215.07693"
-     x2="654.23334"
-     y2="229.11697"
-     style="stroke:#000000;stroke-width:2.87095952;stroke-opacity:1;display:inline"
-     id="Q1_index-4" />
   <rect
      x="584.20221"
      y="145.77676"
@@ -1169,29 +1129,25 @@
      width="131.94853"
      height="67.634491"
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-     id="SYSY-007_P2_H.meting"
-     inkscape:label="#industrieterrein" />
+     id="SYSY-006_N_H.meting"/>
   <text
-     id="SYSY-013_P2_Pomp.aantal"
+     id="SYSY-006_Pomp.inzet"
      x="682.47778"
      y="239.88678"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-041E2_VG.perc.afgeleid"
+     id="RGD_SYSY-006_VG.perc.afgeleid"
      x="602.55548"
      y="202.27396"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-041E2_VG.perc.setpoint"
+     id="RGD_SYSY-006_VG.perc.setpoint"
      x="667.79346"
      y="202.27396"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
      d="m 655.30071,237.82306 -0.20358,0"
@@ -1306,29 +1262,25 @@
      width="131.94853"
      height="67.634491"
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-     id="SYSY-003_N_H.meting"
-     inkscape:label="#industrieterrein" />
+     id="SYSY-003_N_H.meting"/>
   <text
-     id="SYSY-003_Pomp.aantal"
+     id="SYSY-003_Pomp.inzet"
      x="987.86139"
      y="238.33337"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <text
      id="RGD_CRKW-003_VG.perc.afgeleid-5-3-5"
      x="909.617"
      y="202.69617"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">-</text>
+     transform="scale(0.98765023,1.0125042)">-</text>
   <text
      id="RGD_CRKW-003_VG.perc.setpoint-2-8-0"
      x="974.85541"
      y="202.69617"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">-</text>
+     transform="scale(0.98765023,1.0125042)">-</text>
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
      d="m 958.61134,236.48127 -0.2035,0"
@@ -1345,13 +1297,6 @@
        style="font-size:12px"
        id="tspan3120-4-8-3">S.Stevinweg RWA</tspan>
   </text>
-  <line
-     x1="351.69595"
-     y1="214.87515"
-     x2="350.94888"
-     y2="228.06265"
-     style="stroke:#000000;stroke-width:2.84064913;stroke-opacity:1;display:inline"
-     id="Q1_index-4-9" />
   <rect
      x="280.93295"
      y="145.59018"
@@ -1365,29 +1310,25 @@
      width="131.94853"
      height="67.634491"
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-     id="SYSY-013_P2_H.meting"
-     inkscape:label="#industrieterrein" />
+     id="SYSY-004_N_H.meting"/>
   <text
-     id="SYSY-007_P2_Pomp.aantal"
+     id="SYSY-004_Pomp.inzet"
      x="373.39169"
      y="241.67725"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-041S2_VG.perc.afgeleid"
+     id="RGD_SYSY-004_VG.perc.afgeleid"
      x="295.49402"
      y="202.08939"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-041S2_VG.perc.setpoint"
+     id="RGD_SYSY-004_VG.perc.setpoint"
      x="360.73199"
      y="202.08939"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
      d="m 350.74252,238.06625 -0.20358,0"
@@ -1435,29 +1376,25 @@
      width="131.94853"
      height="67.634491"
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-     id="SYSY-007_P1_H.meting"
-     inkscape:label="#industrieterrein" />
+     id="SYSY-013_N_H.meting" />
   <text
-     id="SYSY-013_P1_Pomp.aantal"
+     id="SYSY-013_Pomp.inzet"
      x="848.15857"
      y="240.1908"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-041E1_VG.perc.afgeleid"
+     id="RGD_SYSY-013_VG.perc.afgeleid"
      x="756.08612"
      y="202.57788"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-041E1_VG.perc.setpoint"
+     id="RGD_SYSY-013_VG.perc.setpoint"
      x="816.85449"
      y="201.7059"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)"
-     inkscape:label="#Q2-1">--</text>
+     transform="scale(0.98765023,1.0125042)">--</text>
   <rect
      style="color:#000000;fill:none;stroke:#000000;stroke-width:0.86784184;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      id="rect3683"
