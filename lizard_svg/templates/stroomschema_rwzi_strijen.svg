@@ -3429,14 +3429,14 @@
    style="fill:#d8d8d8;stroke:#000000;stroke-width:0.97064632" />
 <text
    id="Titel"
-   x="6.5980206"
-   y="45.217911"
+   x="8"
+   y="46"
    style="font-size:43.99661255px;font-family:Arial"
    transform="scale(0.9999228,1.0000772)">Stroomschema RWZI Strijen</text>
 <text
    id="DateEnd"
-   x="6.9554119"
-   y="69.340569"
+   x="10"
+   y="70"
    style="font-size:19.99846077px;font-family:Arial"
    transform="scale(0.9999228,1.0000772)">Meting %LASTVALUETIME(DF1)% van %LASTVALUETIME(DF2)%</text>
 <text
@@ -5437,7 +5437,7 @@
    transform="scale(1.0101291,0.98997247)">%LASTVALUE(NF1)%</text>
 <a
    style="display:inline"
-   href="/overzicht"
+   xlink:href="/overzicht"
    id="a12549"
    transform="matrix(0.99984583,0,0,1.0000003,0.36793065,-841.48123)">
   <path

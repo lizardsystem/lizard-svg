@@ -425,13 +425,13 @@
      style="fill:#d8d8d8;stroke:#000000;stroke-width:1.11826909" />
   <text
      id="Titel"
-     x="5.2545776"
-     y="45.365166"
+     x="8"
+     y="46"
      style="font-size:44px;font-family:Arial">Stroomschema Strijen</text>
   <text
      id="DateEnd"
-     x="5.6119995"
-     y="68.882133"
+     x="10"
+     y="70"
      style="font-size:20px;font-family:Arial">Meting %LASTVALUETIME(DF1)% van %LASTVALUETIME(DF2)%</text>
   <!--blokken-->
   <g
@@ -603,7 +603,7 @@
        id="tspan3120-48-7-0">RG Strijen</tspan>
   </text>
   <a
-     href="/overzicht"
+     xlink:href="/overzicht"
      id="a12549"
      transform="translate(0.43692,-841.98047)">
     <path
@@ -1397,19 +1397,19 @@
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <a
-     style="display:inline"
-     href="/overzicht"
-     id="a12552-7"
-     transform="translate(0.43688,-871.98046)">
+      style="display:inline"
+      href="/overzicht"
+      id="a12552-7"
+      transform="translate(0.43688,-871.98046)">
     <text
-       id="Q8-1-9-4-1"
-       x="965.88611"
-       y="887.0849"
-       style="font-size:20.0397644px;font-family:Arial"
-       transform="scale(0.98765023,1.0125042)">
+	id="Q8-1-9-4-1"
+	x="965.88611"
+	y="887.0849"
+	style="font-size:20.0397644px;font-family:Arial"
+	transform="scale(0.98765023,1.0125042)">
       <tspan
-         style="font-size:12px"
-         id="tspan3120-48-8-1">Terug naar</tspan>
+	  style="font-size:12px"
+	  id="tspan3120-48-8-1">Terug naar</tspan>
     </text>
   </a>
   <text

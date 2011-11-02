@@ -4045,14 +4045,14 @@
    style="fill:#d8d8d8;stroke:#000000;stroke-width:0.92958248" />
 <text
    id="Titel"
-   x="3.0391281"
-   y="45.005272"
+   x="8"
+   y="46"
    style="font-size:43.80984497px;font-family:Arial"
    transform="scale(0.99567825,1.0043405)">Stroomschema RWZI Binnenmaas</text>
 <text
    id="DateEnd"
-   x="3.3661823"
-   y="69.324875"
+   x="10"
+   y="70"
    style="font-size:20px;font-family:Arial">Meting %LASTVALUETIME(DF1)% van %LASTVALUETIME(DF2)%</text>
 <text
    id="4ATS"
@@ -5169,7 +5169,7 @@
    transform="scale(1.0102071,0.98989604)">Campina</text>
 <a
    style="display:inline"
-   href="/overzicht"
+   xlink:href="/overzicht"
    id="a12549"
    transform="translate(0.2576024,-841.50175)">
   <path

@@ -2588,13 +2588,13 @@
    style="fill:#d8d8d8;stroke:#000000;stroke-width:1.22491181" />
 <text
    id="Titel"
-   x="10.85791"
-   y="40"
+   x="8"
+   y="46"
    style="font-size:44px;font-family:Arial">Stroomschema RWZI Oud-Beijerland</text>
 <text
    id="DateEnd"
-   x="11.215332"
-   y="67.406479"
+   x="10"
+   y="70"
    style="font-size:20px;font-family:Arial">Meting %LASTVALUETIME(DF1)% van %LASTVALUETIME(DF2)%</text>
 <text
    id="4ATS"
@@ -4699,7 +4699,7 @@
    transform="scale(1.0239558,0.97660466)">%LASTVALUE(NF1)%</text>
 <a
    style="display:inline"
-   href="/overzicht"
+   xlink:href="/overzicht"
    id="a12549"
    transform="translate(0.63061609,-842.01024)">
   <path
