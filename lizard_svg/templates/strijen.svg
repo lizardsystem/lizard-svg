@@ -603,30 +603,34 @@
        id="tspan3120-48-7-0">RG Strijen</tspan>
   </text>
   <a
-     xlink:href="/overzicht"
-     id="a12549"
-     transform="translate(0.43692,-841.98047)">
+      xlink:href="/overzicht"
+      id="a12549">
     <path
-       style="fill:#dcf3f3;fill-opacity:1;stroke:#000000;stroke-width:1.50177073;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 989.24582,885.84687 -41.1092,0 0,18.43346 -29.3638,-24.57797 29.3638,-24.57796 0,18.43348 58.72738,0 0,12.28899 -17.61818,0"
-       id="terug"
-       inkscape:connector-curvature="0" />
+	style="fill:#dcf3f3;fill-opacity:1;stroke:#000000;stroke-width:1.50177073;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+	d="m 990,45 -41.1092,0 0,18.43346 -29.3638,-24.57797 29.3638,-24.57796 0,18.43348 58.72738,0 0,12.28899 -17.61818,0"
+	id="terug"
+	inkscape:connector-curvature="0" />
   </a>
-  <a
-     href="/overzicht"
-     id="a12552"
-     transform="translate(4.88709,-841.98047)">
-    <text
-       id="Q8-1-9-4"
-       x="965.88611"
-       y="887.0849"
-       style="font-size:20.0397644px;font-family:Arial"
-       transform="scale(0.98765023,1.0125042)">
-      <tspan
-         style="font-size:12px"
-         id="tspan3120-48-8">overzicht</tspan>
-    </text>
-  </a>
+  <text
+      id="Q8-1-9-4-1"
+      x="966"
+      y="25"
+      style="font-size:20px;font-family:Arial"
+      transform="scale(0.98765023,1.0125042)">
+    <tspan
+	style="font-size:12px"
+	id="tspan3120-48-8-1">Terug naar</tspan>
+  </text>
+  <text
+      id="Q8-1-9-4"
+      x="970"
+      y="58"
+      style="font-size:20px;font-family:Arial"
+      transform="scale(0.98765023,1.0125042)">
+    <tspan
+	style="font-size:12px"
+	id="tspan3120-48-8">overzicht</tspan>
+  </text>
   <text
      id="txtNeerslag"
      x="286.46429"
@@ -1396,22 +1400,6 @@
      id="path23981-960"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
-  <a
-      style="display:inline"
-      href="/overzicht"
-      id="a12552-7"
-      transform="translate(0.43688,-871.98046)">
-    <text
-	id="Q8-1-9-4-1"
-	x="965.88611"
-	y="887.0849"
-	style="font-size:20.0397644px;font-family:Arial"
-	transform="scale(0.98765023,1.0125042)">
-      <tspan
-	  style="font-size:12px"
-	  id="tspan3120-48-8-1">Terug naar</tspan>
-    </text>
-  </a>
   <text
      id="Q8-1-7"
      x="831.96869"

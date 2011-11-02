@@ -5435,49 +5435,35 @@
    y="386.07983"
    style="font-size:15.10926056px;font-family:Arial"
    transform="scale(1.0101291,0.98997247)">%LASTVALUE(NF1)%</text>
-<a
-   style="display:inline"
-   xlink:href="/overzicht"
-   id="a12549"
-   transform="matrix(0.99984583,0,0,1.0000003,0.36793065,-841.48123)">
-  <path
-     style="fill:#dcf3f3;fill-opacity:1;stroke:#000000;stroke-width:1.50177073;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 989.24582,885.84687 -41.1092,0 0,18.43346 -29.3638,-24.57797 29.3638,-24.57796 0,18.43348 58.72738,0 0,12.28899 -17.61818,0"
-     id="terug-0"
-     inkscape:connector-curvature="0" />
-</a>
-<a
-   style="display:inline"
-   href="/overzicht"
-   id="a12552"
-   transform="matrix(0.99984583,0,0,1.0000003,4.8174146,-841.48123)">
+  <a
+      xlink:href="/overzicht"
+      id="a12549">
+    <path
+	style="fill:#dcf3f3;fill-opacity:1;stroke:#000000;stroke-width:1.50177073;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+	d="m 990,45 -41.1092,0 0,18.43346 -29.3638,-24.57797 29.3638,-24.57796 0,18.43348 58.72738,0 0,12.28899 -17.61818,0"
+	id="terug"
+	inkscape:connector-curvature="0" />
+  </a>
   <text
-     id="Q8-1-9-4-9"
-     x="965.88611"
-     y="887.0849"
-     style="font-size:20.0397644px;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)">
+      id="Q8-1-9-4-1"
+      x="966"
+      y="25"
+      style="font-size:20px;font-family:Arial"
+      transform="scale(0.98765023,1.0125042)">
     <tspan
-       style="font-size:12px"
-       id="tspan3120-48-8-6">overzicht</tspan>
+	style="font-size:12px"
+	id="tspan3120-48-8-1">Terug naar</tspan>
   </text>
-</a>
-<a
-   style="display:inline"
-   href="/overzicht"
-   id="a12552-7"
-   transform="matrix(0.99984583,0,0,1.0000003,0.36789066,-871.48124)">
   <text
-     id="Q8-1-9-4-1"
-     x="965.88611"
-     y="887.0849"
-     style="font-size:20.0397644px;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)">
+      id="Q8-1-9-4"
+      x="970"
+      y="58"
+      style="font-size:20px;font-family:Arial"
+      transform="scale(0.98765023,1.0125042)">
     <tspan
-       style="font-size:12px"
-       id="tspan3120-48-8-1">Terug naar</tspan>
+	style="font-size:12px"
+	id="tspan3120-48-8">overzicht</tspan>
   </text>
-</a>
 <rect
    style="color:#000000;fill:none;stroke:#000000;stroke-width:0.92390341;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
    id="rect3683"
