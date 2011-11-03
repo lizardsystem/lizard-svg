@@ -149,29 +149,33 @@
    style="font-size:20px;font-family:Arial">Meting %LASTVALUETIME(DF1)% van %LASTVALUETIME(DF2)%</text>
 <!--blokken-->
 <rect
-   x="334.01483"
-   y="281.33539"
-   width="131.94853"
-   height="67.634491"
-   style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1"
-   id="CRKW-003_N_H.meting"
-   inkscape:label="#molendijk" />
+   x="0"
+   y="0"
+   width="132"
+   height="100"
+   transform="matrix(1, 0, 0, -0.67, 334, 349)"
+   style="fill:#9dc2de;stroke:none;"
+   id="CRKW-003_N:H.meting" />
+<rect x="0" y="0" width="132" height="100" transform="matrix(1, 0, 0, -0.67, 334, 349)" style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" id="CRKW-003_N(H.meting)" />
 <rect
-   x="334.01483"
-   y="168.61124"
-   width="131.94853"
-   height="67.634491"
-   style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1"
-   id="CRKW-207_N_H.meting"
-   inkscape:label="#industrieterrein" />
+   x="0"
+   y="0"
+   width="132"
+   height="100"
+   transform="matrix(1, 0, 0, -0.67, 334, 235)"
+   style="fill:#9dc2de;stroke:none"
+   id="CRKW-207_N:H.meting" />
+<rect x="0" y="0" width="132" height="100" transform="matrix(1, 0, 0, -0.67, 334, 235)" style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" id="CRKW-207_N(H.meting)" />
 <rect
-   x="531.93762"
-   y="427.87677"
-   width="131.94853"
-   height="67.634491"
-   style="fill:#9dc2de;stroke:#f39503;stroke-width:1.01867855;stroke-opacity:1"
-   id="CRKW-RG-253_pompkelder_H.meting"
+   x="0"
+   y="0"
+   width="132"
+   height="100"
+   transform="matrix(1, 0, 0, -0.67, 532, 496)"
+   style="fill:#9dc2de;stroke:none;"
+   id="CRKW-RG-253_pompkelder:H.meting"
    inkscape:label="#rijksstraatweg" />
+<rect x="0" y="0" width="132" height="100" transform="matrix(1, 0, 0, -0.67, 532, 496)" style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" id="CRKW-RG-253_pompkelder(H.meting)" />
 <line
    x1="465.96332"
    y1="202.42847"
@@ -189,12 +193,12 @@
 <path
    style="fill:none;stroke:#000000;stroke-width:3.33996081;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
    d="m 466,202 54,0 m 23,0 55,0 0,113"
-   id="CRKW-207_Q.indicator"
+   id="CRKW-207:Q.indicator"
    inkscape:connector-curvature="0" />
 <path
    style="fill:none;stroke:#000000;stroke-width:3.33996081;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
    d="m 466,314 54,0 m 23,0 55,0"
-   id="CRKW-003_Q.indicator"
+   id="CRKW-003:Q.indicator"
    inkscape:connector-curvature="0" />
 <path
    style="fill:none;stroke:#000000;stroke-width:3.33996081;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
@@ -204,7 +208,7 @@
 <path
    style="fill:none;stroke:#000000;stroke-width:3.33996081;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
    d="m 842,371 -55,0 m -24,0 -165,0"
-   id="CRKW-002_Q.indicator"
+   id="CRKW-002:Q.indicator"
    sodipodi:nodetypes="cc" />
 <path
    style="fill:none;stroke:#000000;stroke-width:3.33996081;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-mid:none;marker-end:url(#ArrowBlack)"
@@ -212,21 +216,24 @@
    id="Q8_index"
    inkscape:connector-curvature="0" />
 <rect
-   x="823.86041"
-   y="337.69745"
-   width="131.94853"
-   height="67.634491"
-   style="fill:#9dc2de;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1"
-   id="CRKW-002_N_H.meting"
-   inkscape:label="#kern" />
+   x="0"
+   y="0"
+   width="132"
+   height="100"
+   transform="matrix(1, 0, 0, -0.67, 823, 404)"
+   style="fill:#9dc2de;stroke:none;"
+   id="CRKW-002_N:H.meting" />
+<rect x="0" y="0" width="132" height="100" transform="matrix(1, 0, 0, -0.67, 823, 404)" style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" id="CRKW-002_N(H.meting)" />
 <rect
-   x="647.7832"
-   y="168.401"
-   width="131.94853"
-   height="67.634491"
-   style="fill:#9dc2de;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1"
-   id="CRKW-001_N_H.meting"
+   x="0"
+   y="0"
+   width="132"
+   height="100"
+   transform="matrix(1, 0, 0, -0.67, 648, 235)"
+   style="fill:#9dc2de;stroke:none;"
+   id="CRKW-001_N:H.meting"
    inkscape:label="#bongerd_dwa" />
+<rect x="0" y="0" width="132" height="100" transform="matrix(1, 0, 0, -0.67, 648, 235)" style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" id="CRKW-207_N(H.meting)" />
 <path
    id="pomp.uit.legenda"
    style="stroke:#000000;stroke-width:0.7;stroke-opacity:1;marker-end:url(#pomp.uit)"
@@ -238,43 +245,37 @@
 <path
    style="fill:#ed2f04;fill-opacity:1;stroke:#0c0703;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.9254902;stroke-dasharray:none;marker-end:url(#ArrowBlack)"
    d="m 955.80893,371.51469 35,0"
-   id="CRKW-002_overstort.indicator"
+   id="CRKW-002:overstort.indicator"
    inkscape:connector-curvature="0" />
 <path
    style="fill:#ed2f04;fill-opacity:1;stroke:#0c0703;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.92441861;stroke-dasharray:none;marker-end:url(#ArrowBlack)"
    d="m 334.01483,202.42846 -35,0"
-   id="CRKW-207_overstort.indicator"
+   id="CRKW-207:overstort.indicator"
    inkscape:connector-curvature="0" />
 <path
    style="fill:#ed8712;fill-opacity:1;stroke:#062f04;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#ArrowBlack)"
    d="m 334.01483,315.15262 -35,0"
-   id="CRKW-003_overstort.indicator"
+   id="CRKW-003:overstort.indicator"
    inkscape:connector-curvature="0" />
 <path
    style="fill:#ed2f04;fill-opacity:1;stroke:#0c0703;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.9254902;stroke-dasharray:none;marker-end:url(#ArrowBlack)"
    d="m 531.93761,461.69401 -35,0"
-   id="CRKW-RG-253_overstort.indicator"
+   id="CRKW-RG-253:overstort.indicator"
    inkscape:connector-curvature="0" />
 <path
-   style="fill:none;stroke:#000000;stroke-width:3.33996081;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-   d="m"
-   id="Q9_index"
-   inkscape:connector-curvature="0"
-   sodipodi:nodetypes="cc" />
-<path
    style="fill:none;stroke:#000000;stroke-width:3.33996081;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#ArrowBlack)"
-   d="m 779,202 63,0 m 24,0 23.02145,0 0,134.36206"
-   id="CRKW-001_Q.indicator"
+   d="m 779,202 63,0 m 23,0 24,0 0,134.36206"
+   id="CRKW-001:Q.indicator"
    inkscape:connector-curvature="0"
    sodipodi:nodetypes="ccc" />
 <text
-   id="CRKW-207_Q"
+   id="CRKW-207:Q"
    x="495.14612"
    y="192.19821"
    style="font-size:20.0397644px;font-family:Arial"
    transform="scale(0.98765023,1.0125042)">-</text>
 <text
-   id="CRKW-002_Q"
+   id="CRKW-002:Q"
    x="746.41418"
    y="361.9187"
    style="font-size:20.0397644px;font-family:Arial"
@@ -292,7 +293,7 @@
    style="font-size:20.0397644px;font-family:Arial"
    transform="scale(0.98765023,1.0125042)">-</text>
 <text
-   id="CRKW-001_Q"
+   id="CRKW-001:Q"
    x="824.04883"
    y="193.26974"
    style="font-size:20.0397644px;font-family:Arial"
@@ -350,41 +351,6 @@
    y="162.69835"
    style="font-size:20.0397644px;font-family:Arial"
    transform="scale(0.98765023,1.0125042)">Industrieterrein</text>
-<rect
-   x="648.099"
-   y="169.46497"
-   width="131.94853"
-   height="67.634491"
-   style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1"
-   id="bongerd_rwa-7" />
-<rect
-   x="334.41327"
-   y="281.23346"
-   width="131.94853"
-   height="67.634491"
-   style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1"
-   id="bongerd_rwa-7-2" />
-<rect
-   x="532.30847"
-   y="427.45508"
-   width="131.94853"
-   height="67.634491"
-   style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1"
-   id="bongerd_rwa-7-6" />
-<rect
-   x="824.20374"
-   y="338.01852"
-   width="131.94853"
-   height="67.634491"
-   style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1"
-   id="bongerd_rwa-7-4" />
-<rect
-   x="334.41327"
-   y="169.08286"
-   width="131.94853"
-   height="67.634491"
-   style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1"
-   id="bongerd_rwa-7-3" />
 <text
    id="Q8-1"
    x="836.84247"
@@ -418,7 +384,7 @@
 <path
    style="fill:none;stroke:#000000;stroke-width:3.33999991;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:none"
    d="m 594.62641,495.91146 0,33.43511"
-   id="CRKW-RG-253_Q.indicator"
+   id="CRKW-RG-253:Q.indicator"
    inkscape:connector-curvature="0" />
 <text
    id="Q8-1-9-1"
@@ -441,7 +407,7 @@
      id="tspan3120-48-7-0">RG Klaaswaal</tspan>
 </text>
 <text
-   id="CRKW-RG-253_Q"
+   id="CRKW-RG-253:Q"
    x="606.1814"
    y="516.53412"
    style="font-size:20.0397644px;font-family:Arial"
@@ -453,141 +419,134 @@
    style="font-size:20.0397644px;font-family:Arial"
    transform="scale(0.98765023,1.0125042)">-</text>
 <path
-   id="CRKW-001_P1_Status.meting"
+   id="CRKW-001_P1:Status.indicator"
    style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#pomp.uit)"
-   d="m 847,194 15,15" />
+   d="m 846,194 15,15" />
 <path
-   id="CRKW-207_P1_Status.meting"
+   id="CRKW-207_P1:Status.indicator"
    style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#pomp.uit)"
    d="m 524,180 15,15" />
 <path
-   id="CRKW-207_P2_Status.meting"
+   id="CRKW-207_P2:Status.indicator"
    style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#pomp.uit)"
    d="m 524,208 15,15" />
 <path
-   id="CRKW-003_P2_Status.meting"
+   id="CRKW-003_P2:Status.indicator"
    style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#pomp.uit)"
    d="m 524,320 15,15" />
 <path
-   id="CRKW-003_P1_Status.meting"
+   id="CRKW-003_P1:Status.indicator"
    style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#pomp.uit)"
    d="m 524,292 15,15" />
 <path
-   id="CRKW-002_P1_Status.meting"
+   id="CRKW-002_P1:Status.indicator"
    style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#pomp.uit)"
    d="m 767,350 15,15" />
 <path
-   id="CRKW-002_P2_Status.meting"
+   id="CRKW-002_P2:Status.indicator"
    style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#pomp.uit)"
    d="m 767,378 15,15" />
 <path
-   id="CRKW-RG-253_pomp1_Status.meting"
+   id="CRKW-RG-253_pomp1:Status.indicator"
    style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#pomp.uit)"
    d="m 574,532 15,15" />
 <path
-   id="CRKW-RG-253_pomp2_Status.meting"
+   id="CRKW-RG-253_pomp2:Status.indicator"
    style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#pomp.uit)"
    d="m 602,532 15,15" />
 <text
-   id="CRKW-207_Pomp.inzet"
+   id="CRKW-207:Pomp.inzet"
    x="557.0155"
    y="192.15671"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
    inkscape:label="#Q2-1">--</text>
 <text
-   id="CRKW-003_Pomp.inzet"
+   id="CRKW-003:Pomp.inzet"
    x="556.12158"
    y="302.8988"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
    inkscape:label="#Q2-1">--</text>
 <text
-   id="CRKW-001_Pomp.inzet"
+   id="CRKW-001:Pomp.inzet"
    x="879.66901"
    y="192.49509"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
    inkscape:label="#Q2-1">--</text>
 <text
-   id="CRKW-002_Pomp.inzet"
+   id="CRKW-002:Pomp.inzet"
    x="804.50574"
    y="360.44965"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
    inkscape:label="#Q2-1">--</text>
 <text
-   id="txtNeerslag"
-   x="288.00031"
-   y="102.14857"
-   style="font-size:20.0397644px;font-family:Arial"
-   transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q12-1">Neerslag: %LASTVALUE(NF1)% mm/5min</text>
-<text
-   id="RGD_CRKW-207_VG.perc.afgeleid"
+   id="RGD_CRKW-207:VG.perc.afgeleid"
    x="349.64313"
    y="225.29205"
    style="font-size:20.0397644px;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
    inkscape:label="#Q2-1">--</text>
 <text
-   id="RGD_CRKW-003_VG.perc.afgeleid"
+   id="RGD_CRKW-003:VG.perc.afgeleid"
    x="345.17349"
    y="337.77811"
    style="font-size:20.0397644px;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
    inkscape:label="#Q2-1">--</text>
 <text
-   id="RGD_CRKW-RG-253_VG.perc.afgeleid"
+   id="RGD_CRKW-RG-253:VG.perc.afgeleid"
    x="547.20056"
    y="481.65527"
    style="font-size:20.0397644px;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
    inkscape:label="#Q2-1">--</text>
 <text
-   id="RGD_CRKW-002_VG.perc.afgeleid"
+   id="RGD_CRKW-002:VG.perc.afgeleid"
    x="840.82806"
    y="393.58496"
    style="font-size:20.0397644px;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
    inkscape:label="#Q2-1">--</text>
 <text
-   id="RGD_CRKW-001_VG.perc.afgeleid"
+   id="RGD_CRKW-001:VG.perc.afgeleid"
    x="670.6181"
    y="224.75842"
    style="font-size:20.0397644px;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
    inkscape:label="#Q2-1">--</text>
 <text
-   id="RGD_CRKW-207_VG.perc.setpoint"
+   id="RGD_CRKW-207:VG.perc.setpoint"
    x="414.88113"
    y="225.29202"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
    inkscape:label="#Q2-1">--</text>
 <text
-   id="RGD_CRKW-207_VG.perc.setpoint"
+   id="RGD_CRKW-207:VG.perc.setpoint"
    x="415.77505"
    y="337.77811"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
    inkscape:label="#Q2-1">--</text>
 <text
-   id="RGD_CRKW-RG-253_VG.perc.setpoint"
+   id="RGD_CRKW-RG-253:VG.perc.setpoint"
    x="625.84778"
    y="480.78326"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
    inkscape:label="#Q2-1">--</text>
 <text
-   id="RGD_CRKW-002_VG.perc.setpoint"
+   id="RGD_CRKW-002:VG.perc.setpoint"
    x="923.05115"
    y="392.71301"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;font-family:Arial"
    transform="scale(0.98765023,1.0125042)"
    inkscape:label="#Q2-1">--</text>
 <text
-   id="RGD_CRKW-001_VG.perc.setpoint"
+   id="RGD_CRKW-001:VG.perc.setpoint"
    x="738.35596"
    y="224.75842"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;font-family:Arial"
@@ -800,10 +759,27 @@
    x="0.43930537"
    y="0.42957437" />
 <text
-   id="SYSY-RG-01_Q.setpoint"
-   x="288.73419"
-   y="126.72387"
-   style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-   transform="scale(0.98765023,1.0125042)"
-   inkscape:label="#Q2-1">Setpoint: %LASTVALUE(NF3)% m3/h</text>
+   id="SYSY-RG-01:Q.setpoint"
+   text-anchor="end"
+   x="424"
+   y="126"
+   style="font-size:20px;fill:#c04a4a;font-family:Arial">-</text>
+<text
+   id="SYSY-RG-01(Q.setpoint)"
+   xml:space="preserve"
+   x="288"
+   y="126"
+   style="font-size:20px;fill:#c04a4a;font-family:Arial">Setpoint:          m³/h</text>
+<text
+   id="SYSY-RG-01:neerslag"
+   text-anchor="end"
+   x="424"
+   y="102"
+   style="font-size:20px;font-family:Arial">-</text>
+<text
+   id="SYSY-RG-01(neerslag)"
+   xml:space="preserve"
+   x="288"
+   y="102"
+   style="font-size:20px;font-family:Arial">Neerslag:         mm/5min</text>
 </svg>
