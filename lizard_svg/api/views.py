@@ -17,6 +17,8 @@ class Bootstrap(View):
             value = ''
             if request.GET['group'] in ['style:stroke', 'style:fill']:
                 value = self.colors[int(uniform(0, len(self.colors)))]
+            elif request.GET['group'] in ['height']:
+                value = str(12.5 * int(uniform(0, 8)))
             result.append({'item': request.GET['item'],
                            'timestamp': level,
                            'value': value,
