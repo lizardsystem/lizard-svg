@@ -78,7 +78,7 @@
     Slider.prototype.setAttribute = function(itemId, attribute, value) {
       var item, parts, re, styleOrig;
       item = $('#' + itemId.replace(/(:|\.)/g, '\\$1'));
-      if (this.re[attribute] === null) {
+      if (attribute.indexOf(":") === -1) {
         return item.attr(attribute, value);
       } else {
         re = this.re[attribute];
@@ -152,4 +152,8 @@
     };
     return Slider;
   })();
+  window.Slider = Slider;
+  String.prototype.endsWith = function(suffix) {
+    return this.indexOf(suffix, this.length - suffix.length) !== -1;
+  };
 }).call(this);

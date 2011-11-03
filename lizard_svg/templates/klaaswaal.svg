@@ -281,13 +281,13 @@
    style="font-size:20.0397644px;font-family:Arial"
    transform="scale(0.98765023,1.0125042)">-</text>
 <text
-   id="CRKW-003.Q"
+   id="CRKW-003:Q"
    x="500.48111"
    y="302.91809"
    style="font-size:20.0397644px;font-family:Arial"
    transform="scale(0.98765023,1.0125042)">-</text>
 <text
-   id="Q8"
+   id="derived8:Q"
    x="563.49396"
    y="394.14163"
    style="font-size:20.0397644px;font-family:Arial"
@@ -413,7 +413,7 @@
    style="font-size:20.0397644px;font-family:Arial"
    transform="scale(0.98765023,1.0125042)">-</text>
 <text
-   id="Q5"
+   id="derived5:Q"
    x="612.43884"
    y="334.93079"
    style="font-size:20.0397644px;font-family:Arial"
@@ -525,7 +525,7 @@
    transform="scale(0.98765023,1.0125042)"
    inkscape:label="#Q2-1">--</text>
 <text
-   id="RGD_CRKW-207:VG.perc.setpoint"
+   id="RGD_CRKW-003:VG.perc.setpoint"
    x="415.77505"
    y="337.77811"
    style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;font-family:Arial"
@@ -759,27 +759,27 @@
    x="0.43930537"
    y="0.42957437" />
 <text
-   id="SYSY-RG-01:Q.setpoint"
-   text-anchor="end"
-   x="424"
-   y="126"
-   style="font-size:20px;fill:#c04a4a;font-family:Arial">-</text>
-<text
    id="SYSY-RG-01(Q.setpoint)"
    xml:space="preserve"
    x="288"
    y="126"
    style="font-size:20px;fill:#c04a4a;font-family:Arial">Setpoint:          m³/h</text>
 <text
-   id="SYSY-RG-01:neerslag"
+   id="SYSY-RG-01:Q.setpoint"
    text-anchor="end"
    x="424"
-   y="102"
-   style="font-size:20px;font-family:Arial">-</text>
+   y="126"
+   style="font-size:20px;fill:#c04a4a;font-family:Arial">-</text>
 <text
    id="SYSY-RG-01(neerslag)"
    xml:space="preserve"
    x="288"
    y="102"
    style="font-size:20px;font-family:Arial">Neerslag:         mm/5min</text>
+<text
+   id="SYSY-RG-01:neerslag"
+   text-anchor="end"
+   x="424"
+   y="102"
+   style="font-size:20px;font-family:Arial">-</text>
 </svg>

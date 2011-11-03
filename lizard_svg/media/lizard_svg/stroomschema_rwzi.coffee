@@ -1,6 +1,6 @@
 
 $('document').ready ->
-  window.slider = new Slider('mySliderDiv')
+  window.slider = new window.Slider('mySliderDiv')
   svg = document.getElementsByTagName("svg")[0]
   for element in svg.getElementsByTagName("*")
     try

@@ -1,7 +1,7 @@
 (function() {
   $('document').ready(function() {
     var element, svg, _i, _len, _ref, _results;
-    window.slider = new Slider('mySliderDiv');
+    window.slider = new window.Slider('mySliderDiv');
     svg = document.getElementsByTagName("svg")[0];
     _ref = svg.getElementsByTagName("*");
     _results = [];

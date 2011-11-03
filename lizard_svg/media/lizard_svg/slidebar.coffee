@@ -35,7 +35,6 @@ getObjectClass = (obj) ->
 
     return undefined;
 
-
 class Slider
   constructor: (@itemId) ->
     @waiting = 0
@@ -64,7 +63,7 @@ class Slider
 
   setAttribute: (itemId, attribute, value) ->
     item = $( '#' + itemId.replace(/(:|\.)/g,'\\$1') )
-    if @re[attribute] is null
+    if attribute.indexOf(":") == -1
         item.attr(attribute, value)
     else
         re = @re[attribute]
@@ -104,3 +103,7 @@ class Slider
     @onChange(null, value: 0)
     @onSlide(null, value: 0)
 
+window.Slider = Slider
+
+String.prototype.endsWith = (suffix) ->
+    this.indexOf(suffix, this.length - suffix.length) isnt -1
