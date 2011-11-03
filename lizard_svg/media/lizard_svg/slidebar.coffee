@@ -40,7 +40,7 @@ class Slider
   constructor: (@itemId) ->
     @waiting = 0
     @managed = []
-    @stroke_re = new RegExp("stroke:[^;]+;", "g");
+    @re = {}
     @slider = $('#' + @itemId).slider
       value: 0
       orientation: "horizontal"
@@ -59,13 +59,18 @@ class Slider
         for candidate in item.value
           if candidate.timestamp > ui.value
             break
-        @setStyleStroke(key, item.group, candidate.value)
+        @setAttribute(key, item.group, candidate.value)
     null
 
-  setStyleStroke: (itemId, group, value) ->
+  setAttribute: (itemId, attribute, value) ->
     item = $( '#' + itemId.replace(/(:|\.)/g,'\\$1') )
-    styleOrig = item.attr('style')
-    item.attr('style', styleOrig.replace @stroke_re, "stroke:#{value};")
+    if @re[attribute] is null
+        item.attr(attribute, value)
+    else
+        re = @re[attribute]
+        parts = attribute.split(":")
+        styleOrig = item.attr(parts[0])
+        item.attr(parts[0], styleOrig.replace(re, parts[1] + ":#{value};"))
 
   onChange: (event, ui) =>
     that = this
@@ -80,6 +85,9 @@ class Slider
         $("#" + key.replace(/(:|\.)/g,'\\$1'))[0].childNodes[0].nodeValue = value
 
   manageObject: (group, item) ->
+    if group.indexOf(":") != -1
+        parts = group.split(":")
+        @re[group] = new RegExp(parts[1] + ":[^;]+;", "g")
     that = this
     that.waiting += 1
     $.get "/api/bootstrap/?group=#{group}&item=#{item}",

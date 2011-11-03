@@ -15,7 +15,7 @@ class Bootstrap(View):
         level = 0
         while level < 256:
             value = ''
-            if request.GET['group'] == 'style:stroke':
+            if request.GET['group'] in ['style:stroke', 'style:fill']:
                 value = self.colors[int(uniform(0, len(self.colors)))]
             result.append({'item': request.GET['item'],
                            'timestamp': level,

@@ -43,7 +43,7 @@
       this.onSlide = __bind(this.onSlide, this);
       this.waiting = 0;
       this.managed = [];
-      this.stroke_re = new RegExp("stroke:[^;]+;", "g");
+      this.re = {};
       this.slider = $('#' + this.itemId).slider({
         value: 0,
         orientation: "horizontal",
@@ -71,15 +71,21 @@
             break;
           }
         }
-        this.setStyleStroke(key, item.group, candidate.value);
+        this.setAttribute(key, item.group, candidate.value);
       }
       return null;
     };
-    Slider.prototype.setStyleStroke = function(itemId, group, value) {
-      var item, styleOrig;
+    Slider.prototype.setAttribute = function(itemId, attribute, value) {
+      var item, parts, re, styleOrig;
       item = $('#' + itemId.replace(/(:|\.)/g, '\\$1'));
-      styleOrig = item.attr('style');
-      return item.attr('style', styleOrig.replace(this.stroke_re, "stroke:" + value + ";"));
+      if (this.re[attribute] === null) {
+        return item.attr(attribute, value);
+      } else {
+        re = this.re[attribute];
+        parts = attribute.split(":");
+        styleOrig = item.attr(parts[0]);
+        return item.attr(parts[0], styleOrig.replace(re, parts[1] + (":" + value + ";")));
+      }
     };
     Slider.prototype.onChange = function(event, ui) {
       var i, mutanda, that;
@@ -117,7 +123,11 @@
       return _results;
     };
     Slider.prototype.manageObject = function(group, item) {
-      var that;
+      var parts, that;
+      if (group.indexOf(":") !== -1) {
+        parts = group.split(":");
+        this.re[group] = new RegExp(parts[1] + ":[^;]+;", "g");
+      }
       that = this;
       that.waiting += 1;
       return $.get("/api/bootstrap/?group=" + group + "&item=" + item, function(data) {
