@@ -71,7 +71,7 @@
             break;
           }
         }
-        this.setStyleStroke(key, group, candidate.value);
+        this.setStyleStroke(key, item.group, candidate.value);
       }
       return null;
     };

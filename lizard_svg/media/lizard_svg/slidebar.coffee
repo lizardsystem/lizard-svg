@@ -59,7 +59,7 @@ class Slider
         for candidate in item.value
           if candidate.timestamp > ui.value
             break
-        @setStyleStroke(key, group, candidate.value)
+        @setStyleStroke(key, item.group, candidate.value)
     null
 
   setStyleStroke: (itemId, group, value) ->
