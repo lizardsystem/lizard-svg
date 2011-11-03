@@ -59,8 +59,13 @@ class Slider
         for candidate in item.value
           if candidate.timestamp > ui.value
             break
-        @setStyleStroke(key, candidate.color)
+        @setStyleStroke(key, group, candidate.value)
     null
+
+  setStyleStroke: (itemId, group, value) ->
+    item = $( '#' + itemId.replace(/(:|\.)/g,'\\$1') )
+    styleOrig = item.attr('style')
+    item.attr('style', styleOrig.replace @stroke_re, "stroke:#{value};")
 
   onChange: (event, ui) =>
     that = this
@@ -77,7 +82,7 @@ class Slider
   manageObject: (group, item) ->
     that = this
     that.waiting += 1
-    $.get "/api/bootstrap/?item=#{item}",
+    $.get "/api/bootstrap/?group=#{group}&item=#{item}",
       (data) ->
         that.managed.push
           key: item
@@ -90,11 +95,6 @@ class Slider
   manageObjectFinalize: ->
     @onChange(null, value: 0)
     @onSlide(null, value: 0)
-
-  setStyleStroke: (itemId, value) ->
-    item = $( '#' + itemId.replace(/(:|\.)/g,'\\$1') )
-    styleOrig = item.attr('style')
-    item.attr('style', styleOrig.replace @stroke_re, "stroke:#{value};")
 
 
 $('document').ready ->

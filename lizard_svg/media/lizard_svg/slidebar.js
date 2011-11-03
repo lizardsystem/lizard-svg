@@ -71,9 +71,15 @@
             break;
           }
         }
-        this.setStyleStroke(key, candidate.color);
+        this.setStyleStroke(key, group, candidate.value);
       }
       return null;
+    };
+    Slider.prototype.setStyleStroke = function(itemId, group, value) {
+      var item, styleOrig;
+      item = $('#' + itemId.replace(/(:|\.)/g, '\\$1'));
+      styleOrig = item.attr('style');
+      return item.attr('style', styleOrig.replace(this.stroke_re, "stroke:" + value + ";"));
     };
     Slider.prototype.onChange = function(event, ui) {
       var i, mutanda, that;
@@ -114,7 +120,7 @@
       var that;
       that = this;
       that.waiting += 1;
-      return $.get("/api/bootstrap/?item=" + item, function(data) {
+      return $.get("/api/bootstrap/?group=" + group + "&item=" + item, function(data) {
         that.managed.push({
           key: item,
           value: data,
@@ -133,12 +139,6 @@
       return this.onSlide(null, {
         value: 0
       });
-    };
-    Slider.prototype.setStyleStroke = function(itemId, value) {
-      var item, styleOrig;
-      item = $('#' + itemId.replace(/(:|\.)/g, '\\$1'));
-      styleOrig = item.attr('style');
-      return item.attr('style', styleOrig.replace(this.stroke_re, "stroke:" + value + ";"));
     };
     return Slider;
   })();

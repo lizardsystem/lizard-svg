@@ -14,9 +14,12 @@ class Bootstrap(View):
         result = []
         level = 0
         while level < 256:
+            value = ''
+            if request.GET['group'] == 'style:stroke':
+                value = self.colors[int(uniform(0, len(self.colors)))]
             result.append({'item': request.GET['item'],
                            'timestamp': level,
-                           'color': self.colors[int(uniform(0, len(self.colors)))],
+                           'value': value,
                            })
             level += int(uniform(0, 64))
         time.sleep(uniform(0.01, 0.05))  # faking database latency
