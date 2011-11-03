@@ -35,11 +35,11 @@ getObjectClass = (obj) ->
 
     return undefined;
 
-
 class Slider
-  constructor: (@itemId, @managed=[]) ->
+  constructor: (@itemId) ->
     @waiting = 0
-    @stroke_re = new RegExp("stroke:[^;]+;", "g");
+    @managed = []
+    @re = {}
     @slider = $('#' + @itemId).slider
       value: 0
       orientation: "horizontal"
@@ -50,57 +50,60 @@ class Slider
       slide: @onSlide
       change: @onChange
 
-  initialize: ->
-    @onChange(null, value: 0)
-    @onSlide(null, value: 0)
-
-  onChange: (event, ui) =>
-    that = this
-    rioolgemalen = [{key: i.key} for i in @managed when i.key.indexOf("pomprg") == 0]
-    #$.get "/api/update/?keys=#{rioolgemalen}",
-    #    (data) -> that.updateLabels data
-    $.post "/api/update/",
-        timestamp: ui.value
-        keys: rioolgemalen,
-        (data) -> that.updateLabels data
-
   onSlide: (event, ui) =>
     for item in @managed
+        if item.group == "content"
+            continue
         key = item.key
         for candidate in item.value
           if candidate.timestamp > ui.value
             break
-        @setStyleStroke(key, candidate.color)
+        @setAttribute(key, item.group, candidate.value)
     null
 
-  updateLabels: (data) ->
-    for key, value of data
-        key = key.substr(4)
-        $("#" + key)[0].childNodes[0].nodeValue = value
+  setAttribute: (itemId, attribute, value) ->
+    item = $( '#' + itemId.replace(/(:|\.)/g,'\\$1') )
+    if attribute.indexOf(":") == -1
+        item.attr(attribute, value)
+    else
+        re = @re[attribute]
+        parts = attribute.split(":")
+        styleOrig = item.attr(parts[0])
+        item.attr(parts[0], styleOrig.replace(re, parts[1] + ":#{value};"))
 
-  manageObject: (item) ->
+  onChange: (event, ui) =>
+    that = this
+    mutanda = [{key: i.key} for i in @managed when i.group == "content"]
+    $.post "/api/update/",
+        timestamp: ui.value
+        keys: mutanda,
+        (data) -> that.onChangeFinalize data
+
+  onChangeFinalize: (data) ->
+    for key, value of data
+        $("#" + key.replace(/(:|\.)/g,'\\$1'))[0].childNodes[0].nodeValue = value
+
+  manageObject: (group, item) ->
+    if group.indexOf(":") != -1
+        parts = group.split(":")
+        @re[group] = new RegExp(parts[1] + ":[^;]+;", "g")
     that = this
     that.waiting += 1
-    $.get "/api/bootstrap/?item=#{item}",
+    $.get "/api/bootstrap/?group=#{group}&item=#{item}",
       (data) ->
         that.managed.push
           key: item
           value: data
+          group: group
         that.waiting -= 1
         if that.waiting == 0
-          that.initialize()
+          that.manageObjectFinalize()
 
-  setStyleStroke: (itemId, value) ->
-    item = $("#" + itemId)
-    styleOrig = item.attr('style')
-    item.attr('style', styleOrig.replace @stroke_re, "stroke:#{value};")
+  manageObjectFinalize: ->
+    @onChange(null, value: 0)
+    @onSlide(null, value: 0)
 
+window.Slider = Slider
 
-$('document').ready ->
-  window.slider = new Slider('mySliderDiv')
-  for element in $("path")
-    if element.id.indexOf("leiding") == 0
-      window.slider.manageObject(element.id)
-  for element in $("circle")
-    if element.id.indexOf("pomprg") == 0
-      window.slider.manageObject(element.id)
+String.prototype.endsWith = (suffix) ->
+    this.indexOf(suffix, this.length - suffix.length) isnt -1

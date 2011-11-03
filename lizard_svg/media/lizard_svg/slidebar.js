@@ -37,13 +37,13 @@
     }
   };
   Slider = (function() {
-    function Slider(itemId, managed) {
+    function Slider(itemId) {
       this.itemId = itemId;
-      this.managed = managed != null ? managed : [];
-      this.onSlide = __bind(this.onSlide, this);
       this.onChange = __bind(this.onChange, this);
+      this.onSlide = __bind(this.onSlide, this);
       this.waiting = 0;
-      this.stroke_re = new RegExp("stroke:[^;]+;", "g");
+      this.managed = [];
+      this.re = {};
       this.slider = $('#' + this.itemId).slider({
         value: 0,
         orientation: "horizontal",
@@ -55,25 +55,49 @@
         change: this.onChange
       });
     }
-    Slider.prototype.initialize = function() {
-      this.onChange(null, {
-        value: 0
-      });
-      return this.onSlide(null, {
-        value: 0
-      });
+    Slider.prototype.onSlide = function(event, ui) {
+      var candidate, item, key, _i, _j, _len, _len2, _ref, _ref2;
+      _ref = this.managed;
+      for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+        item = _ref[_i];
+        if (item.group === "content") {
+          continue;
+        }
+        key = item.key;
+        _ref2 = item.value;
+        for (_j = 0, _len2 = _ref2.length; _j < _len2; _j++) {
+          candidate = _ref2[_j];
+          if (candidate.timestamp > ui.value) {
+            break;
+          }
+        }
+        this.setAttribute(key, item.group, candidate.value);
+      }
+      return null;
+    };
+    Slider.prototype.setAttribute = function(itemId, attribute, value) {
+      var item, parts, re, styleOrig;
+      item = $('#' + itemId.replace(/(:|\.)/g, '\\$1'));
+      if (attribute.indexOf(":") === -1) {
+        return item.attr(attribute, value);
+      } else {
+        re = this.re[attribute];
+        parts = attribute.split(":");
+        styleOrig = item.attr(parts[0]);
+        return item.attr(parts[0], styleOrig.replace(re, parts[1] + (":" + value + ";")));
+      }
     };
     Slider.prototype.onChange = function(event, ui) {
-      var i, rioolgemalen, that;
+      var i, mutanda, that;
       that = this;
-      rioolgemalen = [
+      mutanda = [
         (function() {
           var _i, _len, _ref, _results;
           _ref = this.managed;
           _results = [];
           for (_i = 0, _len = _ref.length; _i < _len; _i++) {
             i = _ref[_i];
-            if (i.key.indexOf("pomprg") === 0) {
+            if (i.group === "content") {
               _results.push({
                 key: i.key
               });
@@ -84,77 +108,52 @@
       ];
       return $.post("/api/update/", {
         timestamp: ui.value,
-        keys: rioolgemalen
+        keys: mutanda
       }, function(data) {
-        return that.updateLabels(data);
+        return that.onChangeFinalize(data);
       });
     };
-    Slider.prototype.onSlide = function(event, ui) {
-      var candidate, item, key, _i, _j, _len, _len2, _ref, _ref2;
-      _ref = this.managed;
-      for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-        item = _ref[_i];
-        key = item.key;
-        _ref2 = item.value;
-        for (_j = 0, _len2 = _ref2.length; _j < _len2; _j++) {
-          candidate = _ref2[_j];
-          if (candidate.timestamp > ui.value) {
-            break;
-          }
-        }
-        this.setStyleStroke(key, candidate.color);
-      }
-      return null;
-    };
-    Slider.prototype.updateLabels = function(data) {
+    Slider.prototype.onChangeFinalize = function(data) {
       var key, value, _results;
       _results = [];
       for (key in data) {
         value = data[key];
-        key = key.substr(4);
-        _results.push($("#" + key)[0].childNodes[0].nodeValue = value);
+        _results.push($("#" + key.replace(/(:|\.)/g, '\\$1'))[0].childNodes[0].nodeValue = value);
       }
       return _results;
     };
-    Slider.prototype.manageObject = function(item) {
-      var that;
+    Slider.prototype.manageObject = function(group, item) {
+      var parts, that;
+      if (group.indexOf(":") !== -1) {
+        parts = group.split(":");
+        this.re[group] = new RegExp(parts[1] + ":[^;]+;", "g");
+      }
       that = this;
       that.waiting += 1;
-      return $.get("/api/bootstrap/?item=" + item, function(data) {
+      return $.get("/api/bootstrap/?group=" + group + "&item=" + item, function(data) {
         that.managed.push({
           key: item,
-          value: data
+          value: data,
+          group: group
         });
         that.waiting -= 1;
         if (that.waiting === 0) {
-          return that.initialize();
+          return that.manageObjectFinalize();
         }
       });
     };
-    Slider.prototype.setStyleStroke = function(itemId, value) {
-      var item, styleOrig;
-      item = $("#" + itemId);
-      styleOrig = item.attr('style');
-      return item.attr('style', styleOrig.replace(this.stroke_re, "stroke:" + value + ";"));
+    Slider.prototype.manageObjectFinalize = function() {
+      this.onChange(null, {
+        value: 0
+      });
+      return this.onSlide(null, {
+        value: 0
+      });
     };
     return Slider;
   })();
-  $('document').ready(function() {
-    var element, _i, _j, _len, _len2, _ref, _ref2, _results;
-    window.slider = new Slider('mySliderDiv');
-    _ref = $("path");
-    for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-      element = _ref[_i];
-      if (element.id.indexOf("leiding") === 0) {
-        window.slider.manageObject(element.id);
-      }
-    }
-    _ref2 = $("circle");
-    _results = [];
-    for (_j = 0, _len2 = _ref2.length; _j < _len2; _j++) {
-      element = _ref2[_j];
-      _results.push(element.id.indexOf("pomprg") === 0 ? window.slider.manageObject(element.id) : void 0);
-    }
-    return _results;
-  });
+  window.Slider = Slider;
+  String.prototype.endsWith = function(suffix) {
+    return this.indexOf(suffix, this.length - suffix.length) !== -1;
+  };
 }).call(this);
