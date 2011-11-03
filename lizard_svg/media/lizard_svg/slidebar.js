@@ -37,12 +37,12 @@
     }
   };
   Slider = (function() {
-    function Slider(itemId, managed) {
+    function Slider(itemId) {
       this.itemId = itemId;
-      this.managed = managed != null ? managed : [];
-      this.onSlide = __bind(this.onSlide, this);
       this.onChange = __bind(this.onChange, this);
+      this.onSlide = __bind(this.onSlide, this);
       this.waiting = 0;
+      this.managed = [];
       this.stroke_re = new RegExp("stroke:[^;]+;", "g");
       this.slider = $('#' + this.itemId).slider({
         value: 0,
@@ -55,13 +55,22 @@
         change: this.onChange
       });
     }
-    Slider.prototype.initialize = function() {
-      this.onChange(null, {
-        value: 0
-      });
-      return this.onSlide(null, {
-        value: 0
-      });
+    Slider.prototype.onSlide = function(event, ui) {
+      var candidate, item, key, _i, _j, _len, _len2, _ref, _ref2;
+      _ref = this.managed;
+      for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+        item = _ref[_i];
+        key = item.key;
+        _ref2 = item.value;
+        for (_j = 0, _len2 = _ref2.length; _j < _len2; _j++) {
+          candidate = _ref2[_j];
+          if (candidate.timestamp > ui.value) {
+            break;
+          }
+        }
+        this.setStyleStroke(key, candidate.color);
+      }
+      return null;
     };
     Slider.prototype.onChange = function(event, ui) {
       var i, rioolgemalen, that;
@@ -86,27 +95,10 @@
         timestamp: ui.value,
         keys: rioolgemalen
       }, function(data) {
-        return that.updateLabels(data);
+        return that.onChangeFinalize(data);
       });
     };
-    Slider.prototype.onSlide = function(event, ui) {
-      var candidate, item, key, _i, _j, _len, _len2, _ref, _ref2;
-      _ref = this.managed;
-      for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-        item = _ref[_i];
-        key = item.key;
-        _ref2 = item.value;
-        for (_j = 0, _len2 = _ref2.length; _j < _len2; _j++) {
-          candidate = _ref2[_j];
-          if (candidate.timestamp > ui.value) {
-            break;
-          }
-        }
-        this.setStyleStroke(key, candidate.color);
-      }
-      return null;
-    };
-    Slider.prototype.updateLabels = function(data) {
+    Slider.prototype.onChangeFinalize = function(data) {
       var key, value, _results;
       _results = [];
       for (key in data) {
@@ -127,8 +119,16 @@
         });
         that.waiting -= 1;
         if (that.waiting === 0) {
-          return that.initialize();
+          return that.manageObjectFinalize();
         }
+      });
+    };
+    Slider.prototype.manageObjectFinalize = function() {
+      this.onChange(null, {
+        value: 0
+      });
+      return this.onSlide(null, {
+        value: 0
       });
     };
     Slider.prototype.setStyleStroke = function(itemId, value) {

@@ -37,8 +37,9 @@ getObjectClass = (obj) ->
 
 
 class Slider
-  constructor: (@itemId, @managed=[]) ->
+  constructor: (@itemId) ->
     @waiting = 0
+    @managed = []
     @stroke_re = new RegExp("stroke:[^;]+;", "g");
     @slider = $('#' + @itemId).slider
       value: 0
@@ -50,20 +51,6 @@ class Slider
       slide: @onSlide
       change: @onChange
 
-  initialize: ->
-    @onChange(null, value: 0)
-    @onSlide(null, value: 0)
-
-  onChange: (event, ui) =>
-    that = this
-    rioolgemalen = [{key: i.key} for i in @managed when i.key.indexOf("pomprg") == 0]
-    #$.get "/api/update/?keys=#{rioolgemalen}",
-    #    (data) -> that.updateLabels data
-    $.post "/api/update/",
-        timestamp: ui.value
-        keys: rioolgemalen,
-        (data) -> that.updateLabels data
-
   onSlide: (event, ui) =>
     for item in @managed
         key = item.key
@@ -73,7 +60,17 @@ class Slider
         @setStyleStroke(key, candidate.color)
     null
 
-  updateLabels: (data) ->
+  onChange: (event, ui) =>
+    that = this
+    rioolgemalen = [{key: i.key} for i in @managed when i.key.indexOf("pomprg") == 0]
+    #$.get "/api/update/?keys=#{rioolgemalen}",
+    #    (data) -> that.onChangeFinalize data
+    $.post "/api/update/",
+        timestamp: ui.value
+        keys: rioolgemalen,
+        (data) -> that.onChangeFinalize data
+
+  onChangeFinalize: (data) ->
     for key, value of data
         key = key.substr(4)
         $("#" + key)[0].childNodes[0].nodeValue = value
@@ -88,7 +85,11 @@ class Slider
           value: data
         that.waiting -= 1
         if that.waiting == 0
-          that.initialize()
+          that.manageObjectFinalize()
+
+  manageObjectFinalize: ->
+    @onChange(null, value: 0)
+    @onSlide(null, value: 0)
 
   setStyleStroke: (itemId, value) ->
     item = $("#" + itemId)
