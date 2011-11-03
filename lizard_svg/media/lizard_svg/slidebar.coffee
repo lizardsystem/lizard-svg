@@ -53,6 +53,8 @@ class Slider
 
   onSlide: (event, ui) =>
     for item in @managed
+        if item.group == "content"
+            continue
         key = item.key
         for candidate in item.value
           if candidate.timestamp > ui.value
@@ -62,20 +64,17 @@ class Slider
 
   onChange: (event, ui) =>
     that = this
-    rioolgemalen = [{key: i.key} for i in @managed when i.key.indexOf("pomprg") == 0]
-    #$.get "/api/update/?keys=#{rioolgemalen}",
-    #    (data) -> that.onChangeFinalize data
+    mutanda = [{key: i.key} for i in @managed when i.group == "content"]
     $.post "/api/update/",
         timestamp: ui.value
-        keys: rioolgemalen,
+        keys: mutanda,
         (data) -> that.onChangeFinalize data
 
   onChangeFinalize: (data) ->
     for key, value of data
-        key = key.substr(4)
-        $("#" + key)[0].childNodes[0].nodeValue = value
+        $("#" + key.replace(/(:|\.)/g,'\\$1'))[0].childNodes[0].nodeValue = value
 
-  manageObject: (item) ->
+  manageObject: (group, item) ->
     that = this
     that.waiting += 1
     $.get "/api/bootstrap/?item=#{item}",
@@ -83,6 +82,7 @@ class Slider
         that.managed.push
           key: item
           value: data
+          group: group
         that.waiting -= 1
         if that.waiting == 0
           that.manageObjectFinalize()
@@ -92,16 +92,19 @@ class Slider
     @onSlide(null, value: 0)
 
   setStyleStroke: (itemId, value) ->
-    item = $("#" + itemId)
+    item = $( '#' + itemId.replace(/(:|\.)/g,'\\$1') )
     styleOrig = item.attr('style')
     item.attr('style', styleOrig.replace @stroke_re, "stroke:#{value};")
 
 
 $('document').ready ->
   window.slider = new Slider('mySliderDiv')
-  for element in $("path")
-    if element.id.indexOf("leiding") == 0
-      window.slider.manageObject(element.id)
-  for element in $("circle")
-    if element.id.indexOf("pomprg") == 0
-      window.slider.manageObject(element.id)
+  svg = document.getElementsByTagName("svg")[0]
+  for element in svg.getElementsByTagName("*")
+    try
+      if element.id.indexOf(":flow.indicator") > 0
+        window.slider.manageObject("style:stroke", element.id)
+      if element.id.indexOf(":pomp.indicator") > 0
+        window.slider.manageObject("style:stroke", element.id)
+      if element.id.indexOf(":pomp.inzet") > 0
+        window.slider.manageObject("content", element.id)

@@ -34,6 +34,10 @@ usage
 * inform the new object about the DOM elements to be managed.
 * interact with the ``slider`` and let the ``Slider`` do its work.
 
+example
+-------
+
+
 methods
 -------
 

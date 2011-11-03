@@ -60,6 +60,9 @@
       _ref = this.managed;
       for (_i = 0, _len = _ref.length; _i < _len; _i++) {
         item = _ref[_i];
+        if (item.group === "content") {
+          continue;
+        }
         key = item.key;
         _ref2 = item.value;
         for (_j = 0, _len2 = _ref2.length; _j < _len2; _j++) {
@@ -73,16 +76,16 @@
       return null;
     };
     Slider.prototype.onChange = function(event, ui) {
-      var i, rioolgemalen, that;
+      var i, mutanda, that;
       that = this;
-      rioolgemalen = [
+      mutanda = [
         (function() {
           var _i, _len, _ref, _results;
           _ref = this.managed;
           _results = [];
           for (_i = 0, _len = _ref.length; _i < _len; _i++) {
             i = _ref[_i];
-            if (i.key.indexOf("pomprg") === 0) {
+            if (i.group === "content") {
               _results.push({
                 key: i.key
               });
@@ -93,7 +96,7 @@
       ];
       return $.post("/api/update/", {
         timestamp: ui.value,
-        keys: rioolgemalen
+        keys: mutanda
       }, function(data) {
         return that.onChangeFinalize(data);
       });
@@ -103,19 +106,19 @@
       _results = [];
       for (key in data) {
         value = data[key];
-        key = key.substr(4);
-        _results.push($("#" + key)[0].childNodes[0].nodeValue = value);
+        _results.push($("#" + key.replace(/(:|\.)/g, '\\$1'))[0].childNodes[0].nodeValue = value);
       }
       return _results;
     };
-    Slider.prototype.manageObject = function(item) {
+    Slider.prototype.manageObject = function(group, item) {
       var that;
       that = this;
       that.waiting += 1;
       return $.get("/api/bootstrap/?item=" + item, function(data) {
         that.managed.push({
           key: item,
-          value: data
+          value: data,
+          group: group
         });
         that.waiting -= 1;
         if (that.waiting === 0) {
@@ -133,27 +136,33 @@
     };
     Slider.prototype.setStyleStroke = function(itemId, value) {
       var item, styleOrig;
-      item = $("#" + itemId);
+      item = $('#' + itemId.replace(/(:|\.)/g, '\\$1'));
       styleOrig = item.attr('style');
       return item.attr('style', styleOrig.replace(this.stroke_re, "stroke:" + value + ";"));
     };
     return Slider;
   })();
   $('document').ready(function() {
-    var element, _i, _j, _len, _len2, _ref, _ref2, _results;
+    var element, svg, _i, _len, _ref, _results;
     window.slider = new Slider('mySliderDiv');
-    _ref = $("path");
+    svg = document.getElementsByTagName("svg")[0];
+    _ref = svg.getElementsByTagName("*");
+    _results = [];
     for (_i = 0, _len = _ref.length; _i < _len; _i++) {
       element = _ref[_i];
-      if (element.id.indexOf("leiding") === 0) {
-        window.slider.manageObject(element.id);
-      }
-    }
-    _ref2 = $("circle");
-    _results = [];
-    for (_j = 0, _len2 = _ref2.length; _j < _len2; _j++) {
-      element = _ref2[_j];
-      _results.push(element.id.indexOf("pomprg") === 0 ? window.slider.manageObject(element.id) : void 0);
+      _results.push((function() {
+        try {
+          if (element.id.indexOf(":flow.indicator") > 0) {
+            window.slider.manageObject("style:stroke", element.id);
+          }
+          if (element.id.indexOf(":pomp.indicator") > 0) {
+            window.slider.manageObject("style:stroke", element.id);
+          }
+          if (element.id.indexOf(":pomp.inzet") > 0) {
+            return window.slider.manageObject("content", element.id);
+          }
+        } catch (_e) {}
+      })());
     }
     return _results;
   });

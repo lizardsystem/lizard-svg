@@ -154,7 +154,7 @@
      cy="325"
      r="10"
      style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
-     id="pomprgnieuwendijk"
+     id="rgnieuwendijk:pomp.indicator"
      d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
      sodipodi:cx="145"
      sodipodi:cy="325"
@@ -180,7 +180,7 @@
      cy="325"
      r="10"
      style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
-     id="pomprgzuidbeijerland"
+     id="rgzuidbeijerland:pomp.indicator"
      d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
      sodipodi:cx="145"
      sodipodi:cy="325"
@@ -206,7 +206,7 @@
      cy="325"
      r="10"
      style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
-     id="pomprgnumansdorp"
+     id="rgnumansdorp:pomp.indicator"
      d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
      sodipodi:cx="145"
      sodipodi:cy="325"
@@ -232,7 +232,7 @@
      cy="325"
      r="10"
      style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
-     id="pomprgklaaswaal"
+     id="rgklaaswaal:pomp.indicator"
      d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
      sodipodi:cx="145"
      sodipodi:cy="325"
@@ -258,7 +258,7 @@
      cy="325"
      r="10"
      style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
-     id="pomprgnumansdorpnoord"
+     id="rgnumansdorpnoord:pomp.indicator"
      d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
      sodipodi:cx="145"
      sodipodi:cy="325"
@@ -273,7 +273,7 @@
      id="line69-4-13-98" />
   <path
      sodipodi:nodetypes="ccc"
-     id="leidingKlaaswaalNumansdorpnoord"
+     id="KlaaswaalNumansdorpnoord:flow.indicator"
      d="m 365.99825,374.508 -10.46163,0 0,34.93442"
      style="fill:none;stroke:#000000;stroke-width:3.06558585;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      inkscape:connector-curvature="0" />
@@ -288,23 +288,23 @@
      style="fill:none;stroke:#000000;stroke-width:3.04257655;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      inkscape:connector-curvature="0" />
   <path
-     id="leidingKlaaswaal"
+     id="Klaaswaal:flow.indicator"
      d="m 375.50383,367.47521 5,-31 0,-31"
      style="fill:none;stroke:#000000;stroke-width:2.99961901;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      inkscape:connector-curvature="0" />
   <path
-     id="leidingNieuwendijkZuidbeijerland"
+     id="NieuwendijkZuidbeijerland:flow.indicator"
      d="m 239.54123,363.64678 84.17754,41.26642"
      style="fill:none;stroke:#000000;stroke-width:2.97047877;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
      inkscape:connector-curvature="0" />
   <path
      inkscape:label="#leidingZuidbeijerland"
-     id="leidingZuidbeijerland"
+     id="Zuidbeijerland:flow.indicator"
      d="m 240.50383,364.47521 0,-20"
      style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      inkscape:connector-curvature="0" />
   <path
-     id="leidingNieuwendijk"
+     id="Nieuwendijk:flow.indicator"
      d="m 240.51233,364.48371 -75.017,-38.64286 0,-9.66071"
      style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      inkscape:connector-curvature="0" />
@@ -332,7 +332,7 @@
      cy="325"
      r="10"
      style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
-     id="pomprgwestmaas"
+     id="rgwestmaas:pomp.indicator"
      d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
      sodipodi:cx="145"
      sodipodi:cy="325"
@@ -358,7 +358,7 @@
      cy="325"
      r="10"
      style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
-     id="pomprgMijnsheerenland"
+     id="rgMijnsheerenland:pomp.indicator"
      d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
      sodipodi:cx="145"
      sodipodi:cy="325"
@@ -384,7 +384,7 @@
      cy="325"
      r="10"
      style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
-     id="pomprgheienoord"
+     id="rgheienoord:pomp.indicator"
      d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
      sodipodi:cx="145"
      sodipodi:cy="325"
@@ -410,7 +410,7 @@
      cy="325"
      r="10"
      style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
-     id="pomprgnieuweweg"
+     id="rgnieuweweg:pomp.indicator"
      d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
      sodipodi:cx="145"
      sodipodi:cy="325"
@@ -436,7 +436,7 @@
      cy="325"
      r="10"
      style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
-     id="pomprgirenestraat"
+     id="rgirenestraat:pomp.indicator"
      d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
      sodipodi:cx="145"
      sodipodi:cy="325"
@@ -462,7 +462,7 @@
      cy="325"
      r="10"
      style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
-     id="pomprgdegorzen"
+     id="rgdegorzen:pomp.indicator"
      d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
      sodipodi:cx="145"
      sodipodi:cy="325"
@@ -476,33 +476,33 @@
      style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
      id="line69-4-13-33-82" />
   <path
-     id="leidingWestmaas"
+     id="Westmaas:flow.indicator"
      d="m 432.14883,215.77658 10.11881,-24.37949"
      style="fill:none;stroke:#000000;stroke-width:2.87463498;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      inkscape:connector-curvature="0" />
   <path
      inkscape:label="#path7750"
-     id="leidingMijnsheerenland"
+     id="Mijnsheerenland:flow.indicator"
      d="m 440.84191,192.90158 11.85903,5.07014"
      style="fill:none;stroke:#000000;stroke-width:3.15977597;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      inkscape:connector-curvature="0" />
   <path
-     id="leidingHeienoord"
+     id="Heienoord:flow.indicator"
      d="m 439.16544,125.59846 1.78767,-11.85307"
      style="fill:none;stroke:#000000;stroke-width:3.076298;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      inkscape:connector-curvature="0" />
   <path
-     id="leidingNieuweweg"
+     id="Nieuweweg:flow.indicator"
      d="m 430.45994,133.27894 -46.98317,-8.66759 -9.96613,-9.95169"
      style="fill:none;stroke:#000000;stroke-width:2.72042084;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
      inkscape:connector-curvature="0" />
   <path
-     id="leidingDegorzen"
+     id="Degorzen:flow.indicator"
      d="m 350.21074,115.56885 4.84374,-4.56069"
      style="fill:none;stroke:#000000;stroke-width:2.61628985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
      inkscape:connector-curvature="0" />
   <path
-     id="leidingIrenestraat"
+     id="Irenestraat:flow.indicator"
      d="m 330.59399,133.93523 7.65023,-6.95123"
      style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      inkscape:connector-curvature="0" />
@@ -524,7 +524,7 @@
      cy="325"
      r="10"
      style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
-     id="pomprgstrijensas"
+     id="rgstrijensas:pomp.indicator"
      d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
      sodipodi:cx="145"
      sodipodi:cy="325"
@@ -550,7 +550,7 @@
      cy="325"
      r="10"
      style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
-     id="pomprgzweedsestraat"
+     id="rgzweedsestraat:pomp.indicator"
      d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
      sodipodi:cx="145"
      sodipodi:cy="325"
@@ -576,7 +576,7 @@
      cy="325"
      r="10"
      style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
-     id="pomprgschenkel"
+     id="rgschenkel:pomp.indicator"
      d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
      sodipodi:cx="145"
      sodipodi:cy="325"
@@ -590,12 +590,12 @@
      style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
      id="line69-4-13-9-9" />
   <path
-     id="leidingSchenkel"
+     id="Schenkel:flow.indicator"
      d="m 673.90137,390.80827 0,-20 -6.71328,-6.36059"
      style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      inkscape:connector-curvature="0" />
   <path
-     id="leidingZweedsestraat"
+     id="Zweedsestraat:flow.indicator"
      d="m 631.60181,331.55361 c -2.39553,-2.04488 -11.88287,-8.97678 -11.88287,-8.97678 l -26.2097,25.56833"
      style="fill:none;stroke:#000000;stroke-width:2.8053956;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
      inkscape:connector-curvature="0" />
@@ -726,7 +726,7 @@
      cy="325"
      r="10"
      style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
-     id="pomprgblaaksedijk"
+     id="rgblaaksedijk:pomp.indicator"
      d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
      sodipodi:cx="145"
      sodipodi:cy="325"
@@ -752,7 +752,7 @@
      cy="325"
      r="10"
      style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
-     id="pomprgboezemkade"
+     id="rgboezemkade:pomp.indicator"
      d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
      sodipodi:cx="145"
      sodipodi:cy="325"
@@ -778,7 +778,7 @@
      cy="325"
      r="10"
      style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
-     id="pomprgmijlpolder"
+     id="rgmijlpolder:pomp.indicator"
      d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
      sodipodi:cx="145"
      sodipodi:cy="325"
@@ -804,7 +804,7 @@
      cy="325"
      r="10"
      style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
-     id="pomprgnassaulaan"
+     id="rgnassaulaan:pomp.indicator"
      d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
      sodipodi:cx="145"
      sodipodi:cy="325"
@@ -830,7 +830,7 @@
      cy="325"
      r="10"
      style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
-     id="pomprgsimonsdijkje"
+     id="rgsimonsdijkje:pomp.indicator"
      d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
      sodipodi:cx="145"
      sodipodi:cy="325"
@@ -844,27 +844,27 @@
      style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
      id="line69-4-13-33-0-1" />
   <path
-     id="leidingBlaaksedijk"
+     id="Blaaksedijk:flow.indicator"
      d="m 515.48873,159.63946 43.60846,0 0.72081,14.19362 32.07565,24.83881"
      style="fill:none;stroke:#000000;stroke-width:2.87781525;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      inkscape:connector-curvature="0" />
   <path
-     id="leidingBoezemkade"
+     id="Boezemkade:flow.indicator"
      d="m 576.51681,223.61917 14.41488,-22.15827 8.10837,-12.71376"
      style="fill:none;stroke:#000000;stroke-width:2.65792871;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      inkscape:connector-curvature="0" />
   <path
-     id="leidingMijlpolder"
+     id="Mijlpolder:flow.indicator"
      d="m 635.48892,186.20844 40.55521,31.28199"
      style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      inkscape:connector-curvature="0" />
   <path
-     id="leidingNassaulaan"
+     id="Nassaulaan:flow.indicator"
      d="m 611.48699,181.69533 8.36201,0"
      style="fill:none;stroke:#000000;stroke-width:3.08221889;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      inkscape:connector-curvature="0" />
   <path
-     id="leidingSimonsdijkje"
+     id="Simonsdijkje:flow.indicator"
      d="m 629.06524,173.81554 0,-19.58165"
      style="fill:none;stroke:#000000;stroke-width:2.88748074;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
      inkscape:connector-curvature="0" />
@@ -917,7 +917,7 @@
      cy="325"
      r="10"
      style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
-     id="pomprgnieuwbeijerland"
+     id="rgnieuwbeijerland:pomp.indicator"
      d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
      sodipodi:cx="145"
      sodipodi:cy="325"
@@ -943,7 +943,7 @@
      cy="325"
      r="10"
      style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
-     id="pomprgpiershil"
+     id="rgpiershil:pomp.indicator"
      d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
      sodipodi:cx="145"
      sodipodi:cy="325"
@@ -957,13 +957,13 @@
      style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
      id="line69-4-13-30" />
   <path
-     id="leidingNieuwbeijerland"
+     id="Nieuwbeijerland:flow.indicator"
      d="m 225.7034,182.53133 0,18.64226"
      style="fill:none;stroke:#000000;stroke-width:2.80803251;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
      inkscape:connector-curvature="0" />
   <path
      inkscape:label="#leidingPiershil"
-     id="leidingPiershil"
+     id="Piershil:flow.indicator"
      d="M 163.30723,230.82685 211.9884,217.47891"
      style="fill:none;stroke:#000000;stroke-width:2.61905026;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
      inkscape:connector-curvature="0" />
@@ -1040,7 +1040,7 @@
      id="naarbinnenmaas">Binnenmaas</text>
   <path
      sodipodi:nodetypes="ccccc"
-     id="leidingStrijensas"
+     id="Strijensas:flow.indicator"
      d="m 625.4958,435.04149 0,-33.76687 -30.28282,0 -10.67183,-17.61078 0,-9.78103"
      style="fill:none;stroke:#000000;stroke-width:2.96053457;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
      inkscape:connector-curvature="0" />
@@ -1050,37 +1050,37 @@
      style="font-size:14.37125874px;font-family:Arial"
      y="269.186"
      x="395.9946"
-     id="rgklaaswaal">-</text>
+     id="rgklaaswaal:pomp.inzet">-</text>
   <text
      inkscape:label="#rgnumansdorpnoord"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="358.31137"
      x="409.4343"
-     id="rgnumansdorpnoord">-</text>
+     id="rgnumansdorpnoord:pomp.inzet">-</text>
   <text
      inkscape:label="#rgnumansdorp"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="388.54425"
      x="409.4343"
-     id="rgnumansdorp">-</text>
+     id="rgnumansdorp:pomp.inzet">-</text>
   <text
      inkscape:label="#rgzuidbeijerland"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="320.74921"
      x="266.76694"
-     id="rgzuidbeijerland">-</text>
+     id="rgzuidbeijerland:pomp.inzet">-</text>
   <text
      inkscape:label="#rgnieuwendijk"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="293.26474"
      x="187.16254"
-     id="rgnieuwendijk">-</text>
+     id="rgnieuwendijk:pomp.inzet">-</text>
   <path
-     id="leidingNumansdorp"
+     id="Numansdorp:flow.indicator"
      d="m 355.22662,409.52201 10.35134,-0.22389"
      style="fill:none;stroke:#000000;stroke-width:2.87822676;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      inkscape:connector-curvature="0" />
@@ -1095,58 +1095,58 @@
      style="font-size:14.37125874px;font-family:Arial"
      y="207.87463"
      x="159.72523"
-     id="rgpiershil">-</text>
+     id="rgpiershil:pomp.inzet">-</text>
   <text
      inkscape:label="#rgnieuwbeijerland"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="153.45807"
      x="235.02054"
-     id="rgnieuwbeijerland">-</text>
+     id="rgnieuwbeijerland:pomp.inzet">-</text>
   <text
      inkscape:label="#rgirenestraat"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="137.26265"
      x="354.90836"
-     id="rgirenestraat">-</text>
+     id="rgirenestraat:pomp.inzet">-</text>
   <text
      inkscape:label="#rgdegorzen"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="116.53252"
      x="329.32257"
-     id="rgdegorzen">-</text>
+     id="rgdegorzen:pomp.inzet">-</text>
   <text
      inkscape:label="#rgheienoord"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="89.972038"
      x="471.50635"
-     id="rgheienoord">-</text>
+     id="rgheienoord:pomp.inzet">-</text>
   <text
      inkscape:label="#rgnieuweweg"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="131.4323"
      x="476.6235"
-     id="rgnieuweweg">-</text>
+     id="rgnieuweweg:pomp.inzet">-</text>
   <text
      inkscape:label="#rgMijnsheerenland"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="194.59441"
      x="500.38171"
-     id="rgMijnsheerenland">-</text>
+     id="rgMijnsheerenland:pomp.inzet">-</text>
   <text
      inkscape:label="#rgwestmaas"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="213.38109"
      x="463.83069"
-     id="rgwestmaas">-</text>
+     id="rgwestmaas:pomp.inzet">-</text>
   <path
-     id="leidingWestmaasMijnsheerenland"
+     id="WestmaasMijnsheerenland:flow.indicator"
      d="m 442.12551,192.44069 9.63429,-40.25754 -6.53755,-12.04286"
      style="fill:none;stroke:#000000;stroke-width:2.87463522;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      inkscape:connector-curvature="0" />
@@ -1156,28 +1156,28 @@
      style="font-size:14.37125874px;font-family:Arial"
      y="139.53001"
      x="531.08466"
-     id="rgblaaksedijk">-</text>
+     id="rgblaaksedijk:pomp.inzet">-</text>
   <text
      inkscape:label="#rgmijlpolder"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="214.35281"
      x="736.50195"
-     id="rgmijlpolder">-</text>
+     id="rgmijlpolder:pomp.inzet">-</text>
   <text
      inkscape:label="#rgsimonsdijkje"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="174.18819"
      x="678.02014"
-     id="rgsimonsdijkje">-</text>
+     id="rgsimonsdijkje:pomp.inzet">-</text>
   <text
      inkscape:label="#rgnassaulaan"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="160.58406"
      x="627.57959"
-     id="rgnassaulaan">-</text>
+     id="rgnassaulaan:pomp.inzet">-</text>
   <line
      x1="600.78436"
      y1="235.24745"
@@ -1191,7 +1191,7 @@
      cy="325"
      r="10"
      style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
-     id="pomprghoeksedijk"
+     id="rghoeksedijk:pomp.indicator"
      d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
      sodipodi:cx="145"
      sodipodi:cy="325"
@@ -1210,9 +1210,9 @@
      style="font-size:14.37125874px;font-family:Arial"
      y="220.83098"
      x="643.29657"
-     id="rghoeksedijk">-</text>
+     id="rghoeksedijk:pomp.inzet">-</text>
   <path
-     id="leidingHoeksedijk"
+     id="Hoeksedijk:flow.indicator"
      d="m 591.32807,222.24697 -6.96809,-8.68851"
      style="fill:none;stroke:#000000;stroke-width:2.91553116;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      inkscape:connector-curvature="0" />
@@ -1222,21 +1222,21 @@
      style="font-size:14.37125874px;font-family:Arial"
      y="415.82376"
      x="673.63397"
-     id="rgstrijensas">-</text>
+     id="rgstrijensas:pomp.inzet">-</text>
   <text
      inkscape:label="#rgschenkel"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="382.46121"
      x="726.63318"
-     id="rgschenkel">-</text>
+     id="rgschenkel:pomp.inzet">-</text>
   <text
      inkscape:label="#rgzweedsestraat"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="320.59473"
      x="687.88898"
-     id="rgzweedsestraat">-</text>
+     id="rgzweedsestraat:pomp.inzet">-</text>
   <line
      x1="667.19214"
      y1="363.58987"
@@ -1250,7 +1250,7 @@
      cy="325"
      r="10"
      style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
-     id="pomprgmookhoek"
+     id="rgmookhoek:pomp.indicator"
      d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
      sodipodi:cx="145"
      sodipodi:cy="325"
@@ -1264,7 +1264,7 @@
      style="stroke:#000000;stroke-width:0.87161726;stroke-opacity:1"
      id="line69-4-13-9-7-2" />
   <path
-     id="leidingMookhoek"
+     id="Mookhoek:flow.indicator"
      d="m 644.48256,342.84143 10.59228,9.56003"
      style="fill:none;stroke:#000000;stroke-width:2.76544356;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      inkscape:connector-curvature="0" />
@@ -1274,14 +1274,14 @@
      style="font-size:14.37125874px;font-family:Arial"
      y="341.32486"
      x="714.20575"
-     id="rgmookhoek">-</text>
+     id="rgmookhoek:pomp.inzet">-</text>
   <text
      inkscape:label="#rgboezemkade"
      transform="scale(0.94137069,1.0622808)"
      style="font-size:14.37125874px;font-family:Arial"
      y="236.37857"
      x="599.06976"
-     id="rgboezemkade">-</text>
+     id="rgboezemkade:pomp.inzet">-</text>
   <rect
      id="rect19-8"
      style="fill:#f3faf3;fill-opacity:0.51764706;stroke:#000000;stroke-width:2.02008343;stroke-opacity:1"
