@@ -70,12 +70,12 @@
      orient="auto"
      refY="0"
      refX="0"
-     id="ArrowBlack"
+     id="Black-Arrow"
      style="overflow:visible">
     <path
        id="path4222"
        d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-       style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+       style="fill-rule:evenodd;stroke:Black;stroke-width:1pt;marker-start:none"
        transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
        inkscape:connector-curvature="0" />
   </marker>
@@ -84,12 +84,26 @@
      orient="auto"
      refY="0"
      refX="0"
-     id="ArrowRed"
+     id="Red-Arrow"
      style="overflow:visible">
     <path
        id="path4222"
        d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-       style="fill-rule:evenodd;stroke:#ff0703;stroke-width:1pt;marker-start:none;fill:#ff0703"
+       style="fill-rule:evenodd;stroke:Red;stroke-width:1pt;marker-start:none;fill:Red"
+       transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+       inkscape:connector-curvature="0" />
+  </marker>
+  <marker
+     inkscape:stockid="Arrow1Send"
+     orient="auto"
+     refY="0"
+     refX="0"
+     id="Green-Arrow"
+     style="overflow:visible">
+    <path
+       id="path4222"
+       d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+       style="fill-rule:evenodd;stroke:Green;stroke-width:1pt;marker-start:none;fill:Green"
        transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
        inkscape:connector-curvature="0" />
   </marker>
@@ -97,35 +111,35 @@
      orient="auto"
      refY="0"
      refX="10"
-     id="pomp.uit"
+     id="Black-Pump"
      style="overflow:visible">
     <path
-       id="pomp.uit.cross"
+       id="Black-Pump.cross"
        d="m -11,0 22,0 m -11,-11 0,22"
-       style="stroke:#000000;stroke-width:1pt;" />
+       style="stroke:#000000;stroke-width:1.5pt;" />
     <circle
-	id="pomp.uit.circle"
+	id="Black-Pump.circle"
 	r="11"
 	cy="0"
 	cx="0"
-	style="stroke:#000000;stroke-width:1pt;fill:none" />
+	style="stroke:#000000;stroke-width:1.5pt;fill:none" />
   </marker>
   <marker
      orient="auto"
      refY="0"
      refX="10"
-     id="pomp.aan"
+     id="Green-Pump"
      style="overflow:visible">
     <path
-       id="pomp.aan.cross"
+       id="Green-Pump.cross"
        d="m -11,0 22,0 m -11,-11 0,22"
-       style="stroke:#16f90c;stroke-width:1pt;" />
+       style="stroke:Green;stroke-width:1.5pt;" />
     <circle
-	id="pomp.aan.circle"
+	id="Green-Pump.circle"
 	r="11"
 	cy="0"
 	cx="0"
-	style="stroke:#16f90c;stroke-width:1pt;fill:none" />
+	style="stroke:Green;stroke-width:1.5pt;fill:none" />
   </marker>
 </defs>
 <title
@@ -176,42 +190,28 @@
    id="CRKW-RG-253_pompkelder:H.meting"
    inkscape:label="#rijksstraatweg" />
 <rect x="0" y="0" width="132" height="100" transform="matrix(1, 0, 0, -0.67, 532, 496)" style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" id="CRKW-RG-253_pompkelder(H.meting)" />
-<line
-   x1="465.96332"
-   y1="202.42847"
-   x2="520.94189"
-   y2="202.42847"
-   style="stroke:#000000;stroke-width:3.33996081;stroke-opacity:1"
-   id="line29" />
-<line
-   x1="465.96332"
-   y1="202.42847"
-   x2="520.94189"
-   y2="202.42847"
-   style="stroke:#000000;stroke-width:3.33996081;stroke-opacity:1"
-   id="Q1_index" />
 <path
-   style="fill:none;stroke:#000000;stroke-width:3.33996081;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+   style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
    d="m 466,202 54,0 m 23,0 55,0 0,113"
    id="CRKW-207:Q.indicator"
    inkscape:connector-curvature="0" />
 <path
-   style="fill:none;stroke:#000000;stroke-width:3.33996081;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+   style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
    d="m 466,314 54,0 m 23,0 55,0"
    id="CRKW-003:Q.indicator"
    inkscape:connector-curvature="0" />
 <path
-   style="fill:none;stroke:#000000;stroke-width:3.33996081;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+   style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
    d="m 597.91188,315.15262 0,56.36207"
    id="Q5_index"
    inkscape:connector-curvature="0" />
 <path
-   style="fill:none;stroke:#000000;stroke-width:3.33996081;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-   d="m 842,371 -55,0 m -24,0 -165,0"
+   style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+   d="m 823,371 -36,0 m -24,0 -165,0"
    id="CRKW-002:Q.indicator"
    sodipodi:nodetypes="cc" />
 <path
-   style="fill:none;stroke:#000000;stroke-width:3.33996081;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-mid:none;marker-end:url(#ArrowBlack)"
+   style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-mid:none;marker-end:url(#Black-Arrow)"
    d="m 597.91188,371.51469 0,56.36206"
    id="Q8_index"
    inkscape:connector-curvature="0" />
@@ -235,35 +235,35 @@
    inkscape:label="#bongerd_dwa" />
 <rect x="0" y="0" width="132" height="100" transform="matrix(1, 0, 0, -0.67, 648, 235)" style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" id="CRKW-207_N(H.meting)" />
 <path
-   id="pomp.uit.legenda"
-   style="stroke:#000000;stroke-width:0.7;stroke-opacity:1;marker-end:url(#pomp.uit)"
+   id="Black-Pump.legenda"
+   style="stroke:#000000;stroke-width:0.7;stroke-opacity:1;marker-end:url(#Black-Pump)"
    d="m 24,142 10,10" />
 <path
-   id="pomp.aan.legenda"
-   style="stroke:#000000;stroke-width:0.7;stroke-opacity:1;marker-end:url(#pomp.aan)"
+   id="Green-Pump.legenda"
+   style="stroke:#000000;stroke-width:0.7;stroke-opacity:1;marker-end:url(#Green-Pump)"
    d="m 44,142 10,10" />
 <path
-   style="fill:#ed2f04;fill-opacity:1;stroke:#0c0703;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.9254902;stroke-dasharray:none;marker-end:url(#ArrowBlack)"
+   style="fill:#ed2f04;fill-opacity:1;stroke:#0c0703;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.9254902;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
    d="m 955.80893,371.51469 35,0"
    id="CRKW-002:overstort.indicator"
    inkscape:connector-curvature="0" />
 <path
-   style="fill:#ed2f04;fill-opacity:1;stroke:#0c0703;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.92441861;stroke-dasharray:none;marker-end:url(#ArrowBlack)"
+   style="fill:#ed2f04;fill-opacity:1;stroke:#0c0703;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.92441861;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
    d="m 334.01483,202.42846 -35,0"
    id="CRKW-207:overstort.indicator"
    inkscape:connector-curvature="0" />
 <path
-   style="fill:#ed8712;fill-opacity:1;stroke:#062f04;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#ArrowBlack)"
+   style="fill:#ed8712;fill-opacity:1;stroke:#062f04;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
    d="m 334.01483,315.15262 -35,0"
    id="CRKW-003:overstort.indicator"
    inkscape:connector-curvature="0" />
 <path
-   style="fill:#ed2f04;fill-opacity:1;stroke:#0c0703;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.9254902;stroke-dasharray:none;marker-end:url(#ArrowBlack)"
+   style="fill:#ed2f04;fill-opacity:1;stroke:#0c0703;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.9254902;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
    d="m 531.93761,461.69401 -35,0"
    id="CRKW-RG-253:overstort.indicator"
    inkscape:connector-curvature="0" />
 <path
-   style="fill:none;stroke:#000000;stroke-width:3.33996081;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#ArrowBlack)"
+   style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
    d="m 779,202 63,0 m 23,0 24,0 0,134.36206"
    id="CRKW-001:Q.indicator"
    inkscape:connector-curvature="0"
@@ -382,7 +382,7 @@
      id="tspan3120-48">De Schans</tspan>
 </text>
 <path
-   style="fill:none;stroke:#000000;stroke-width:3.33999991;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:none"
+   style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:none"
    d="m 594.62641,495.91146 0,33.43511"
    id="CRKW-RG-253:Q.indicator"
    inkscape:connector-curvature="0" />
@@ -420,39 +420,39 @@
    transform="scale(0.98765023,1.0125042)">-</text>
 <path
    id="CRKW-001_P1:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#pomp.uit)"
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
    d="m 846,194 15,15" />
 <path
    id="CRKW-207_P1:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#pomp.uit)"
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
    d="m 524,180 15,15" />
 <path
    id="CRKW-207_P2:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#pomp.uit)"
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
    d="m 524,208 15,15" />
 <path
    id="CRKW-003_P2:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#pomp.uit)"
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
    d="m 524,320 15,15" />
 <path
    id="CRKW-003_P1:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#pomp.uit)"
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
    d="m 524,292 15,15" />
 <path
    id="CRKW-002_P1:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#pomp.uit)"
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
    d="m 767,350 15,15" />
 <path
    id="CRKW-002_P2:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#pomp.uit)"
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
    d="m 767,378 15,15" />
 <path
    id="CRKW-RG-253_pomp1:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#pomp.uit)"
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
    d="m 574,532 15,15" />
 <path
    id="CRKW-RG-253_pomp2:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#pomp.uit)"
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
    d="m 602,532 15,15" />
 <text
    id="CRKW-207:Pomp.inzet"
@@ -560,7 +560,7 @@
    style="fill:none;stroke:#000000;stroke-width:3.86278701;stroke-opacity:1;display:inline"
    id="rect19-8" />
 <path
-   style="fill:#ed2f04;fill-opacity:1;stroke:#ff0703;stroke-width:2.22754288;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.92441861;stroke-dasharray:none;marker-end:url(#ArrowRed);display:inline"
+   style="fill:#ed2f04;fill-opacity:1;stroke:#ff0703;stroke-width:2.22754288;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.92441861;stroke-dasharray:none;marker-end:url(#Red-Arrow);display:inline"
    d="m 50.379637,221.53351 -25.703626,0"
    id="path7045-7-2-14"
    inkscape:connector-curvature="0"
@@ -668,7 +668,7 @@
    style="fill:#9dc2de;stroke:#000000;stroke-width:0.18537293;stroke-opacity:1;display:inline"
    id="molendijk-7" />
 <path
-   style="fill:#ed2f04;fill-opacity:1;stroke:#0c0703;stroke-width:2.22754288;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.9254902;stroke-dasharray:none;marker-end:url(#ArrowBlack);display:inline"
+   style="fill:#ed2f04;fill-opacity:1;stroke:#0c0703;stroke-width:2.22754288;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.9254902;stroke-dasharray:none;marker-end:url(#Black-Arrow);display:inline"
    d="m 50.379637,185.21574 -25.70363,0"
    id="path7045-7-2-14-0"
    inkscape:connector-curvature="0"
@@ -763,13 +763,13 @@
    xml:space="preserve"
    x="288"
    y="126"
-   style="font-size:20px;fill:#c04a4a;font-family:Arial">Setpoint:          m³/h</text>
+   style="font-size:20px;fill:Red;font-family:Arial">Setpoint:          m³/h</text>
 <text
    id="SYSY-RG-01:Q.setpoint"
    text-anchor="end"
-   x="424"
+   x="420"
    y="126"
-   style="font-size:20px;fill:#c04a4a;font-family:Arial">-</text>
+   style="font-size:20px;fill:Red;font-family:Arial">-</text>
 <text
    id="SYSY-RG-01(neerslag)"
    xml:space="preserve"
@@ -779,7 +779,7 @@
 <text
    id="SYSY-RG-01:neerslag"
    text-anchor="end"
-   x="424"
+   x="420"
    y="102"
    style="font-size:20px;font-family:Arial">-</text>
 </svg>

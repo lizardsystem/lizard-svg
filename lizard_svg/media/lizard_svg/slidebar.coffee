@@ -63,13 +63,16 @@ class Slider
 
   setAttribute: (itemId, attribute, value) ->
     item = $( '#' + itemId.replace(/(:|\.)/g,'\\$1') )
-    if attribute.indexOf(":") == -1
-        item.attr(attribute, value)
+    if attribute == "::color"
+        @setAttribute(itemId, "style:stroke", value)
+        @setAttribute(itemId, "style:marker-end", value)
+    else if attribute.indexOf(":") == -1
+        item[0].setAttribute(attribute, value)
     else
         re = @re[attribute]
         parts = attribute.split(":")
         styleOrig = item.attr(parts[0])
-        item.attr(parts[0], styleOrig.replace(re, parts[1] + ":#{value};"))
+        item.attr(parts[0], styleOrig.replace(re, "$1#{value}"))
 
   onChange: (event, ui) =>
     that = this
@@ -84,9 +87,12 @@ class Slider
         $("#" + key.replace(/(:|\.)/g,'\\$1'))[0].childNodes[0].nodeValue = value
 
   manageObject: (group, item) ->
+    if group == "::color"
+        @re["style:stroke"] = new RegExp("(stroke:)[^;]+", "g")
+        @re["style:marker-end"] = new RegExp("(marker-end:url\\(#)[^-]+", "g")
     if group.indexOf(":") != -1
         parts = group.split(":")
-        @re[group] = new RegExp(parts[1] + ":[^;]+;", "g")
+        @re[group] = new RegExp("(" + parts[1] + ":)[^;]+", "g")
     that = this
     that.waiting += 1
     $.get "/api/bootstrap/?group=#{group}&item=#{item}",
