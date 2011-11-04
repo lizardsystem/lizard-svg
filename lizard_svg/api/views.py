@@ -8,7 +8,7 @@ class Bootstrap(View):
     REST view for timeseries.
     """
 
-    status_colors = ['Black', 'LightGreen']
+    status_colors = ['Black', 'Green']
     overstort_colors = ['Black', 'Red']
 
     def get(self, request):

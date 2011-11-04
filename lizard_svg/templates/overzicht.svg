@@ -46,19 +46,82 @@
   </sodipodi:namedview>
   <defs
      id="defs3502">
-    <marker
-       style="overflow:visible"
-       id="Arrow1Send"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow1Send">
-      <path
-         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-         id="path4733" />
-    </marker>
+  <marker
+     inkscape:stockid="Arrow1Send"
+     orient="auto"
+     refY="0"
+     refX="0"
+     id="Black-Arrow"
+     style="overflow:visible">
+    <path
+       id="path4222"
+       d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+       style="fill-rule:evenodd;stroke:Black;stroke-width:1pt;marker-start:none"
+       transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+       inkscape:connector-curvature="0" />
+  </marker>
+  <marker
+     inkscape:stockid="Arrow1Send"
+     orient="auto"
+     refY="0"
+     refX="0"
+     id="Red-Arrow"
+     style="overflow:visible">
+    <path
+       id="path4222"
+       d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+       style="fill-rule:evenodd;stroke:Red;stroke-width:1pt;marker-start:none;fill:Red"
+       transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+       inkscape:connector-curvature="0" />
+  </marker>
+  <marker
+     inkscape:stockid="Arrow1Send"
+     orient="auto"
+     refY="0"
+     refX="0"
+     id="Green-Arrow"
+     style="overflow:visible">
+    <path
+       id="path4222"
+       d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+       style="fill-rule:evenodd;stroke:Green;stroke-width:1pt;marker-start:none;fill:Green"
+       transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+       inkscape:connector-curvature="0" />
+  </marker>
+  <marker
+     orient="auto"
+     refY="0"
+     refX="10"
+     id="Black-Pump"
+     style="overflow:visible">
+    <path
+       id="Black-Pump.cross"
+       d="m -11,0 22,0 m -11,-11 0,22"
+       style="stroke:#000000;stroke-width:1.5pt;" />
+    <circle
+	id="Black-Pump.circle"
+	r="11"
+	cy="0"
+	cx="0"
+	style="stroke:#000000;stroke-width:1.5pt;fill:none" />
+  </marker>
+  <marker
+     orient="auto"
+     refY="0"
+     refX="10"
+     id="Green-Pump"
+     style="overflow:visible">
+    <path
+       id="Green-Pump.cross"
+       d="m -11,0 22,0 m -11,-11 0,22"
+       style="stroke:Green;stroke-width:1.5pt;" />
+    <circle
+	id="Green-Pump.circle"
+	r="11"
+	cy="0"
+	cx="0"
+	style="stroke:Green;stroke-width:1.5pt;fill:none" />
+  </marker>
   </defs>
   <metadata
      id="metadata3505">
@@ -280,7 +343,7 @@
   <path
      id="path7607"
      d="m 355.7226,409.47521 -6.53346,0"
-     style="fill:none;stroke:#000000;stroke-width:2.56245828;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
+     style="fill:none;stroke:#000000;stroke-width:2.56245828;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
      inkscape:connector-curvature="0" />
   <path
      id="effluentNumansdorp"
@@ -295,7 +358,7 @@
   <path
      id="NieuwendijkZuidbeijerland:flow.indicator"
      d="m 239.54123,363.64678 84.17754,41.26642"
-     style="fill:none;stroke:#000000;stroke-width:2.97047877;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
+     style="fill:none;stroke:#000000;stroke-width:2.97047877;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
      inkscape:connector-curvature="0" />
   <path
      inkscape:label="#leidingZuidbeijerland"
@@ -494,12 +557,12 @@
   <path
      id="Nieuweweg:flow.indicator"
      d="m 430.45994,133.27894 -46.98317,-8.66759 -9.96613,-9.95169"
-     style="fill:none;stroke:#000000;stroke-width:2.72042084;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
+     style="fill:none;stroke:#000000;stroke-width:2.72042084;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
      inkscape:connector-curvature="0" />
   <path
      id="Degorzen:flow.indicator"
      d="m 350.21074,115.56885 4.84374,-4.56069"
-     style="fill:none;stroke:#000000;stroke-width:2.61628985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
+     style="fill:none;stroke:#000000;stroke-width:2.61628985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
      inkscape:connector-curvature="0" />
   <path
      id="Irenestraat:flow.indicator"
@@ -597,7 +660,7 @@
   <path
      id="Zweedsestraat:flow.indicator"
      d="m 631.60181,331.55361 c -2.39553,-2.04488 -11.88287,-8.97678 -11.88287,-8.97678 l -26.2097,25.56833"
-     style="fill:none;stroke:#000000;stroke-width:2.8053956;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
+     style="fill:none;stroke:#000000;stroke-width:2.8053956;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
      inkscape:connector-curvature="0" />
   <g
      id="g5198-33-8-5-4"
@@ -866,7 +929,7 @@
   <path
      id="Simonsdijkje:flow.indicator"
      d="m 629.06524,173.81554 0,-19.58165"
-     style="fill:none;stroke:#000000;stroke-width:2.88748074;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
+     style="fill:none;stroke:#000000;stroke-width:2.88748074;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
      inkscape:connector-curvature="0" />
   <g
      style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
@@ -959,13 +1022,13 @@
   <path
      id="Nieuwbeijerland:flow.indicator"
      d="m 225.7034,182.53133 0,18.64226"
-     style="fill:none;stroke:#000000;stroke-width:2.80803251;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
+     style="fill:none;stroke:#000000;stroke-width:2.80803251;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
      inkscape:connector-curvature="0" />
   <path
      inkscape:label="#leidingPiershil"
      id="Piershil:flow.indicator"
      d="M 163.30723,230.82685 211.9884,217.47891"
-     style="fill:none;stroke:#000000;stroke-width:2.61905026;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
+     style="fill:none;stroke:#000000;stroke-width:2.61905026;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
      inkscape:connector-curvature="0" />
   <g
      style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
@@ -1042,7 +1105,7 @@
      sodipodi:nodetypes="ccccc"
      id="Strijensas:flow.indicator"
      d="m 625.4958,435.04149 0,-33.76687 -30.28282,0 -10.67183,-17.61078 0,-9.78103"
-     style="fill:none;stroke:#000000;stroke-width:2.96053457;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
+     style="fill:none;stroke:#000000;stroke-width:2.96053457;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
      inkscape:connector-curvature="0" />
   <text
      inkscape:label="#Q2"
