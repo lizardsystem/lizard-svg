@@ -64,12 +64,12 @@ class Slider
   setAttribute: (itemId, attribute, value) ->
     item = $( '#' + itemId.replace(/(:|\.)/g,'\\$1') )
     if attribute.indexOf(":") == -1
-        item.attr(attribute, value)
+        item[0].setAttribute(attribute, value)
     else
         re = @re[attribute]
         parts = attribute.split(":")
         styleOrig = item.attr(parts[0])
-        item.attr(parts[0], styleOrig.replace(re, parts[1] + ":#{value};"))
+        item.attr(parts[0], styleOrig.replace(re, parts[1] + ":#{value}"))
 
   onChange: (event, ui) =>
     that = this
@@ -86,7 +86,7 @@ class Slider
   manageObject: (group, item) ->
     if group.indexOf(":") != -1
         parts = group.split(":")
-        @re[group] = new RegExp(parts[1] + ":[^;]+;", "g")
+        @re[group] = new RegExp(parts[1] + ":[^;]+", "g")
     that = this
     that.waiting += 1
     $.get "/api/bootstrap/?group=#{group}&item=#{item}",

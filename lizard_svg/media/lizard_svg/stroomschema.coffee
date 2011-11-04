@@ -22,3 +22,7 @@ $('document').ready ->
         window.slider.manageObject("content", element.id)
       if element.id.endsWith(":Q")
         window.slider.manageObject("content", element.id)
+      if element.id.endsWith(":Q.setpoint")
+        window.slider.manageObject("content", element.id)
+      if element.id.endsWith(":neerslag")
+        window.slider.manageObject("content", element.id)

@@ -9,13 +9,19 @@ class Bootstrap(View):
     """
 
     colors = ['#000000', '#00e600']
+    statusindicator = ['url(#pomp.uit)', 'url(#pomp.aan)']
+    overstortindicator = ['url(#ArrowBlack)', 'url(#ArrowRed)']
 
     def get(self, request):
         result = []
         level = 0
         while level < 256:
             value = ''
-            if request.GET['group'] in ['style:stroke', 'style:fill']:
+            if request.GET['item'].endswith(":Status.indicator"):
+                value = self.statusindicator[int(uniform(0, len(self.statusindicator)))]
+            elif request.GET['item'].endswith(":overstort.indicator"):
+                value = self.overstortindicator[int(uniform(0, len(self.overstortindicator)))]
+            elif request.GET['group'] in ['style:stroke', 'style:fill']:
                 value = self.colors[int(uniform(0, len(self.colors)))]
             elif request.GET['group'] in ['height']:
                 value = str(12.5 * int(uniform(0, 8)))

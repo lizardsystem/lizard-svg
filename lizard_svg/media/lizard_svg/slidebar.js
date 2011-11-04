@@ -79,12 +79,12 @@
       var item, parts, re, styleOrig;
       item = $('#' + itemId.replace(/(:|\.)/g, '\\$1'));
       if (attribute.indexOf(":") === -1) {
-        return item.attr(attribute, value);
+        return item[0].setAttribute(attribute, value);
       } else {
         re = this.re[attribute];
         parts = attribute.split(":");
         styleOrig = item.attr(parts[0]);
-        return item.attr(parts[0], styleOrig.replace(re, parts[1] + (":" + value + ";")));
+        return item.attr(parts[0], styleOrig.replace(re, parts[1] + (":" + value)));
       }
     };
     Slider.prototype.onChange = function(event, ui) {
@@ -126,7 +126,7 @@
       var parts, that;
       if (group.indexOf(":") !== -1) {
         parts = group.split(":");
-        this.re[group] = new RegExp(parts[1] + ":[^;]+;", "g");
+        this.re[group] = new RegExp(parts[1] + ":[^;]+", "g");
       }
       that = this;
       that.waiting += 1;

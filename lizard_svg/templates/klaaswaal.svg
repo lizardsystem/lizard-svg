@@ -102,13 +102,13 @@
     <path
        id="pomp.uit.cross"
        d="m -11,0 22,0 m -11,-11 0,22"
-       style="stroke:#000000;stroke-width:1pt;" />
+       style="stroke:#000000;stroke-width:1.5pt;" />
     <circle
 	id="pomp.uit.circle"
 	r="11"
 	cy="0"
 	cx="0"
-	style="stroke:#000000;stroke-width:1pt;fill:none" />
+	style="stroke:#000000;stroke-width:1.5pt;fill:none" />
   </marker>
   <marker
      orient="auto"
@@ -119,13 +119,13 @@
     <path
        id="pomp.aan.cross"
        d="m -11,0 22,0 m -11,-11 0,22"
-       style="stroke:#16f90c;stroke-width:1pt;" />
+       style="stroke:#16f90c;stroke-width:1.5pt;" />
     <circle
 	id="pomp.aan.circle"
 	r="11"
 	cy="0"
 	cx="0"
-	style="stroke:#16f90c;stroke-width:1pt;fill:none" />
+	style="stroke:#16f90c;stroke-width:1.5pt;fill:none" />
   </marker>
 </defs>
 <title
@@ -176,20 +176,6 @@
    id="CRKW-RG-253_pompkelder:H.meting"
    inkscape:label="#rijksstraatweg" />
 <rect x="0" y="0" width="132" height="100" transform="matrix(1, 0, 0, -0.67, 532, 496)" style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" id="CRKW-RG-253_pompkelder(H.meting)" />
-<line
-   x1="465.96332"
-   y1="202.42847"
-   x2="520.94189"
-   y2="202.42847"
-   style="stroke:#000000;stroke-width:3.33996081;stroke-opacity:1"
-   id="line29" />
-<line
-   x1="465.96332"
-   y1="202.42847"
-   x2="520.94189"
-   y2="202.42847"
-   style="stroke:#000000;stroke-width:3.33996081;stroke-opacity:1"
-   id="Q1_index" />
 <path
    style="fill:none;stroke:#000000;stroke-width:3.33996081;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
    d="m 466,202 54,0 m 23,0 55,0 0,113"
@@ -207,7 +193,7 @@
    inkscape:connector-curvature="0" />
 <path
    style="fill:none;stroke:#000000;stroke-width:3.33996081;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-   d="m 842,371 -55,0 m -24,0 -165,0"
+   d="m 823,371 -36,0 m -24,0 -165,0"
    id="CRKW-002:Q.indicator"
    sodipodi:nodetypes="cc" />
 <path
