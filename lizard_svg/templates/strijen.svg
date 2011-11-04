@@ -20,423 +20,153 @@
    sodipodi:docname="strijen.svg"
    style="display:inline">
   <metadata
-     id="metadata75">
+      id="metadata75">
     <rdf:RDF>
       <cc:Work
-         rdf:about="">
+	  rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+	    rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <dc:title>Numansdorp RWZI Stroomschema</dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1005"
-     id="namedview73"
-     showgrid="true"
-     inkscape:snap-global="false"
-     inkscape:zoom="1"
-     inkscape:cx="592.5804"
-     inkscape:cy="266.97989"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg2830"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0">
+      pagecolor="#ffffff"
+      bordercolor="#666666"
+      borderopacity="1"
+      objecttolerance="10"
+      gridtolerance="10"
+      guidetolerance="10"
+      inkscape:pageopacity="0"
+      inkscape:pageshadow="2"
+      inkscape:window-width="1920"
+      inkscape:window-height="1005"
+      id="namedview73"
+      showgrid="true"
+      inkscape:snap-global="false"
+      inkscape:zoom="1"
+      inkscape:cx="592.5804"
+      inkscape:cy="266.97989"
+      inkscape:window-x="0"
+      inkscape:window-y="25"
+      inkscape:window-maximized="1"
+      inkscape:current-layer="svg2830"
+      fit-margin-top="0"
+      fit-margin-left="0"
+      fit-margin-right="0"
+      fit-margin-bottom="0">
     <inkscape:grid
-       type="xygrid"
-       id="grid2883"
-       empspacing="5"
-       visible="true"
-       enabled="true"
-       snapvisiblegridlinesonly="true"
-       dotted="true" />
+	type="xygrid"
+	id="grid2883"
+	empspacing="5"
+	visible="true"
+	enabled="true"
+	snapvisiblegridlinesonly="true"
+	dotted="true" />
   </sodipodi:namedview>
   <defs
-     id="defs3">
+      id="defs3">
     <marker
-       inkscape:stockid="Arrow1Send"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow1Send"
-       style="overflow:visible">
+	inkscape:stockid="Arrow1Send"
+	orient="auto"
+	refY="0"
+	refX="0"
+	id="Black-Arrow"
+	style="overflow:visible">
       <path
-         id="path4222"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
-         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
-         inkscape:connector-curvature="0" />
+	  id="path4222"
+	  d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+	  style="fill-rule:evenodd;stroke:Black;stroke-width:1pt;marker-start:none"
+	  transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+	  inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:stockid="Arrow1Mend"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="marker4656"
-       style="overflow:visible">
+	inkscape:stockid="Arrow1Send"
+	orient="auto"
+	refY="0"
+	refX="0"
+	id="Red-Arrow"
+	style="overflow:visible">
       <path
-         id="path4216"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
-         transform="matrix(-0.4,0,0,-0.4,-4,0)"
-         inkscape:connector-curvature="0" />
+	  id="path4222"
+	  d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+	  style="fill-rule:evenodd;stroke:Red;stroke-width:1pt;marker-start:none;fill:Red"
+	  transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+	  inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:stockid="Arrow2Lend"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow2Lend"
-       style="overflow:visible">
+	inkscape:stockid="Arrow1Send"
+	orient="auto"
+	refY="0"
+	refX="0"
+	id="Green-Arrow"
+	style="overflow:visible">
       <path
-         id="path4228"
-         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
-         inkscape:connector-curvature="0" />
+	  id="path4222"
+	  d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+	  style="fill-rule:evenodd;stroke:Green;stroke-width:1pt;marker-start:none;fill:Green"
+	  transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+	  inkscape:connector-curvature="0" />
     </marker>
     <marker
-       style="overflow:visible"
-       id="Arrow1Mend"
-       refX="0"
-       refY="0"
-       orient="auto">
+	orient="auto"
+	refY="0"
+	refX="10"
+	id="Black-Pump"
+	style="overflow:visible">
       <path
-         transform="matrix(-0.4,0,0,-0.4,-4,0)"
-         style="fill-rule:evenodd;stroke-width:1pt;marker-start:none"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-         id="path6"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="Arrow1Mstart"
-       refX="0"
-       refY="0"
-       orient="auto">
-      <path
-         transform="matrix(0.4,0,0,0.4,4,0)"
-         style="fill-rule:evenodd;stroke-width:1pt;marker-start:none"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-         id="path9"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow1Send"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow1Send-0"
-       style="overflow:visible">
-      <path
-         id="path4222-9"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
-         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow1Send"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow1Send-3"
-       style="overflow:visible">
-      <path
-         id="path4222-7"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
-         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow1Send"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow1Send-6"
-       style="overflow:visible">
-      <path
-         id="path4222-0"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
-         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow1Send"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow1Send-5"
-       style="overflow:visible">
-      <path
-         id="path4222-75"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
-         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow1Send"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow1Send-2"
-       style="overflow:visible">
-      <path
-         id="path4222-00"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
-         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow1Send"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow1Send-01"
-       style="overflow:visible">
-      <path
-         id="path4222-2"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
-         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow1Send"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow1Send-8"
-       style="overflow:visible">
-      <path
-         id="path4222-3"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
-         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow1Send"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow1Send-20"
-       style="overflow:visible">
-      <path
-         id="path4222-1"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
-         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow1Send"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow1Send-84"
-       style="overflow:visible">
-      <path
-         id="path4222-14"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
-         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow1Send"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow1Send-9"
-       style="overflow:visible">
-      <path
-         id="path4222-6"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
-         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow1Send"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow1Send-09"
-       style="overflow:visible">
-      <path
-         id="path4222-96"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
-         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow1Send"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow1Send-1"
-       style="overflow:visible">
-      <path
-         id="path4222-74"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
-         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow1Send"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow1Send-7"
-       style="overflow:visible">
-      <path
-         id="path4222-11"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
-         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:stockid="marker-pomp"
-       style="overflow:visible"
-       id="marker-pomp"
-       viewBox="0 0 26 26"
-       refX="13"
-       refY="13"
-       markerUnits="strokeWidth"
-       markerWidth="26"
-       markerHeight="26"
-       orient="auto">
-      <path
-         id="line1-pattern-pomp"
-         style="stroke:#000000;stroke-width:1.5;stroke-opacity:1"
-         d="m 4.5,4.5 17,17"
-         inkscape:connector-curvature="0" />
-      <path
-         id="line2-pattern-pomp"
-         style="stroke:#000000;stroke-width:1.5;stroke-opacity:1"
-         d="m 4.5,21.5 17,-17"
-         inkscape:connector-curvature="0" />
+	  id="Black-Pump.cross"
+	  d="m -11,0 22,0 m -11,-11 0,22"
+	  style="stroke:#000000;stroke-width:1.5pt;" />
       <circle
-         cx="13"
-         cy="13"
-         r="12"
-         style="fill:none;stroke:#000000;stroke-width:1.5;stroke-opacity:1"
-         id="circle20590"
-         sodipodi:cx="13"
-         sodipodi:cy="13"
-         sodipodi:rx="12"
-         sodipodi:ry="12" />
+	  id="Black-Pump.circle"
+	  r="11"
+	  cy="0"
+	  cx="0"
+	  style="stroke:#000000;stroke-width:1.5pt;fill:none" />
     </marker>
     <marker
-       inkscape:stockid="marker-pomp"
-       style="overflow:visible"
-       id="marker-pomp-9"
-       viewBox="0 0 26 26"
-       refX="13"
-       refY="13"
-       markerUnits="strokeWidth"
-       markerWidth="26"
-       markerHeight="26"
-       orient="auto">
+	orient="auto"
+	refY="0"
+	refX="10"
+	id="Green-Pump"
+	style="overflow:visible">
       <path
-         inkscape:connector-curvature="0"
-         id="line1-pattern-pomp-3"
-         style="stroke:#000000;stroke-width:1.5;stroke-opacity:1"
-         d="m 4.5,4.5 17,17" />
-      <path
-         inkscape:connector-curvature="0"
-         id="line2-pattern-pomp-7"
-         style="stroke:#000000;stroke-width:1.5;stroke-opacity:1"
-         d="m 4.5,21.5 17,-17" />
+	  id="Green-Pump.cross"
+	  d="m -11,0 22,0 m -11,-11 0,22"
+	  style="stroke:Green;stroke-width:1.5pt;" />
       <circle
-         sodipodi:ry="12"
-         sodipodi:rx="12"
-         sodipodi:cy="13"
-         sodipodi:cx="13"
-         cx="13"
-         cy="13"
-         r="12"
-         style="fill:none;stroke:#000000;stroke-width:1.5;stroke-opacity:1"
-         id="circle20590-4" />
-    </marker>
-    <marker
-       inkscape:stockid="marker-pomp"
-       style="overflow:visible"
-       id="marker-pomp-5"
-       viewBox="0 0 26 26"
-       refX="13"
-       refY="13"
-       markerUnits="strokeWidth"
-       markerWidth="26"
-       markerHeight="26"
-       orient="auto">
-      <path
-         inkscape:connector-curvature="0"
-         id="line1-pattern-pomp-2"
-         style="stroke:#000000;stroke-width:1.5;stroke-opacity:1"
-         d="m 4.5,4.5 17,17" />
-      <path
-         inkscape:connector-curvature="0"
-         id="line2-pattern-pomp-5"
-         style="stroke:#000000;stroke-width:1.5;stroke-opacity:1"
-         d="m 4.5,21.5 17,-17" />
-      <circle
-         sodipodi:ry="12"
-         sodipodi:rx="12"
-         sodipodi:cy="13"
-         sodipodi:cx="13"
-         cx="13"
-         cy="13"
-         r="12"
-         style="fill:none;stroke:#000000;stroke-width:1.5;stroke-opacity:1"
-         id="circle20590-47" />
+	  id="Green-Pump.circle"
+	  r="11"
+	  cy="0"
+	  cx="0"
+	  style="stroke:Green;stroke-width:1.5pt;fill:none" />
     </marker>
   </defs>
   <title
-     id="title">Numansdorp RWZI Stroomschema</title>
+      id="title">Numansdorp RWZI Stroomschema</title>
   <rect
-     id="rectTitel"
-     x="0.56718636"
-     y="0.62007332"
-     width="1022.9678"
-     height="74.788322"
-     style="fill:#d8d8d8;stroke:#000000;stroke-width:1.11826909" />
+      id="rectTitel"
+      x="0.56718636"
+      y="0.62007332"
+      width="1022.9678"
+      height="74.788322"
+      style="fill:#d8d8d8;stroke:#000000;stroke-width:1.11826909" />
   <text
-     id="Titel"
-     x="8"
-     y="46"
-     style="font-size:44px;font-family:Arial">Stroomschema Strijen</text>
+      id="Titel"
+      x="8"
+      y="46"
+      style="font-size:44px;font-family:Arial">Stroomschema Strijen</text>
   <text
-     id="DateEnd"
-     x="10"
-     y="70"
-     style="font-size:20px;font-family:Arial">Meting %LASTVALUETIME(DF1)% van %LASTVALUETIME(DF2)%</text>
+      id="DateEnd"
+      x="10"
+      y="70"
+      style="font-size:20px;font-family:Arial">Meting %LASTVALUETIME(DF1)% van %LASTVALUETIME(DF2)%</text>
   <!--blokken-->
   <g
-     transform="matrix(0.59012081,0,0,0.6228414,-355.95059,45.74217)"
-     id="g5198-33">
+      transform="matrix(0.59012081,0,0,0.6228414,-355.95059,45.74217)"
+      id="g5198-33">
     <line
        x1="667.34747"
        y1="186.38022"
@@ -472,7 +202,7 @@
      style="fill:none;stroke:#000000;stroke-width:3.86278701;stroke-opacity:1"
      id="rect19-8" />
   <path
-     style="fill:#ed2f04;fill-opacity:1;stroke:#ff0703;stroke-width:2.22754288;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.92441861;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
+     style="fill:#ed2f04;fill-opacity:1;stroke:#ff0703;stroke-width:2.22754288;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.92441861;stroke-dasharray:none;marker-end:url(#Red-Arrow)"
      d="m 48.947193,222.2134 -25.703626,0"
      id="path7045-7-2-14"
      inkscape:connector-curvature="0"
@@ -580,7 +310,7 @@
      style="fill:#9dc2de;stroke:#000000;stroke-width:0.18537293;stroke-opacity:1"
      id="molendijk-7" />
   <path
-     style="fill:#ed2f04;fill-opacity:1;stroke:#0c0703;stroke-width:2.22754288;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.9254902;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
+     style="fill:#ed2f04;fill-opacity:1;stroke:#0c0703;stroke-width:2.22754288;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.9254902;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
      d="m 48.947193,185.89563 -25.70363,0"
      id="path7045-7-2-14-0"
      inkscape:connector-curvature="0"
@@ -631,12 +361,6 @@
 	style="font-size:12px"
 	id="tspan3120-48-8">overzicht</tspan>
   </text>
-  <text
-     id="txtNeerslag"
-     x="286.46429"
-     y="101.68407"
-     style="font-size:20.0397644px;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)">Neerslag: %LASTVALUE(NF1)% mm/5min</text>
   <rect
      x="884.45422"
      y="331.63596"
@@ -655,11 +379,29 @@
        id="tspan3120-4-5">Handelstraat</tspan>
   </text>
   <text
-     id="SYSY-RG-01_Q.setpoint"
-     x="287.19818"
-     y="127.36298"
-     style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)">Setpoint: %LASTVALUE(NF3)% m3/h</text>
+     id="txt(Neerslag)"
+     xml:space="preserve"
+     x="286"
+     y="101"
+     style="font-size:20px;font-family:Arial">Neerslag:         mm/5min</text>
+  <text
+     id="txt:Neerslag"
+     text-anchor="end"
+     x="420"
+     y="101"
+     style="font-size:20px;font-family:Arial">--</text>
+  <text
+     id="SYSY-RG-01(Q.setpoint)"
+     xml:space="preserve"
+     x="286"
+     y="127"
+     style="font-size:20px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial">Setpoint:          m3/h</text>
+  <text
+     id="SYSY-RG-01:Q.setpoint"
+     text-anchor="end"
+     x="420"
+     y="127"
+     style="font-size:20px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial">-</text>
   <rect
      x="884.05579"
      y="331.16434"
@@ -668,53 +410,81 @@
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
      id="SYSY-005_N_H.meting"/>
   <text
-     id="SYSY-005_Pomp.inzet"
+     id="SYSY-005:Pomp.inzet"
      x="993.83325"
      y="425.60938"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-005_VG.perc.afgeleid"
+     id="RGD_SYSY-005:VG.perc.afgeleid"
      x="906.56085"
      y="385.83807"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-005_VG.perc.setpoint"
+     id="RGD_SYSY-005:VG.perc.setpoint"
      x="971.79919"
      y="385.83807"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 505.96254,214.82063 0,85.135 403.04036,0 0,30.57045" 
-     id="SYSY-007_flow.indicator"
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
+     d="m 506,214 0,85 403,0 0,32" 
+     id="SYSY-007:flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
+<path
+   id="SYSY-007_P1:Status.indicator"
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
+   d="m 484,230 15,15" />
+<path
+   id="SYSY-007_P2:Status.indicator"
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
+   d="m 512,230 15,15" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 351,200 0,26 m 0,24 0,68 542,0 0,13"
-     id="SYSY-004_flow.indicator"
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
+     d="m 351,214 0,12 m 0,24 0,68 542,0 0,13"
+     id="SYSY-004:flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
+<path
+   id="SYSY-004:Status.indicator"
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
+   d="m 343,230 15,15" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 654,200 0,26 m 0,24 0,31.91421 273.27399,0 0,46.62012"
-     id="SYSY-006_flow.indicator"
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
+     d="m 654,214 0,12 m 0,24 0,32 273,0 0,49"
+     id="SYSY-006:flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
+<path
+   id="SYSY-006:Status.indicator"
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
+   d="m 646,230 15,15" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 808.58838,213.71394 0,55.50836 138.20672,0 0,61.01648"
-     id="SYSY-013_flow.indicator"
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
+     d="m 808,214 0,55 138,0 0,62"
+     id="SYSY-013:flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
+<path
+   id="SYSY-013_P1:Status.indicator"
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
+   d="m 814,230 15,15" />
+<path
+   id="SYSY-013_P2:Status.indicator"
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
+   d="m 786,230 15,15" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 957,200 0,26 m 0,24 0,82"
-     id="SYSY-003_flow.indicator"
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
+     d="m 958,214 0,12 m 0,24 0,81"
+     id="SYSY-003:flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
+<path
+   id="SYSY-003:Status.indicator"
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
+   d="m 950,230 15,15" />
   <rect
      x="822.33148"
      y="506.84949"
@@ -740,27 +510,27 @@
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
      id="SYSY-RG01_pompkelder_H.meting"/>
   <text
-     id="RGD_SYSY-RG01_VG.perc.afgeleid"
+     id="RGD_SYSY-RG01:VG.perc.afgeleid"
      x="843.66077"
      y="558.88733"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-RG01_VG.perc.setpoint"
+     id="RGD_SYSY-RG01:VG.perc.setpoint"
      x="908.89856"
      y="558.88733"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
      d="m 632.26598,407.61503 66.18889,0 0,104.35612 123.65763,0"
-     id="SYSY-001_flow.indicator"
+     id="SYSY-001:flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
      d="m 629.0161,532.34167 193.5786,0"
-     id="SYSY-012_flow.indicator"
+     id="SYSY-012:flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <rect
@@ -788,33 +558,33 @@
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
      id="SYSY-002_N_H.meting"/>
   <text
-     id="SYSY-002_Pomp.inzet"
+     id="SYSY-002:Pomp.inzet"
      x="843.70819"
      y="444.86249"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-002_VG.perc.afgeleid"
+     id="RGD_SYSY-002:VG.perc.afgeleid"
      x="749.61072"
      y="413.17468"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-002_VG.perc.setpoint"
+     id="RGD_SYSY-002:VG.perc.setpoint"
      x="814.84869"
      y="413.17468"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
      d="m 954.2009,398.92814 0,66.54547 -42,0 0,39.92729"
-     id="SYSY-005_flow.indicator"
+     id="SYSY-005:flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
      d="m 807.25006,426.1182 0,52.47461 53.81934,0 0,26.98307"
-     id="SYSY-002_flow.indicator"
+     id="SYSY-002:flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
   <rect
@@ -842,19 +612,19 @@
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
      id="SYSY-001_N_H.meting"/>
   <text
-     id="SYSY-001_Pomp.inzet"
+     id="SYSY-001:Pomp.inzet"
      x="680.84406"
      y="395.6684"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-001_VG.perc.afgeleid"
+     id="RGD_SYSY-001:VG.perc.afgeleid"
      x="518.27979"
      y="432.75439"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-001_VG.perc.setpoint"
+     id="RGD_SYSY-001:VG.perc.setpoint"
      x="583.51776"
      y="432.75439"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
@@ -884,27 +654,27 @@
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
      id="SYSY-009_N_H.meting"/>
   <text
-     id="SYSY-009_Pomp.inzet"
+     id="SYSY-009:Pomp.inzet"
      x="462.32431"
      y="396.39935"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-009_VG.perc.afgeleid"
+     id="RGD_SYSY-009:VG.perc.afgeleid"
      x="299.75977"
      y="431.51007"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-009_VG.perc.setpoint"
+     id="RGD_SYSY-009:VG.perc.setpoint"
      x="364.99774"
      y="431.51007"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;marker-end:url(#Black-Arrow)"
      d="m 418.09337,410.35517 83.05093,0"
-     id="SYSY-009_flow.indicator"
+     id="SYSY-009:flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <rect
@@ -932,19 +702,19 @@
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
      id="SYSY-012_N_H.meting"/>
   <text
-     id="SYSY-012_Pomp.inzet"
+     id="SYSY-012:Pomp.inzet"
      x="686.26501"
      y="520.31281"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-012_VG.perc.afgeleid"
+     id="RGD_SYSY-012:VG.perc.afgeleid"
      x="517.62567"
      y="553.44769"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-012_VG.perc.setpoint"
+     id="RGD_SYSY-012:VG.perc.setpoint"
      x="582.86365"
      y="553.44769"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
@@ -974,33 +744,33 @@
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
      id="SYSY-010_N_H.meting"/>
   <text
-     id="SYSY-010_Pomp.inzet"
+     id="SYSY-010:Pomp.inzet"
      x="465.72052"
      y="519.06848"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-010_VG.perc.afgeleid"
+     id="RGD_SYSY-010:VG.perc.afgeleid"
      x="299.10654"
      y="552.20337"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-010_VG.perc.setpoint"
+     id="RGD_SYSY-010:VG.perc.setpoint"
      x="364.34454"
      y="552.20337"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;marker-end:url(#Black-Arrow)"
      d="m 417.44781,532.55607 83.05093,0"
-     id="SYSY-010_flow.indicator"
+     id="SYSY-010:flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
      d="m 951.616,534.36094 71.945,0"
-     id="SYSY-RG01_flow.indicator"
+     id="SYSY-RG01:flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <text
@@ -1070,19 +840,19 @@
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
      id="SYSY-007_N_H.meting"/>
   <text
-     id="SYSY-007_Pomp.inzet"
+     id="SYSY-007:Pomp.inzet"
      x="545.14691"
      y="240.00589"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-007_VG.perc.afgeleid"
+     id="RGD_SYSY-007:VG.perc.afgeleid"
      x="449.02441"
      y="202.39334"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-007_VG.perc.setpoint"
+     id="RGD_SYSY-007:VG.perc.setpoint"
      x="518.73199"
      y="202.39334"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
@@ -1116,13 +886,6 @@
      height="67.634491"
      style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1;display:inline"
      id="bongerd_rwa-7-3-4" />
-  <line
-     id="line69-1-2"
-     style="stroke:#000000;stroke-width:1.1559577;stroke-opacity:1;display:inline"
-     y2="246.2189"
-     x2="646.84753"
-     y1="231.05386"
-     x1="662.88403" />
   <rect
      x="583.80377"
      y="145.30515"
@@ -1131,19 +894,19 @@
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
      id="SYSY-006_N_H.meting"/>
   <text
-     id="SYSY-006_Pomp.inzet"
+     id="SYSY-006:Pomp.inzet"
      x="682.47778"
      y="239.88678"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-006_VG.perc.afgeleid"
+     id="RGD_SYSY-006:VG.perc.afgeleid"
      x="602.55548"
      y="202.27396"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-006_VG.perc.setpoint"
+     id="RGD_SYSY-006:VG.perc.setpoint"
      x="667.79346"
      y="202.27396"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
@@ -1249,13 +1012,6 @@
      height="67.634491"
      style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1;display:inline"
      id="bongerd_rwa-7-3-4-5-4" />
-  <line
-     id="line69-1-2-1-7"
-     style="stroke:#000000;stroke-width:1.1559577;stroke-opacity:1;display:inline"
-     y2="244.647"
-     x2="950.11676"
-     y1="229.4819"
-     x1="966.15326" />
   <rect
      x="887.07294"
      y="145.73318"
@@ -1264,19 +1020,19 @@
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
      id="SYSY-003_N_H.meting"/>
   <text
-     id="SYSY-003_Pomp.inzet"
+     id="SYSY-003:Pomp.inzet"
      x="987.86139"
      y="238.33337"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_CRKW-003_VG.perc.afgeleid-5-3-5"
+     id="RGD_CRKW-003:VG.perc.afgeleid"
      x="909.617"
      y="202.69617"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">-</text>
   <text
-     id="RGD_CRKW-003_VG.perc.setpoint-2-8-0"
+     id="RGD_CRKW-003:VG.perc.setpoint"
      x="974.85541"
      y="202.69617"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
@@ -1312,19 +1068,19 @@
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
      id="SYSY-004_N_H.meting"/>
   <text
-     id="SYSY-004_Pomp.inzet"
+     id="SYSY-004:Pomp.inzet"
      x="373.39169"
      y="241.67725"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-004_VG.perc.afgeleid"
+     id="RGD_SYSY-004:VG.perc.afgeleid"
      x="295.49402"
      y="202.08939"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-004_VG.perc.setpoint"
+     id="RGD_SYSY-004:VG.perc.setpoint"
      x="360.73199"
      y="202.08939"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
@@ -1378,19 +1134,19 @@
      style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
      id="SYSY-013_N_H.meting" />
   <text
-     id="SYSY-013_Pomp.inzet"
+     id="SYSY-013:Pomp.inzet"
      x="848.15857"
      y="240.1908"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-013_VG.perc.afgeleid"
+     id="RGD_SYSY-013:VG.perc.afgeleid"
      x="756.08612"
      y="202.57788"
      style="font-size:20.0397644px;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
   <text
-     id="RGD_SYSY-013_VG.perc.setpoint"
+     id="RGD_SYSY-013:VG.perc.setpoint"
      x="816.85449"
      y="201.7059"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"

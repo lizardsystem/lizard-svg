@@ -191,27 +191,27 @@
    inkscape:label="#rijksstraatweg" />
 <rect x="0" y="0" width="132" height="100" transform="matrix(1, 0, 0, -0.67, 532, 496)" style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" id="CRKW-RG-253_pompkelder(H.meting)" />
 <path
-   style="fill:none;stroke:#000000;stroke-width:3.33996081;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+   style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
    d="m 466,202 54,0 m 23,0 55,0 0,113"
    id="CRKW-207:Q.indicator"
    inkscape:connector-curvature="0" />
 <path
-   style="fill:none;stroke:#000000;stroke-width:3.33996081;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+   style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
    d="m 466,314 54,0 m 23,0 55,0"
    id="CRKW-003:Q.indicator"
    inkscape:connector-curvature="0" />
 <path
-   style="fill:none;stroke:#000000;stroke-width:3.33996081;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+   style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
    d="m 597.91188,315.15262 0,56.36207"
    id="Q5_index"
    inkscape:connector-curvature="0" />
 <path
-   style="fill:none;stroke:#000000;stroke-width:3.33996081;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+   style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
    d="m 823,371 -36,0 m -24,0 -165,0"
    id="CRKW-002:Q.indicator"
    sodipodi:nodetypes="cc" />
 <path
-   style="fill:none;stroke:#000000;stroke-width:3.33996081;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-mid:none;marker-end:url(#Black-Arrow)"
+   style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-mid:none;marker-end:url(#Black-Arrow)"
    d="m 597.91188,371.51469 0,56.36206"
    id="Q8_index"
    inkscape:connector-curvature="0" />
@@ -263,7 +263,7 @@
    id="CRKW-RG-253:overstort.indicator"
    inkscape:connector-curvature="0" />
 <path
-   style="fill:none;stroke:#000000;stroke-width:3.33996081;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
+   style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
    d="m 779,202 63,0 m 23,0 24,0 0,134.36206"
    id="CRKW-001:Q.indicator"
    inkscape:connector-curvature="0"
@@ -382,7 +382,7 @@
      id="tspan3120-48">De Schans</tspan>
 </text>
 <path
-   style="fill:none;stroke:#000000;stroke-width:3.33999991;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:none"
+   style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:none"
    d="m 594.62641,495.91146 0,33.43511"
    id="CRKW-RG-253:Q.indicator"
    inkscape:connector-curvature="0" />
