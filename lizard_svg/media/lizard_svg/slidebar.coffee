@@ -63,10 +63,10 @@ class Slider
 
   setAttribute: (itemId, attribute, value) ->
     item = $( '#' + itemId.replace(/(:|\.)/g,'\\$1') )
-    if attribute == "color"
+    if attribute == "::color"
         @setAttribute(itemId, "style:stroke", value)
         @setAttribute(itemId, "style:marker-end", value)
-    if attribute.indexOf(":") == -1
+    else if attribute.indexOf(":") == -1
         item[0].setAttribute(attribute, value)
     else
         re = @re[attribute]
@@ -87,7 +87,7 @@ class Slider
         $("#" + key.replace(/(:|\.)/g,'\\$1'))[0].childNodes[0].nodeValue = value
 
   manageObject: (group, item) ->
-    if group == "color"
+    if group == "::color"
         @re["style:stroke"] = new RegExp("(stroke:)[^;]+", "g")
         @re["style:marker-end"] = new RegExp("(marker-end:url\\(#)[^-]+", "g")
     if group.indexOf(":") != -1

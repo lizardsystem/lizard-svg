@@ -13,7 +13,7 @@
             window.slider.manageObject("height", element.id);
           }
           if (element.id.endsWith(".indicator") > 0) {
-            window.slider.manageObject("color", element.id);
+            window.slider.manageObject("::color", element.id);
           }
           if (element.id.endsWith(":Pomp.inzet") > 0) {
             window.slider.manageObject("content", element.id);

@@ -78,11 +78,10 @@
     Slider.prototype.setAttribute = function(itemId, attribute, value) {
       var item, parts, re, styleOrig;
       item = $('#' + itemId.replace(/(:|\.)/g, '\\$1'));
-      if (attribute === "color") {
+      if (attribute === "::color") {
         this.setAttribute(itemId, "style:stroke", value);
-        this.setAttribute(itemId, "style:marker-end", value);
-      }
-      if (attribute.indexOf(":") === -1) {
+        return this.setAttribute(itemId, "style:marker-end", value);
+      } else if (attribute.indexOf(":") === -1) {
         return item[0].setAttribute(attribute, value);
       } else {
         re = this.re[attribute];
@@ -128,7 +127,7 @@
     };
     Slider.prototype.manageObject = function(group, item) {
       var parts, that;
-      if (group === "color") {
+      if (group === "::color") {
         this.re["style:stroke"] = new RegExp("(stroke:)[^;]+", "g");
         this.re["style:marker-end"] = new RegExp("(marker-end:url\\(#)[^-]+", "g");
       }

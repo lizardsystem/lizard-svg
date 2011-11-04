@@ -199,7 +199,7 @@
      y="85.796356"
      width="255.66483"
      height="437.71542"
-     style="fill:none;stroke:#000000;stroke-width:3.86278701;stroke-opacity:1"
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-opacity:1"
      id="rect19-8" />
   <path
      style="fill:#ed2f04;fill-opacity:1;stroke:#ff0703;stroke-width:2.22754288;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.92441861;stroke-dasharray:none;marker-end:url(#Red-Arrow)"
@@ -361,13 +361,6 @@
 	style="font-size:12px"
 	id="tspan3120-48-8">overzicht</tspan>
   </text>
-  <rect
-     x="884.45422"
-     y="331.63596"
-     width="131.94853"
-     height="67.634491"
-     style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1;display:inline"
-     id="bongerd_rwa-7-3-24" />
   <text
      id="Q8-1-7-86"
      x="962.17352"
@@ -385,7 +378,7 @@
      y="101"
      style="font-size:20px;font-family:Arial">Neerslag:         mm/5min</text>
   <text
-     id="txt:Neerslag"
+     id="txt:neerslag"
      text-anchor="end"
      x="420"
      y="101"
@@ -403,12 +396,15 @@
      y="127"
      style="font-size:20px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial">-</text>
   <rect
-     x="884.05579"
-     y="331.16434"
-     width="131.94853"
-     height="67.634491"
-     style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-     id="SYSY-005_N_H.meting"/>
+      x="0"
+      y="0"
+      width="132"
+      height="100"
+      transform="matrix(1, 0, 0, -0.67, 884, 400)"
+      style="fill:#9dc2de;stroke:none;"
+      id="SYSY-005_N:H.meting" />
+  <rect x="0" y="0" width="132" height="100" transform="matrix(1, 0, 0, -0.67, 884, 400)" style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" 
+	id="SYSY-005_N(H.meting)" />
   <text
      id="SYSY-005:Pomp.inzet"
      x="993.83325"
@@ -485,13 +481,6 @@
    id="SYSY-003:Status.indicator"
    style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
    d="m 950,230 15,15" />
-  <rect
-     x="822.33148"
-     y="506.84949"
-     width="131.94853"
-     height="67.634491"
-     style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1;display:inline"
-     id="bongerd_rwa-7-3-24-1" />
   <text
      id="Q8-1-7-86-8"
      x="888.70203"
@@ -503,12 +492,15 @@
        id="tspan3120-4-5-4">Hoofdgebied</tspan>
   </text>
   <rect
-     x="821.93311"
-     y="506.37787"
-     width="131.94853"
-     height="67.634491"
-     style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-     id="SYSY-RG01_pompkelder_H.meting"/>
+      x="0"
+      y="0"
+      width="132"
+      height="100"
+      transform="matrix(1, 0, 0, -0.67, 821, 575)"
+      style="fill:#9dc2de;stroke:none;"
+      id="SYSY-RG01_pompkelder:H.meting" />
+  <rect x="0" y="0" width="132" height="100" transform="matrix(1, 0, 0, -0.67, 821, 575)" style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" 
+	id="SYSY-RG01_pompkelder(H.meting)" />
   <text
      id="RGD_SYSY-RG01:VG.perc.afgeleid"
      x="843.66077"
@@ -533,13 +525,6 @@
      id="SYSY-012:flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
-  <rect
-     x="729.44006"
-     y="359.314"
-     width="131.94853"
-     height="67.634491"
-     style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1;display:inline"
-     id="bongerd_rwa-7-3-24-1-0" />
   <text
      id="Q8-1-7-86-8-7"
      x="815.34821"
@@ -551,12 +536,15 @@
        id="tspan3120-4-5-4-6">Binnensingel</tspan>
   </text>
   <rect
-     x="729.04163"
-     y="358.84238"
-     width="131.94853"
-     height="67.634491"
-     style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-     id="SYSY-002_N_H.meting"/>
+      x="0"
+      y="0"
+      width="132"
+      height="100"
+      transform="matrix(1, 0, 0, -0.67, 729, 426)"
+      style="fill:#9dc2de;stroke:none;"
+      id="SYSY-002_N:H.meting" />
+  <rect x="0" y="0" width="132" height="100" transform="matrix(1, 0, 0, -0.67, 729, 426)" style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" 
+	id="SYSY-002_N(H.meting)" />
   <text
      id="SYSY-002:Pomp.inzet"
      x="843.70819"
@@ -587,13 +575,6 @@
      id="SYSY-002:flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
-  <rect
-     x="500.96826"
-     y="379.13901"
-     width="131.94853"
-     height="67.634491"
-     style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1;display:inline"
-     id="bongerd_rwa-7-3-24-1-1" />
   <text
      id="Q8-1-7-86-8-6"
      x="655.08154"
@@ -605,12 +586,15 @@
        id="tspan3120-4-5-4-5">Bosweg</tspan>
   </text>
   <rect
-     x="500.56982"
-     y="378.66739"
-     width="131.94853"
-     height="67.634491"
-     style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-     id="SYSY-001_N_H.meting"/>
+      x="0"
+      y="0"
+      width="132"
+      height="100"
+      transform="matrix(1, 0, 0, -0.67, 500, 445)"
+      style="fill:#9dc2de;stroke:none;"
+      id="SYSY-001_N:H.meting" />
+  <rect x="0" y="0" width="132" height="100" transform="matrix(1, 0, 0, -0.67, 500, 445)" style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" 
+	id="SYSY-001_N(H.meting)" />
   <text
      id="SYSY-001:Pomp.inzet"
      x="680.84406"
@@ -629,13 +613,6 @@
      y="432.75439"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
-  <rect
-     x="285.14575"
-     y="377.87918"
-     width="131.94853"
-     height="67.634491"
-     style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1;display:inline"
-     id="bongerd_rwa-7-3-24-1-1-7" />
   <text
      id="Q8-1-7-86-8-6-7"
      x="436.56223"
@@ -647,12 +624,15 @@
        id="tspan3120-4-5-4-5-7">Dam</tspan>
   </text>
   <rect
-     x="284.74728"
-     y="377.40756"
-     width="131.94853"
-     height="67.634491"
-     style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-     id="SYSY-009_N_H.meting"/>
+      x="0"
+      y="0"
+      width="132"
+      height="100"
+      transform="matrix(1, 0, 0, -0.67, 284, 445)"
+      style="fill:#9dc2de;stroke:none;"
+      id="SYSY-009_N:H.meting" />
+  <rect x="0" y="0" width="132" height="100" transform="matrix(1, 0, 0, -0.67, 284, 445)" style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" 
+	id="SYSY-009_N(H.meting)" />
   <text
      id="SYSY-009:Pomp.inzet"
      x="462.32431"
@@ -677,13 +657,6 @@
      id="SYSY-009:flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
-  <rect
-     x="500.32269"
-     y="501.33997"
-     width="131.94853"
-     height="67.634491"
-     style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1;display:inline"
-     id="bongerd_rwa-7-3-24-1-1-0" />
   <text
      id="Q8-1-7-86-8-6-1"
      x="658.47742"
@@ -695,12 +668,15 @@
        id="tspan3120-4-5-4-5-2">Nieuwe Haven</tspan>
   </text>
   <rect
-     x="499.92426"
-     y="500.86829"
-     width="131.94853"
-     height="67.634491"
-     style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-     id="SYSY-012_N_H.meting"/>
+      x="0"
+      y="0"
+      width="132"
+      height="100"
+      transform="matrix(1, 0, 0, -0.67, 500, 567)"
+      style="fill:#9dc2de;stroke:none;"
+      id="SYSY-012_N:H.meting" />
+  <rect x="0" y="0" width="132" height="100" transform="matrix(1, 0, 0, -0.67, 500, 567)" style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" 
+	id="SYSY-012_N(H.meting)" />
   <text
      id="SYSY-012:Pomp.inzet"
      x="686.26501"
@@ -719,13 +695,6 @@
      y="553.44769"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
-  <rect
-     x="284.50018"
-     y="500.08008"
-     width="131.94853"
-     height="67.634491"
-     style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1;display:inline"
-     id="bongerd_rwa-7-3-24-1-1-7-8" />
   <text
      id="Q8-1-7-86-8-6-7-9"
      x="433.88358"
@@ -737,12 +706,15 @@
        id="tspan3120-4-5-4-5-7-8">Hoogt</tspan>
   </text>
   <rect
-     x="284.10175"
-     y="499.60852"
-     width="131.94853"
-     height="67.634491"
-     style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-     id="SYSY-010_N_H.meting"/>
+      x="0"
+      y="0"
+      width="132"
+      height="100"
+      transform="matrix(1, 0, 0, -0.67, 284, 567)"
+      style="fill:#9dc2de;stroke:none;"
+      id="SYSY-010_N:H.meting" />
+  <rect x="0" y="0" width="132" height="100" transform="matrix(1, 0, 0, -0.67, 284, 567)" style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" 
+	id="SYSY-010_N(H.meting)" />
   <text
      id="SYSY-010:Pomp.inzet"
      x="465.72052"
@@ -826,19 +798,15 @@
        id="tspan3120-4-2">S.Stevinweg DWA</tspan>
   </text>
   <rect
-     x="432.56757"
-     y="145.89792"
-     width="131.94853"
-     height="67.634491"
-     style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1;display:inline"
-     id="bongerd_rwa-7-3-2" />
-  <rect
-     x="432.16913"
-     y="145.4263"
-     width="131.94853"
-     height="67.634491"
-     style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-     id="SYSY-007_N_H.meting"/>
+      x="0"
+      y="0"
+      width="132"
+      height="100"
+      transform="matrix(1, 0, 0, -0.67, 432, 212)"
+      style="fill:#9dc2de;stroke:none;"
+      id="SYSY-007_N:H.meting" />
+  <rect x="0" y="0" width="132" height="100" transform="matrix(1, 0, 0, -0.67, 432, 212)" style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" 
+	id="SYSY-007_N(H.meting)" />
   <text
      id="SYSY-007:Pomp.inzet"
      x="545.14691"
@@ -880,19 +848,15 @@
        id="tspan3120-4-8">Edisonweg RWA</tspan>
   </text>
   <rect
-     x="584.20221"
-     y="145.77676"
-     width="131.94853"
-     height="67.634491"
-     style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1;display:inline"
-     id="bongerd_rwa-7-3-4" />
-  <rect
-     x="583.80377"
-     y="145.30515"
-     width="131.94853"
-     height="67.634491"
-     style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-     id="SYSY-006_N_H.meting"/>
+      x="0"
+      y="0"
+      width="132"
+      height="100"
+      transform="matrix(1, 0, 0, -0.67, 583, 212)"
+      style="fill:#9dc2de;stroke:none;"
+      id="SYSY-006_N:H.meting" />
+  <rect x="0" y="0" width="132" height="100" transform="matrix(1, 0, 0, -0.67, 583, 212)" style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" 
+	id="SYSY-006_N(H.meting)" />
   <text
      id="SYSY-006:Pomp.inzet"
      x="682.47778"
@@ -1006,19 +970,15 @@
        id="tspan3120-4-8-3-7">Industriestraat</tspan>
   </text>
   <rect
-     x="887.47137"
-     y="146.2048"
-     width="131.94853"
-     height="67.634491"
-     style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1;display:inline"
-     id="bongerd_rwa-7-3-4-5-4" />
-  <rect
-     x="887.07294"
-     y="145.73318"
-     width="131.94853"
-     height="67.634491"
-     style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-     id="SYSY-003_N_H.meting"/>
+      x="0"
+      y="0"
+      width="132"
+      height="100"
+      transform="matrix(1, 0, 0, -0.67, 887, 212)"
+      style="fill:#9dc2de;stroke:none;"
+      id="SYSY-003_N:H.meting" />
+  <rect x="0" y="0" width="132" height="100" transform="matrix(1, 0, 0, -0.67, 887, 212)" style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" 
+	id="SYSY-003_N(H.meting)" />
   <text
      id="SYSY-003:Pomp.inzet"
      x="987.86139"
@@ -1054,19 +1014,15 @@
        id="tspan3120-4-8-3">S.Stevinweg RWA</tspan>
   </text>
   <rect
-     x="280.93295"
-     y="145.59018"
-     width="131.94853"
-     height="67.634491"
-     style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1;display:inline"
-     id="bongerd_rwa-7-3-4-5" />
-  <rect
-     x="280.53452"
-     y="145.11856"
-     width="131.94853"
-     height="67.634491"
-     style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-     id="SYSY-004_N_H.meting"/>
+      x="0"
+      y="0"
+      width="132"
+      height="100"
+      transform="matrix(1, 0, 0, -0.67, 280, 212)"
+      style="fill:#9dc2de;stroke:none;"
+      id="SYSY-004_N:H.meting" />
+  <rect x="0" y="0" width="132" height="100" transform="matrix(1, 0, 0, -0.67, 280, 212)" style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" 
+	id="SYSY-004_N(H.meting)" />
   <text
      id="SYSY-004:Pomp.inzet"
      x="373.39169"
@@ -1107,13 +1063,6 @@
        style="font-size:12px"
        id="tspan3120-4">Edisonweg DWA</tspan>
   </text>
-  <rect
-     x="735.83679"
-     y="146.0845"
-     width="131.94853"
-     height="67.634491"
-     style="fill:none;stroke:#000000;stroke-width:1.01867855;stroke-opacity:1"
-     id="bongerd_rwa-7-3" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
      d="m 794.77082,237.82306 -0.20358,0"
@@ -1127,12 +1076,15 @@
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <rect
-     x="735.43835"
-     y="145.61288"
-     width="131.94853"
-     height="67.634491"
-     style="fill:#9dc2de;stroke:#000000;stroke-width:1.09082663;stroke-opacity:1;display:inline"
-     id="SYSY-013_N_H.meting" />
+      x="0"
+      y="0"
+      width="132"
+      height="100"
+      transform="matrix(1, 0, 0, -0.67, 735, 212)"
+      style="fill:#9dc2de;stroke:none;"
+      id="SYSY-013_N:H.meting" />
+  <rect x="0" y="0" width="132" height="100" transform="matrix(1, 0, 0, -0.67, 735, 212)" style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" 
+	id="SYSY-013_N(H.meting)" />
   <text
      id="SYSY-013:Pomp.inzet"
      x="848.15857"
