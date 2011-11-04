@@ -14,7 +14,7 @@ controlling of an included svg graph.
 /foo ::
   shows the svg graph.
 
-External hyperlinks, like mediareadme_.
+See mediareadme_.
 
 .. _mediareadme: lizard_svg/media/lizard_svg/README.rst
 
