@@ -13,6 +13,7 @@ task 'assets:watch', 'Watch source files and build JS & CSS', (options) ->
   runCommand 'coffee',
              '-wc',
              'lizard_svg/media/lizard_svg/',
+             'lizard_svg/media/spec/',
              
 
 # Alternately, compile CoffeeScript programmatically
