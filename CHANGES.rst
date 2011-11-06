@@ -7,4 +7,6 @@ Changelog of lizard-svg
 
 - Added dummy timeseries api.
 
+- Added Jasmine testrunner. [gijs]
+
 - Initial library skeleton created by nensskel.  [your name]
