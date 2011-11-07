@@ -112,7 +112,7 @@
     <marker
 	orient="auto"
 	refY="0"
-	refX="10"
+	refX="0"
 	id="Black-Pump"
 	style="overflow:visible">
       <path
@@ -129,7 +129,7 @@
     <marker
 	orient="auto"
 	refY="0"
-	refX="10"
+	refX="0"
 	id="Green-Pump"
 	style="overflow:visible">
       <path
@@ -164,36 +164,6 @@
       y="70"
       style="font-size:20px;font-family:Arial">Meting %LASTVALUETIME(DF1)% van %LASTVALUETIME(DF2)%</text>
   <!--blokken-->
-  <g
-      transform="matrix(0.59012081,0,0,0.6228414,-355.95059,45.74217)"
-      id="g5198-33">
-    <line
-       x1="667.34747"
-       y1="186.38022"
-       x2="653.01306"
-       y2="173.01303"
-       style="stroke:#000000;stroke-width:1.02606392;stroke-opacity:1"
-       id="line67-4" />
-    <circle
-       transform="translate(515,-145)"
-       cx="145"
-       cy="325"
-       r="10"
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
-       id="circle71-1"
-       d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
-       sodipodi:cx="145"
-       sodipodi:cy="325"
-       sodipodi:rx="10"
-       sodipodi:ry="10" />
-    <line
-       x1="666.98083"
-       y1="173.01915"
-       x2="652.39648"
-       y2="186.47241"
-       style="stroke:#000000;stroke-width:1.03829753;stroke-opacity:1"
-       id="line69-4-13" />
-  </g>
   <rect
      x="7.357378"
      y="85.796356"
@@ -213,12 +183,24 @@
      y="108.92365"
      style="font-size:27.85964775px;font-family:Arial"
      transform="scale(0.90453403,1.1055416)">Legenda</text>
+  <path
+     id="Black-Pump.legenda"
+     style="stroke:#000000;stroke-width:0.7;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     d="m 24,146 5,5" />
+  <path
+     id="Green-Pump.legenda"
+     style="stroke:#000000;stroke-width:0.7;stroke-opacity:1;marker-start:url(#Green-Pump)"
+     d="m 44,146 5,5" />
   <text
      id="4ATS"
-     x="59.788429"
-     y="148.53369"
-     style="font-size:17.99437332px;font-family:Arial"
-     transform="scale(0.9753048,1.0253205)">Pomp</text>
+     x="60"
+     y="152"
+     style="font-size:18px;font-family:Arial">Pomp</text>
+  <text
+     id="4ATS-Green"
+     x="113"
+     y="152"
+     style="font-size:18px;font-family:Arial;fill:Green">in bedrijf</text>
   <text
      id="4ATS-1"
      x="59.788429"
@@ -362,16 +344,6 @@
 	id="tspan3120-48-8">overzicht</tspan>
   </text>
   <text
-     id="Q8-1-7-86"
-     x="962.17352"
-     y="445.40045"
-     style="font-size:20.0397644px;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)">
-    <tspan
-       style="font-size:12px"
-       id="tspan3120-4-5">Handelstraat</tspan>
-  </text>
-  <text
      id="txt(Neerslag)"
      xml:space="preserve"
      x="286"
@@ -425,62 +397,62 @@
      transform="scale(0.98765023,1.0125042)">--</text>
   <path
      style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
-     d="m 506,214 0,85 403,0 0,32" 
+     d="m 506,212 0,87 403,0 0,32" 
      id="SYSY-007:flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
 <path
-   id="SYSY-007_P1:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
-   d="m 484,230 15,15" />
+   id="SYSY-007_P1:status.indicator"
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)"
+   d="m 492,238 5,5" />
 <path
-   id="SYSY-007_P2:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
-   d="m 512,230 15,15" />
+   id="SYSY-007_P2:status.indicator"
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)"
+   d="m 520,238 5,5" />
   <path
      style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
-     d="m 351,214 0,12 m 0,24 0,68 542,0 0,13"
+     d="m 351,212 0,14 m 0,24 0,68 542,0 0,13"
      id="SYSY-004:flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
 <path
-   id="SYSY-004:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
-   d="m 343,230 15,15" />
+   id="SYSY-004:status.indicator"
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)"
+   d="m 351,238 5,5" />
   <path
      style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
-     d="m 654,214 0,12 m 0,24 0,32 273,0 0,49"
+     d="m 654,212 0,14 m 0,24 0,32 271.5,0 0,49"
      id="SYSY-006:flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
 <path
-   id="SYSY-006:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
-   d="m 646,230 15,15" />
+   id="SYSY-006:status.indicator"
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)"
+   d="m 654,238 5,5" />
   <path
      style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
-     d="m 808,214 0,55 138,0 0,62"
+     d="m 808,212 0,57 133.75,0 0,62"
      id="SYSY-013:flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
 <path
-   id="SYSY-013_P1:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
-   d="m 814,230 15,15" />
+   id="SYSY-013_P1:status.indicator"
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)"
+   d="m 822,238 5,5" />
 <path
-   id="SYSY-013_P2:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
-   d="m 786,230 15,15" />
+   id="SYSY-013_P2:status.indicator"
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)"
+   d="m 794,238 5,5" />
   <path
      style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
-     d="m 958,214 0,12 m 0,24 0,81"
+     d="m 958,212 0,14 m 0,24 0,81"
      id="SYSY-003:flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
 <path
-   id="SYSY-003:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
-   d="m 950,230 15,15" />
+   id="SYSY-003:status.indicator"
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)"
+   d="m 958,238 5,5" />
   <text
      id="Q8-1-7-86-8"
      x="888.70203"
@@ -513,28 +485,6 @@
      y="558.88733"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
-  <path
-     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
-     d="m 632.26598,407.61503 66.18889,0 0,104.35612 123.65763,0"
-     id="SYSY-001:flow.indicator"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cccc" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
-     d="m 629.0161,532.34167 193.5786,0"
-     id="SYSY-012:flow.indicator"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
-  <text
-     id="Q8-1-7-86-8-7"
-     x="815.34821"
-     y="464.83673"
-     style="font-size:20.0397644px;display:inline;font-family:Arial"
-     transform="scale(0.98765023,1.0125042)">
-    <tspan
-       style="font-size:12px"
-       id="tspan3120-4-5-4-6">Binnensingel</tspan>
-  </text>
   <rect
       x="0"
       y="0"
@@ -563,18 +513,6 @@
      y="413.17468"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
-  <path
-     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
-     d="m 954.2009,398.92814 0,66.54547 -42,0 0,39.92729"
-     id="SYSY-005:flow.indicator"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cccc" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
-     d="m 807.25006,426.1182 0,52.47461 53.81934,0 0,26.98307"
-     id="SYSY-002:flow.indicator"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cccc" />
   <text
      id="Q8-1-7-86-8-6"
      x="655.08154"
@@ -651,12 +589,6 @@
      y="431.51007"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
-  <path
-     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;marker-end:url(#Black-Arrow)"
-     d="m 418.09337,410.35517 83.05093,0"
-     id="SYSY-009:flow.indicator"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
   <text
      id="Q8-1-7-86-8-6-1"
      x="658.47742"
@@ -733,18 +665,6 @@
      y="552.20337"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
-  <path
-     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;marker-end:url(#Black-Arrow)"
-     d="m 417.44781,532.55607 83.05093,0"
-     id="SYSY-010:flow.indicator"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
-     d="m 951.616,534.36094 71.945,0"
-     id="SYSY-RG01:flow.indicator"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
   <text
      id="Q2-7-7"
      x="23.570705"
@@ -825,18 +745,6 @@
      y="202.39334"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
-  <path
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 492.39793,239.31484 -0.20358,0"
-     id="path23981-7"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 518.39793,239.31484 -0.20358,0"
-     id="path23981-9"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
   <text
      id="Q8-1-7-8"
      x="679.81677"
@@ -875,90 +783,6 @@
      y="202.27396"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
-  <path
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 655.30071,237.82306 -0.20358,0"
-     id="path23981-0"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 941.7729,424.35577 -0.2036,0"
-     id="path23981-04"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 967.7729,424.35577 -0.2036,0"
-     id="path23981-96"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 788.62819,445.74335 -0.20358,0"
-     id="path23981-79"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 814.62819,445.74335 -0.20358,0"
-     id="path23981-5"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 658.94412,395.67943 -0.20358,0"
-     id="path23981-99"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 658.94412,421.67943 -0.20358,0"
-     id="path23981-21"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 438.57382,397.88664 -0.20358,0"
-     id="path23981-06"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 440.36628,519.62707 -0.20358,0"
-     id="path23981-90"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 440.36628,545.62707 -0.20358,0"
-     id="path23981-6"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 658.08792,520.06852 -0.20358,0"
-     id="path23981-3"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 658.08792,546.06852 -0.20358,0"
-     id="path23981-38"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 977.0705,521.50946 -0.2036,0"
-     id="path23981-51"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 977.0705,547.50946 -0.2036,0"
-     id="path23981-964"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
   <text
      id="Q8-1-7-8-4-2"
      x="956.46313"
@@ -997,12 +821,6 @@
      y="202.69617"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">-</text>
-  <path
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 958.61134,236.48127 -0.2035,0"
-     id="path23981-17"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
   <text
      id="Q8-1-7-8-4"
      x="365.28198"
@@ -1041,18 +859,6 @@
      y="202.08939"
      style="font-size:20.0397644px;fill:#c04a4a;fill-opacity:1;display:inline;font-family:Arial"
      transform="scale(0.98765023,1.0125042)">--</text>
-  <path
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 350.74252,238.06625 -0.20358,0"
-     id="path23981-1"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 438.57382,423.88664 -0.20358,0"
-     id="path23981-960"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
   <text
      id="Q8-1-7"
      x="831.96869"
@@ -1063,18 +869,6 @@
        style="font-size:12px"
        id="tspan3120-4">Edisonweg DWA</tspan>
   </text>
-  <path
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 794.77082,237.82306 -0.20358,0"
-     id="path23981-2"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker-pomp);display:inline"
-     d="m 820.77082,237.82306 -0.20358,0"
-     id="path23981-4"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
   <rect
       x="0"
       y="0"
@@ -1110,4 +904,78 @@
      height="599.13214"
      x="0.44197273"
      y="0.44815445" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
+     d="m 632,410 76,0 0,107 114,0"
+     id="SYSY-001:flow.indicator"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccc" />
+  <path id="SYSY-001_P1:status.indicator" style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)" d="m 652,424 5,5" />
+  <path id="SYSY-001_P2:status.indicator" style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)" d="m 652,396 5,5" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
+     d="m 632,532 190,0"
+     id="SYSY-012:flow.indicator"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path id="SYSY-012_P1:status.indicator" style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)" d="m 652,546 5,5" />
+  <path id="SYSY-012_P2:status.indicator" style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)" d="m 652,518 5,5" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
+     d="m 954,400 0,38 -42,0 0,67"
+     id="SYSY-005:flow.indicator"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccc" />
+  <path id="SYSY-005_P1:status.indicator" style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)" d="m 940,420 5,5" />
+  <path id="SYSY-005_P2:status.indicator" style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)" d="m 968,420 5,5" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
+     d="m 800,426 0,52 60,0 0,27"
+     id="SYSY-002:flow.indicator"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccc" />
+  <path id="SYSY-002_P1:status.indicator" style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)" d="m 786,446 5,5" />
+  <path id="SYSY-002_P2:status.indicator" style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)" d="m 814,446 5,5" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
+     d="m 951.616,534.36094 71.945,0"
+     id="SYSY-RG01:flow.indicator"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;marker-end:url(#Black-Arrow)"
+     d="m 416,410 85,0"
+     id="SYSY-009:flow.indicator"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path id="SYSY-009_P1:status.indicator" style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)" d="m 436,424 5,5" />
+  <path id="SYSY-009_P2:status.indicator" style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)" d="m 436,396 5,5" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;marker-end:url(#Black-Arrow)"
+     d="m 416,532 85,0"
+     id="SYSY-010:flow.indicator"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path id="SYSY-010_P1:status.indicator" style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)" d="m 436,546 5,5" />
+  <path id="SYSY-010_P2:status.indicator" style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)" d="m 436,518 5,5" />
+  <text
+     id="Q8-1-7-86"
+     x="962.17352"
+     y="445.40045"
+     style="font-size:20px;display:inline;font-family:Arial"
+     transform="scale(0.98765023,1.0125042)">
+    <tspan
+       style="font-size:12px"
+       id="tspan3120-4-5">Handelstraat</tspan>
+  </text>
+  <text
+     id="Q8-1-7-86-8-7"
+     x="815.34821"
+     y="464.83673"
+     style="font-size:20px;display:inline;font-family:Arial"
+     transform="scale(0.98765023,1.0125042)">
+    <tspan
+       style="font-size:12px"
+       id="tspan3120-4-5-4-6">Binnensingel</tspan>
+  </text>
 </svg>
