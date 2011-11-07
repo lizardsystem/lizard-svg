@@ -66,6 +66,7 @@ class Slider
     if attribute == "::color"
         @setAttribute(itemId, "style:stroke", value)
         @setAttribute(itemId, "style:marker-end", value)
+        @setAttribute(itemId, "style:marker-start", value)
     else if attribute.indexOf(":") == -1
         item[0].setAttribute(attribute, value)
     else
@@ -90,6 +91,7 @@ class Slider
     if group == "::color"
         @re["style:stroke"] = new RegExp("(stroke:)[^;]+", "g")
         @re["style:marker-end"] = new RegExp("(marker-end:url\\(#)[^-]+", "g")
+        @re["style:marker-start"] = new RegExp("(marker-start:url\\(#)[^-]+", "g")
     if group.indexOf(":") != -1
         parts = group.split(":")
         @re[group] = new RegExp("(" + parts[1] + ":)[^;]+", "g")

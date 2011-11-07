@@ -6,7 +6,7 @@ $('document').ready ->
     try
       if element.id.indexOf(":flow.indicator") > 0
         window.slider.manageObject("::color", element.id)
-      if element.id.indexOf(":pomp.indicator") > 0
-        window.slider.manageObject("style:stroke", element.id)
+      if element.id.indexOf(":pump.indicator") > 0
+        window.slider.manageObject("::color", element.id)
       if element.id.indexOf(":pomp.inzet") > 0
         window.slider.manageObject("content", element.id)
