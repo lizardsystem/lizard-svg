@@ -16,7 +16,9 @@ class Bootstrap(View):
         level = 0
         while level < 256:
             value = ''
-            if request.GET['item'].endswith(":overstort.indicator"):
+            if request.GET['group'] in ['style:marker-end', 'style:marker-start']:
+                value = choice(self.status_colors)
+            elif request.GET['item'].endswith(":overstort.indicator"):
                 value = choice(self.overstort_colors)
             elif request.GET['item'].endswith(".indicator"):
                 value = choice(self.status_colors)

@@ -80,7 +80,8 @@
       item = $('#' + itemId.replace(/(:|\.)/g, '\\$1'));
       if (attribute === "::color") {
         this.setAttribute(itemId, "style:stroke", value);
-        return this.setAttribute(itemId, "style:marker-end", value);
+        this.setAttribute(itemId, "style:marker-end", value);
+        return this.setAttribute(itemId, "style:marker-start", value);
       } else if (attribute.indexOf(":") === -1) {
         return item[0].setAttribute(attribute, value);
       } else {
@@ -130,6 +131,7 @@
       if (group === "::color") {
         this.re["style:stroke"] = new RegExp("(stroke:)[^;]+", "g");
         this.re["style:marker-end"] = new RegExp("(marker-end:url\\(#)[^-]+", "g");
+        this.re["style:marker-start"] = new RegExp("(marker-start:url\\(#)[^-]+", "g");
       }
       if (group.indexOf(":") !== -1) {
         parts = group.split(":");

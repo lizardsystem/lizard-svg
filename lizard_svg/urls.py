@@ -2,6 +2,7 @@
 from django.conf.urls.defaults import include
 from django.conf.urls.defaults import patterns
 from django.contrib import admin
+from django.views.generic.simple import direct_to_template
 
 
 from lizard_ui.urls import debugmode_urlpatterns
@@ -15,6 +16,7 @@ admin.autodiscover()
 urlpatterns = patterns(
     '',
     (r'^admin/', include(admin.site.urls)),
+    (r'^test/', direct_to_template, {'template': 'lizard_svg/specrunner.html'}),
     (r'^ui/', include('lizard_ui.urls')),
 
     (r'^api/', include('lizard_svg.api.urls')),

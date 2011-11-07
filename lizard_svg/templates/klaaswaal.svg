@@ -110,7 +110,7 @@
   <marker
      orient="auto"
      refY="0"
-     refX="10"
+     refX="0"
      id="Black-Pump"
      style="overflow:visible">
     <path
@@ -127,7 +127,7 @@
   <marker
      orient="auto"
      refY="0"
-     refX="10"
+     refX="0"
      id="Green-Pump"
      style="overflow:visible">
     <path
@@ -234,14 +234,6 @@
    id="CRKW-001_N:H.meting"
    inkscape:label="#bongerd_dwa" />
 <rect x="0" y="0" width="132" height="100" transform="matrix(1, 0, 0, -0.67, 648, 235)" style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" id="CRKW-207_N(H.meting)" />
-<path
-   id="Black-Pump.legenda"
-   style="stroke:#000000;stroke-width:0.7;stroke-opacity:1;marker-end:url(#Black-Pump)"
-   d="m 24,142 10,10" />
-<path
-   id="Green-Pump.legenda"
-   style="stroke:#000000;stroke-width:0.7;stroke-opacity:1;marker-end:url(#Green-Pump)"
-   d="m 44,142 10,10" />
 <path
    style="fill:#ed2f04;fill-opacity:1;stroke:#0c0703;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.9254902;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
    d="m 955.80893,371.51469 35,0"
@@ -420,40 +412,40 @@
    transform="scale(0.98765023,1.0125042)">-</text>
 <path
    id="CRKW-001_P1:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
-   d="m 846,194 15,15" />
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)"
+   d="m 853,202 5,5" />
 <path
    id="CRKW-207_P1:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
-   d="m 524,180 15,15" />
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)"
+   d="m 531,187 5,5" />
 <path
    id="CRKW-207_P2:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
-   d="m 524,208 15,15" />
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)"
+   d="m 531,215 5,5" />
 <path
    id="CRKW-003_P2:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
-   d="m 524,320 15,15" />
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)"
+   d="m 531,327 5,5" />
 <path
    id="CRKW-003_P1:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
-   d="m 524,292 15,15" />
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)"
+   d="m 531,299 5,5" />
 <path
    id="CRKW-002_P1:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
-   d="m 767,350 15,15" />
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)"
+   d="m 774,357 5,5" />
 <path
    id="CRKW-002_P2:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
-   d="m 767,378 15,15" />
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)"
+   d="m 774,385 5,5" />
 <path
    id="CRKW-RG-253_pomp1:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
-   d="m 574,532 15,15" />
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)"
+   d="m 581,539 5,5" />
 <path
    id="CRKW-RG-253_pomp2:Status.indicator"
-   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-end:url(#Black-Pump)"
-   d="m 602,532 15,15" />
+   style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)"
+   d="m 609,539 5,5" />
 <text
    id="CRKW-207:Pomp.inzet"
    x="557.0155"
@@ -571,12 +563,24 @@
    y="108.30845"
    style="font-size:27.85964775px;display:inline;font-family:Arial"
    transform="scale(0.90453403,1.1055416)">Legenda</text>
-<text
-   id="4ATS"
-   x="61.257099"
-   y="147.87033"
-   style="font-size:17.99437332px;display:inline;font-family:Arial"
-   transform="scale(0.9753048,1.0253205)">Pomp</text>
+  <path
+     id="Black-Pump.legenda"
+     style="stroke:#000000;stroke-width:0.7;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     d="m 24,146 5,5" />
+  <path
+     id="Green-Pump.legenda"
+     style="stroke:#000000;stroke-width:0.7;stroke-opacity:1;marker-start:url(#Green-Pump)"
+     d="m 44,146 5,5" />
+  <text
+     id="4ATS"
+     x="60"
+     y="152"
+     style="font-size:18px;font-family:Arial">Pomp</text>
+  <text
+     id="4ATS-Green"
+     x="113"
+     y="152"
+     style="font-size:18px;font-family:Arial;fill:Green">in bedrijf</text>
 <text
    id="4ATS-1"
    x="61.257099"
