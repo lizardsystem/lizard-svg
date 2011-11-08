@@ -54,11 +54,9 @@ class Slider
     for item in @managed
         if item.group == "content"
             continue
-        key = item.key
-        for candidate in item.value
-          if candidate.timestamp > ui.value
-            break
-        @setAttribute(key, item.group, candidate.value)
+
+        latest = item.value.findLastObservationBefore(ui.value)
+        @setAttribute(item.key, item.group, latest.value)
     null
 
   setAttribute: (itemId, attribute, value) ->
@@ -115,3 +113,19 @@ window.Slider = Slider
 
 String.prototype.endsWith = (suffix) ->
     this.indexOf(suffix, this.length - suffix.length) isnt -1
+
+Array.prototype.findLastObservationBefore = (lookfor) ->
+        # assumes the array contains a time series
+        # compare .timestamp field with lookfor
+        # return last item not following lookfor
+        left = 0
+        right = this.length
+
+        while right > left + 1
+          middle = Math.floor (right + left) / 2
+          if this[middle].timestamp <= lookfor
+            left = middle
+          else
+            right = middle
+
+        this[middle]

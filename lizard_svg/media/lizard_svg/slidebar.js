@@ -56,22 +56,15 @@
       });
     }
     Slider.prototype.onSlide = function(event, ui) {
-      var candidate, item, key, _i, _j, _len, _len2, _ref, _ref2;
+      var item, latest, _i, _len, _ref;
       _ref = this.managed;
       for (_i = 0, _len = _ref.length; _i < _len; _i++) {
         item = _ref[_i];
         if (item.group === "content") {
           continue;
         }
-        key = item.key;
-        _ref2 = item.value;
-        for (_j = 0, _len2 = _ref2.length; _j < _len2; _j++) {
-          candidate = _ref2[_j];
-          if (candidate.timestamp > ui.value) {
-            break;
-          }
-        }
-        this.setAttribute(key, item.group, candidate.value);
+        latest = item.value.findLastObservationBefore(ui.value);
+        this.setAttribute(item.key, item.group, latest.value);
       }
       return null;
     };
@@ -164,5 +157,19 @@
   window.Slider = Slider;
   String.prototype.endsWith = function(suffix) {
     return this.indexOf(suffix, this.length - suffix.length) !== -1;
+  };
+  Array.prototype.findLastObservationBefore = function(lookfor) {
+    var left, middle, right;
+    left = 0;
+    right = this.length;
+    while (right > left + 1) {
+      middle = Math.floor((right + left) / 2);
+      if (this[middle].timestamp <= lookfor) {
+        left = middle;
+      } else {
+        right = middle;
+      }
+    }
+    return this[middle];
   };
 }).call(this);
