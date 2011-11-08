@@ -89,7 +89,7 @@
        orient="auto"
        refY="0"
        refX="0"
-       id="Black-Pump"
+       id="Black-Pump-Marker"
        style="overflow:visible">
       <path
          id="Black-Pump.cross"
@@ -106,7 +106,7 @@
      orient="auto"
      refY="0"
      refX="0"
-     id="Green-Pump"
+     id="Green-Pump-Marker"
      style="overflow:visible">
       <path
        id="Green-Pump.cross"
@@ -118,6 +118,23 @@
          cy="0"
          cx="0"
          style="stroke:Green;stroke-width:1.5pt;fill:none" />
+    </marker>
+    <marker
+     orient="auto"
+     refY="0"
+     refX="0"
+     id="RWZI-Marker"
+     style="overflow:visible">
+      <path
+       id="RWZI-Marker.cross"
+       d="m -11,0 22,0 m -11,-11 0,22"
+       style="stroke:Purple;stroke-width:3pt;stroke-opacity:0.8" />
+      <circle
+         id="RWZI-Marker.circle"
+         r="11"
+         cy="0"
+         cx="0"
+         style="stroke:Purple;stroke-width:3pt;fill:none;stroke-opacity:0.8" />
     </marker>
   </defs>
   <metadata
@@ -202,23 +219,23 @@
      x="544.13257"
      id="naarstrijen">Strijen</text>
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump-Marker)"
      id="rgnieuwendijk:pump.indicator"
      d="m 165,307 5,5"/>
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump-Marker)"
      id="rgzuidbeijerland:pump.indicator"
      d="m 240,337 5,5"/>
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump-Marker)"
      id="rgnumansdorp:pump.indicator"
      d="m 375,409 5,5"/>
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump-Marker)"
      id="rgklaaswaal:pump.indicator"
      d="m 381,298 5,5"/>
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump-Marker)"
      id="rgnumansdorpnoord:pump.indicator"
      d="m 375,376 5,5"/>
   <path
@@ -229,7 +246,7 @@
      inkscape:connector-curvature="0" />
   <path
      id="unknown2:flow.indicator"
-     d="m 355.7226,409.47521 -6.53346,0"
+     d="m 355.7226,409.47521 -8,0"
      style="fill:none;stroke:#000000;stroke-width:3pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
      inkscape:connector-curvature="0" />
   <path
@@ -270,27 +287,27 @@
      style="fill:none;stroke:#434406;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.51764706;stroke-dasharray:none"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump-Marker)"
      id="rgwestmaas:pump.indicator"
      d="m 428,223 5,5"/>
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump-Marker)"
      id="rgMijnsheerenland:pump.indicator"
      d="m 460,202 5,5"/>
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump-Marker)"
      id="rgheienoord:pump.indicator"
      d="m 442,106 5,5"/>
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump-Marker)"
      id="rgnieuweweg:pump.indicator"
      d="m 439,134 5,5"/>
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump-Marker)"
      id="rgirenestraat:pump.indicator"
      d="m 325,140 5,5"/>
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump-Marker)"
      id="rgdegorzen:pump.indicator"
      d="m 344,121 5,5"/>
   <path
@@ -330,15 +347,15 @@
      style="fill:none;stroke:#000000;stroke-width:3.05767941;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump-Marker)"
      id="rgstrijensas:pump.indicator"
      d="m 625,442 5,5"/>
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump-Marker)"
      id="rgzweedsestraat:pump.indicator"
      d="m 637,337 5,5"/>
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump-Marker)"
      id="rgschenkel:pump.indicator"
      d="m 674,400 5,5"/>
   <path
@@ -351,98 +368,6 @@
      d="m 631.60181,331.55361 c -2.39553,-2.04488 -11.88287,-8.97678 -11.88287,-8.97678 l -26.2097,25.56833"
      style="fill:none;stroke:#000000;stroke-width:3pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
      inkscape:connector-curvature="0" />
-  <g
-     id="g5198-33-8-5-4"
-     transform="matrix(0.848036,0,0,0.830986,26.583644,210.31316)">
-    <line
-       id="line67-4-4-3-2"
-       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       y2="173.01303"
-       x2="653.01306"
-       y1="186.38022"
-       x1="667.34747" />
-    <line
-       id="line69-4-13-9-5-0"
-       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       y2="186.47241"
-       x2="652.39648"
-       y1="173.01915"
-       x1="666.98083" />
-    <circle
-       sodipodi:ry="10"
-       sodipodi:rx="10"
-       sodipodi:cy="325"
-       sodipodi:cx="145"
-       d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
-       id="circle-rwzi-strijen"
-       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       r="10"
-       cy="325"
-       cx="145"
-       transform="translate(515,-145)" />
-  </g>
-  <g
-     style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     id="g5198-33-8-5"
-     transform="matrix(0.848036,0,0,0.830986,-222.53536,258.63616)">
-    <line
-       id="line67-4-4-3"
-       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       y2="173.01303"
-       x2="653.01306"
-       y1="186.38022"
-       x1="667.34747" />
-    <circle
-       sodipodi:ry="10"
-       sodipodi:rx="10"
-       sodipodi:cy="325"
-       sodipodi:cx="145"
-       d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
-       id="circle-rwzi-klaaswaal"
-       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       r="10"
-       cy="325"
-       cx="145"
-       transform="translate(515,-145)" />
-    <line
-       id="line69-4-13-9-5"
-       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       y2="186.47241"
-       x2="652.39648"
-       y1="173.01915"
-       x1="666.98083" />
-  </g>
-  <g
-     style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     id="g5198-33-8-5-7"
-     transform="matrix(0.848036,0,0,0.830986,-195.97436,-45.515842)">
-    <line
-       id="line67-4-4-3-7"
-       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       y2="173.01303"
-       x2="653.01306"
-       y1="186.38022"
-       x1="667.34747" />
-    <circle
-       sodipodi:ry="10"
-       sodipodi:rx="10"
-       sodipodi:cy="325"
-       sodipodi:cx="145"
-       d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
-       id="circle-rwzi-oudbeijerland"
-       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       r="10"
-       cy="325"
-       cx="145"
-       transform="translate(515,-145)" />
-    <line
-       id="line69-4-13-9-5-2"
-       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       y2="186.47241"
-       x2="652.39648"
-       y1="173.01915"
-       x1="666.98083" />
-  </g>
   <path
      sodipodi:nodetypes="cccccccccccccccccccccc"
      id="path7968"
@@ -466,23 +391,23 @@
      style="fill:none;stroke:#434406;stroke-width:2.03165913;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.51764706;stroke-dasharray:none"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump-Marker)"
      id="rgblaaksedijk:pump.indicator"
      d="m 506,160 5,5"/>
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump-Marker)"
      id="rgboezemkade:pump.indicator"
      d="m 571,230 5,5"/>
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump-Marker)"
      id="rgmijlpolder:pump.indicator"
      d="m 683,222 5,5"/>
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump-Marker)"
      id="rgnassaulaan:pump.indicator"
      d="m 603,182 5,5"/>
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump-Marker)"
      id="rgsimonsdijkje:pump.indicator"
      d="m 629,182 5,5"/>
   <path
@@ -510,48 +435,17 @@
      d="m 629.06524,173.81554 0,-19.58165"
      style="fill:none;stroke:#000000;stroke-width:3pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
      inkscape:connector-curvature="0" />
-  <g
-     style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     id="g5198-33-8-5-4-8-8"
-     transform="matrix(0.848036,0,0,0.830986,68.988646,-7.211843)">
-    <line
-       id="line67-4-4-3-2-3-1"
-       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       y2="173.01303"
-       x2="653.01306"
-       y1="186.38022"
-       x1="667.34747" />
-    <circle
-       sodipodi:ry="10"
-       sodipodi:rx="10"
-       sodipodi:cy="325"
-       sodipodi:cx="145"
-       d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
-       id="circle-rwzi-binnenmaas"
-       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       r="10"
-       cy="325"
-       cx="145"
-       transform="translate(515,-145)" />
-    <line
-       id="line69-4-13-9-5-0-5-0"
-       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       y2="186.47241"
-       x2="652.39648"
-       y1="173.01915"
-       x1="666.98083" />
-  </g>
   <path
      id="unknown-1:flow.indicator"
      d="m 199.06966,147.41934 21.20729,21.02089"
      style="fill:none;stroke:#000000;stroke-width:3pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump-Marker)"
      id="rgnieuwbeijerland:pump.indicator"
      d="m 227,175 5,5"/>
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump-Marker)"
      id="rgpiershil:pump.indicator"
      d="m 155,234 5,5"/>
   <path
@@ -565,50 +459,23 @@
      d="M 163.30723,230.82685 211.9884,217.47891"
      style="fill:none;stroke:#000000;stroke-width:3pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
      inkscape:connector-curvature="0" />
-  <g
-     style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     id="g5198-33-8-5-0-0"
-     transform="matrix(0.848036,0,0,0.830986,-334.55986,64.923163)">
-    <line
-       id="line67-4-4-3-8-6"
-       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       y2="173.01303"
-       x2="653.01306"
-       y1="186.38022"
-       x1="667.34747" />
-    <circle
-       sodipodi:ry="10"
-       sodipodi:rx="10"
-       sodipodi:cy="325"
-       sodipodi:cx="145"
-       d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
-       id="circle-rwzi-piershil"
-       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       r="10"
-       cy="325"
-       cx="145"
-       transform="translate(515,-145)" />
-    <line
-       id="line69-4-13-9-5-23-0"
-       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       y2="186.47241"
-       x2="652.39648"
-       y1="173.01915"
-       x1="666.98083" />
-  </g>
   <text
      style="font-size:20px;font-family:Arial"
      y="203.27887"
      x="142.2081"
      id="naarpiershil">Piershil</text>
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.6;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.6;stroke-opacity:1;marker-start:url(#Black-Pump-Marker)"
      id="Legenda-Gemaal"
      d="m 25,368 5,5"/>
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.6;stroke-opacity:1;marker-start:url(#Green-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.6;stroke-opacity:1;marker-start:url(#Green-Pump-Marker)"
      id="Legenda-Gemaal_in_bedrijf"
      d="m 25,396 5,5"/>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.6;stroke-opacity:1;marker-start:url(#RWZI-Marker)"
+     id="Legenda-RWZI"
+     d="m 25,424 5,5"/>
   <text
      style="font-size:20px;font-family:Arial"
      y="252.68695"
@@ -755,7 +622,7 @@
      x="627.57959"
      id="rgnassaulaan:pomp.inzet">-</text>
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump-Marker)"
      id="rghoeksedijk:pump.indicator"
      d="m 595,230 5,5"/>
   <text
@@ -792,7 +659,7 @@
      x="687.88898"
      id="rgzweedsestraat:pomp.inzet">-</text>
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump)"
+     style="fill:none;stroke:#000000;stroke-width:0.8;stroke-opacity:1;marker-start:url(#Black-Pump-Marker)"
      id="rgmookhoek:pump.indicator"
      d="m 661,358 5,5"/>
   <path
@@ -855,37 +722,6 @@
      y="493.97003"
      x="47.561321"
      id="4ATS-1-4">Afvoer</text>
-  <g
-     style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     id="g5198-33-8-5-0-0-2"
-     transform="matrix(0.69307725,0,0,0.71831926,-432.45842,294.56335)">
-    <line
-       id="line67-4-4-3-8-6-9"
-       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       y2="173.01303"
-       x2="653.01306"
-       y1="186.38022"
-       x1="667.34747" />
-    <circle
-       sodipodi:ry="10"
-       sodipodi:rx="10"
-       sodipodi:cy="325"
-       sodipodi:cx="145"
-       d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
-       id="circle71-1-9-2-8-5-4"
-       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       r="10"
-       cy="325"
-       cx="145"
-       transform="translate(515,-145)" />
-    <line
-       id="line69-4-13-9-5-23-0-4"
-       style="fill:none;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       y2="186.47241"
-       x2="652.39648"
-       y1="173.01915"
-       x1="666.98083" />
-  </g>
   <text
      transform="scale(0.99163841,1.0084321)"
      style="font-size:13.14231968px;font-family:Arial"
@@ -973,75 +809,65 @@
    transform="matrix(1.0079368,0,0,1.0079368,0,-6.9914253)"
    sodipodi:nodetypes="cccccccccccccccccccccccccccc" />
   </a>
+  <path
+     style="stroke-width:0.8;marker-start:url(#RWZI-Marker)"
+     id="circle-rwzi-strijen"
+     d="m 588,361 5,5"/>
   <a xlink:href="/stroomschema_rwzi/strijen">
     <circle
-   transform="matrix(0.848036,0,0,0.830986,463.32218,89.82019)"
-   cx="145"
-   cy="325"
-   r="10"
-   style="fill:#000000;fill-opacity:0;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:0"
-   id="circle-rwzi-strijen"
-   d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
-   sodipodi:cx="145"
-   sodipodi:cy="325"
-   sodipodi:rx="10"
-   sodipodi:ry="10" />
+		  cx="588"
+		  cy="361"
+		  r="10"
+		  style="fill:#000000;fill-opacity:0"
+		  id="circle-rwzi-strijen-xlink" />
   </a>
+  <path
+     style="stroke-width:0.8;marker-start:url(#RWZI-Marker)"
+     id="circle-rwzi-klaaswaal"
+     d="m 337,410 5,5"/>
   <a xlink:href="/stroomschema_rwzi/klaaswaal">
     <circle
-   transform="matrix(0.848036,0,0,0.830986,214.20318,138.14319)"
-   cx="145"
-   cy="325"
-   r="10"
-   style="fill:#000000;fill-opacity:0;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:0"
-   id="circle-rwzi-klaaswaal"
-   d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
-   sodipodi:cx="145"
-   sodipodi:cy="325"
-   sodipodi:rx="10"
-   sodipodi:ry="10" />
+		  cx="337"
+		  cy="410"
+		  r="10"
+		  style="fill:#000000;fill-opacity:0"
+		  id="circle-rwzi-klaaswaal-xlink" />
   </a>
+  <path
+     style="stroke-width:0.8;marker-start:url(#RWZI-Marker)"
+     id="circle-rwzi-oudbeijerland"
+     d="m 365,105 5,5"/>
   <a xlink:href="/stroomschema_rwzi/oudbeijerland">
     <circle
-   transform="matrix(0.848036,0,0,0.830986,240.76418,-166.00881)"
-   cx="145"
-   cy="325"
-   r="10"
-   style="fill:#000000;fill-opacity:0;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:0"
-   id="circle-rwzi-oudbeijerland"
-   d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
-   sodipodi:cx="145"
-   sodipodi:cy="325"
-   sodipodi:rx="10"
-   sodipodi:ry="10" />
+		  cx="365"
+		  cy="105"
+		  r="10"
+		  style="fill:#000000;fill-opacity:0"
+		  id="circle-rwzi-oudbeijerland-xlink" />
   </a>
+  <path
+     style="stroke-width:0.8;marker-start:url(#RWZI-Marker)"
+     id="circle-rwzi-binnenmaas"
+     d="m 629,142 5,5"/>
   <a xlink:href="/stroomschema_rwzi/binnenmaas">
     <circle
-   transform="matrix(0.848036,0,0,0.830986,505.72719,-127.70482)"
-   cx="145"
-   cy="325"
-   r="10"
-   style="fill:#000000;fill-opacity:0;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:0"
-   id="circle-rwzi-binnenmaas"
-   d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
-   sodipodi:cx="145"
-   sodipodi:cy="325"
-   sodipodi:rx="10"
-   sodipodi:ry="10" />
+		  cx="629"
+		  cy="142"
+		  r="10"
+		  style="fill:#000000;fill-opacity:0"
+		  id="circle-rwzi-binnenmaas-xlink" />
   </a>
+  <path
+     style="stroke-width:0.8;marker-start:url(#RWZI-Marker)"
+     id="circle-rwzi-piershil"
+     d="m 226,215 5,5"/>
   <a xlink:href="/stroomschema_rwzi/piershil">
-  <circle
-     transform="matrix(0.848036,0,0,0.830986,102.17868,-55.569811)"
-     cx="145"
-     cy="325"
-     r="10"
-     style="fill:#000000;fill-opacity:0;stroke:#c2688d;stroke-width:3.57369232;stroke-miterlimit:4;stroke-opacity:0"
-     id="circle-rwzi-piershil-7"
-     d="m 155,325 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
-     sodipodi:cx="145"
-     sodipodi:cy="325"
-     sodipodi:rx="10"
-     sodipodi:ry="10" />
+	 <circle
+		  cx="226"
+		  cy="215"
+		  r="10"
+		  style="fill:#000000;fill-opacity:0"
+		  id="circle-rwzi-piershil-xlink" />
   </a>
 
 </svg>
