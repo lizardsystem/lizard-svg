@@ -764,10 +764,9 @@
    y="0.42957437" />
 <text
    id="SYSY-RG-01(Q.setpoint)"
-   xml:space="preserve"
    x="288"
    y="126"
-   style="font-size:20px;fill:Red;font-family:Arial">Setpoint:          m³/h</text>
+   style="font-size:20px;fill:Red;font-family:Arial">Setpoint:</text>
 <text
    id="SYSY-RG-01:Q.setpoint"
    text-anchor="end"
@@ -775,15 +774,25 @@
    y="126"
    style="font-size:20px;fill:Red;font-family:Arial">-</text>
 <text
+   id="SYSY-RG-01(Q.setpoint)-units"
+   x="425"
+   y="126"
+   style="font-size:20px;fill:Red;font-family:Arial">m³/h</text>
+<text
    id="SYSY-RG-01(neerslag)"
-   xml:space="preserve"
    x="288"
    y="102"
-   style="font-size:20px;font-family:Arial">Neerslag:         mm/5min</text>
+   style="font-size:20px;font-family:Arial">Neerslag:</text>
 <text
    id="SYSY-RG-01:neerslag"
    text-anchor="end"
    x="420"
    y="102"
    style="font-size:20px;font-family:Arial">-</text>
+<text
+   id="SYSY-RG-01(neerslag)"
+   xml:space="preserve"
+   x="425"
+   y="102"
+   style="font-size:20px;font-family:Arial">mm/5min</text>
 </svg>
