@@ -68,46 +68,43 @@
   <defs
       id="defs3">
     <marker
-	inkscape:stockid="Arrow1Send"
-	orient="auto"
-	refY="0"
-	refX="0"
-	id="Black-Arrow"
-	style="overflow:visible">
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Black-Arrow"
+       style="overflow:visible">
       <path
-	  id="path4222"
-	  d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-	  style="fill-rule:evenodd;stroke:Black;stroke-width:1pt;marker-start:none"
-	  transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
-	  inkscape:connector-curvature="0" />
+         id="path4222"
+         d="M 0,0 0,-6 -12.5,0 0,6 0,0 z"
+         style="fill-rule:evenodd;stroke:Black;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-	inkscape:stockid="Arrow1Send"
-	orient="auto"
-	refY="0"
-	refX="0"
-	id="Red-Arrow"
-	style="overflow:visible">
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Red-Arrow"
+       style="overflow:visible">
       <path
-	  id="path4222"
-	  d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-	  style="fill-rule:evenodd;stroke:Red;stroke-width:1pt;marker-start:none;fill:Red"
-	  transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
-	  inkscape:connector-curvature="0" />
+         id="path4222"
+         d="M 0,0 0,-6 -12.5,0 0,6 0,0 z"
+         style="fill-rule:evenodd;stroke:Red;stroke-width:1pt;marker-start:none;fill:Red"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-	inkscape:stockid="Arrow1Send"
-	orient="auto"
-	refY="0"
-	refX="0"
-	id="Green-Arrow"
-	style="overflow:visible">
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Green-Arrow"
+       style="overflow:visible">
       <path
-	  id="path4222"
-	  d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-	  style="fill-rule:evenodd;stroke:Green;stroke-width:1pt;marker-start:none;fill:Green"
-	  transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
-	  inkscape:connector-curvature="0" />
+         id="path4222"
+         d="M 0,0 0,-6 -12.5,0 0,6 0,0 z"
+         style="fill-rule:evenodd;stroke:Green;stroke-width:1pt;marker-start:none;fill:Green"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
 	orient="auto"

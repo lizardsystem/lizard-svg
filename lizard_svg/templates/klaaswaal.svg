@@ -65,48 +65,45 @@
 </sodipodi:namedview>
 <defs
    id="defs3">
-  <marker
-     inkscape:stockid="Arrow1Send"
-     orient="auto"
-     refY="0"
-     refX="0"
-     id="Black-Arrow"
-     style="overflow:visible">
-    <path
-       id="path4222"
-       d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-       style="fill-rule:evenodd;stroke:Black;stroke-width:1pt;marker-start:none"
-       transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
-       inkscape:connector-curvature="0" />
-  </marker>
-  <marker
-     inkscape:stockid="Arrow1Send"
-     orient="auto"
-     refY="0"
-     refX="0"
-     id="Red-Arrow"
-     style="overflow:visible">
-    <path
-       id="path4222"
-       d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-       style="fill-rule:evenodd;stroke:Red;stroke-width:1pt;marker-start:none;fill:Red"
-       transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
-       inkscape:connector-curvature="0" />
-  </marker>
-  <marker
-     inkscape:stockid="Arrow1Send"
-     orient="auto"
-     refY="0"
-     refX="0"
-     id="Green-Arrow"
-     style="overflow:visible">
-    <path
-       id="path4222"
-       d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-       style="fill-rule:evenodd;stroke:Green;stroke-width:1pt;marker-start:none;fill:Green"
-       transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
-       inkscape:connector-curvature="0" />
-  </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Black-Arrow"
+       style="overflow:visible">
+      <path
+         id="path4222"
+         d="M 0,0 0,-6 -12.5,0 0,6 0,0 z"
+         style="fill-rule:evenodd;stroke:Black;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Red-Arrow"
+       style="overflow:visible">
+      <path
+         id="path4222"
+         d="M 0,0 0,-6 -12.5,0 0,6 0,0 z"
+         style="fill-rule:evenodd;stroke:Red;stroke-width:1pt;marker-start:none;fill:Red"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Green-Arrow"
+       style="overflow:visible">
+      <path
+         id="path4222"
+         d="M 0,0 0,-6 -12.5,0 0,6 0,0 z"
+         style="fill-rule:evenodd;stroke:Green;stroke-width:1pt;marker-start:none;fill:Green"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
   <marker
      orient="auto"
      refY="0"
@@ -236,22 +233,22 @@
 <rect x="0" y="0" width="132" height="100" transform="matrix(1, 0, 0, -0.67, 648, 235)" style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" id="CRKW-207_N(H.meting)" />
 <path
    style="fill:#ed2f04;fill-opacity:1;stroke:#0c0703;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.9254902;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
-   d="m 955.80893,371.51469 35,0"
+   d="m 955,349 35,0"
    id="CRKW-002:overstort.indicator"
    inkscape:connector-curvature="0" />
 <path
    style="fill:#ed2f04;fill-opacity:1;stroke:#0c0703;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.92441861;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
-   d="m 334.01483,202.42846 -35,0"
+   d="m 334,180 -35,0"
    id="CRKW-207:overstort.indicator"
    inkscape:connector-curvature="0" />
 <path
    style="fill:#ed8712;fill-opacity:1;stroke:#062f04;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
-   d="m 334.01483,315.15262 -35,0"
+   d="m 334,294 -35,0"
    id="CRKW-003:overstort.indicator"
    inkscape:connector-curvature="0" />
 <path
    style="fill:#ed2f04;fill-opacity:1;stroke:#0c0703;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.9254902;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
-   d="m 531.93761,461.69401 -35,0"
+   d="m 532,441 -35,0"
    id="CRKW-RG-253:overstort.indicator"
    inkscape:connector-curvature="0" />
 <path
