@@ -936,7 +936,7 @@
   <path id="SYSY-002_P2:status.indicator" style="stroke:#000000;stroke-width:1;stroke-opacity:1;marker-start:url(#Black-Pump)" d="m 814,446 5,5" />
   <path
      style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Black-Arrow)"
-     d="m 951.616,534.36094 71.945,0"
+     d="m 952,532 65,0"
      id="SYSY-RG01:flow.indicator"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
