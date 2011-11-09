@@ -59,6 +59,7 @@ DATABASES = {
 SITE_ID = 1
 INSTALLED_APPS = [
     'lizard_svg',
+    'lizard_fewsnorm',
     'lizard_ui',
     'djangorestframework',
     'staticfiles',
