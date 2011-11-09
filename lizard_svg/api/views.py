@@ -1,7 +1,7 @@
 from djangorestframework.views import View
 from random import uniform, choice
 import time
-from lizard_fewsnorm.model import TimeSeriesCache
+from lizard_fewsnorm.models import TimeSeriesCache
 
 class Bootstrap(View):
     """
