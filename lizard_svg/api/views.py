@@ -2,6 +2,10 @@ from djangorestframework.views import View
 from random import uniform, choice
 import time
 from lizard_fewsnorm.models import TimeSeriesCache
+from lizard_fewsnorm.models import Event
+from lizard_fewsnorm.models import Series
+from lizard_fewsnorm.models import Location
+from lizard_fewsnorm.models import Parameter
 
 class Bootstrap(View):
     """
@@ -16,6 +20,12 @@ class Bootstrap(View):
         level = 0
         while level < 256:
             value = ''
+            l_id, p_id = request.GET['item'].split(':')
+            parameter = Parameter.objects.get(p_id)
+            location = Location.objects.get(l_id)
+            series = Series.objects.get(location=location, parameter=parameter)
+            events = series.event_set()
+
             if request.GET['group'] in ['style:marker-end', 'style:marker-start']:
                 value = choice(self.status_colors)
             elif request.GET['item'].endswith(":overstort.indicator"):
