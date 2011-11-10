@@ -14,6 +14,7 @@ install_requires = [
     'django-extensions',
     'django-nose',
     'lizard-fewsnorm',
+    'timeseries',
     'lizard-ui >= 3.0',
     'djangorestframework',
     'pkginfo',

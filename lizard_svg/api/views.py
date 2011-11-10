@@ -6,6 +6,10 @@ from lizard_fewsnorm.models import Event
 from lizard_fewsnorm.models import Series
 from lizard_fewsnorm.models import Location
 from lizard_fewsnorm.models import Parameter
+from lizard_fewsnorm.models import ParameterCache
+from lizard_fewsnorm.models import GeoLocationCache
+from timeseries import timeseries
+
 
 class Bootstrap(View):
     """
@@ -16,15 +20,24 @@ class Bootstrap(View):
     overstort_colors = ['Black', 'Red']
 
     def get(self, request):
+        try:
+            l_id, p_id = request.GET['item'].split(':')
+            ## we need first find out the containing database
+            location_pointer = GeoLocationCache.objects.get(ident=l_id)
+            db_name = location_pointer.fews_norm_source.database_name
+            ## now we can access the series
+            filtered_series = Series.objects.using(db_name).filter(location__id=l_id, 
+                                                                   parameter__id=p_id)
+            tsd = timeseries.TimeSeries.as_dict(filtered_series)
+            return tsd[l_id, p_id].events.items()
+        except:
+            pass
+
         result = []
         level = 0
+
         while level < 256:
             value = ''
-            l_id, p_id = request.GET['item'].split(':')
-            parameter = Parameter.objects.get(p_id)
-            location = Location.objects.get(l_id)
-            series = Series.objects.get(location=location, parameter=parameter)
-            events = series.event_set()
 
             if request.GET['group'] in ['style:marker-end', 'style:marker-start']:
                 value = choice(self.status_colors)
