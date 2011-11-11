@@ -1,14 +1,11 @@
 from djangorestframework.views import View
 from random import uniform, choice
 import time
-from lizard_fewsnorm.models import TimeSeriesCache
 from lizard_fewsnorm.models import Event
 from lizard_fewsnorm.models import Series
-from lizard_fewsnorm.models import Location
-from lizard_fewsnorm.models import Parameter
-from lizard_fewsnorm.models import ParameterCache
 from lizard_fewsnorm.models import GeoLocationCache
 from timeseries import timeseries
+from datetime import datetime
 
 
 class Bootstrap(View):
@@ -69,19 +66,14 @@ class Update(View):
         ## retrieve keys
         keys = [v for (k, v) in request.POST.items() if k.startswith('keys')]
         ## retrieve timestamp
-        now = request.POST['timestamp']
+        deadline = request.POST['timestamp']
 
-        ## SELECT key, value FROM rioolgemalen
-        ##   JOIN (SELECT key, max(timestamp) AS timestamp
-        ##           FROM rioolgemalen
-        ##          WHERE key in (%keys%)
-        ##            AND timestamp < %now%
-        ##       GROUP BY key) latest ON rioolgemalen.key = latest.key
-        ##                           AND rioolgemalen.timestamp = latest.timestamp
-        ##
         time.sleep(0.5)  # faking database latency
         return dict((k, int(uniform(0, 64))) for k in keys)
 
     def get(self, request):
-        keys = request.GET['keys'].split(',')
-        return keys
+        deadline = datetime.strptime(request.GET['timestamp'], "%Y-%m-%dT%H:%M:%S")
+        lppairs = [tuple(k.split(':')) for k in request.GET['keys'].split(',')]
+        filtered_series = Series.from_lppairs(lppairs)
+        e = Event.filter_latest_before_deadline(filtered_series, deadline)
+        return list(e)
