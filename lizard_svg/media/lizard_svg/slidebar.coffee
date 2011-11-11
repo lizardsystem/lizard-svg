@@ -36,21 +36,26 @@ getObjectClass = (obj) ->
     return undefined;
 
 class Slider
-  constructor: (@itemId) ->
+  constructor: (@itemId, @text) ->
     @waiting = 0
     @managed = []
     @re = {}
     @slider = $('#' + @itemId).slider
       value: 0
       orientation: "horizontal"
-      min: 0
-      max: 255
-      length: 255
-      animate: true
+      step: 60
+      length: 660
       slide: @onSlide
       change: @onChange
 
+  setMin: (min) ->
+    $('#' + @itemId).slider("option", "min", min)
+
+  setMax: (max) ->
+    $('#' + @itemId).slider("option", "max", max)
+
   onSlide: (event, ui) =>
+    $('#' + @text).text (new Date(ui.value)).isoFormat()
     for item in @managed
         if item.group == "content"
             continue
@@ -75,9 +80,9 @@ class Slider
 
   onChange: (event, ui) =>
     that = this
-    mutanda = [{key: i.key} for i in @managed when i.group == "content"]
-    $.post "/api/update/",
-        timestamp: ui.value
+    mutanda = [i.key for i in @managed when i.group == "content"].join(",")
+    $.get "/api/update/",
+        timestamp: (new Date(ui.value)).isoFormat()
         keys: mutanda,
         (data) -> that.onChangeFinalize data
 
@@ -95,6 +100,7 @@ class Slider
         @re[group] = new RegExp("(" + parts[1] + ":)[^;]+", "g")
     that = this
     that.waiting += 1
+    $('#' + @text).text "queued requests: " + that.waiting
     $.get "/api/bootstrap/?group=#{group}&item=#{item}",
       (data) ->
         that.managed.push
@@ -104,10 +110,12 @@ class Slider
         that.waiting -= 1
         if that.waiting == 0
           that.manageObjectFinalize()
+        else
+          $('#' + @text).text "queued requests: " + that.waiting
 
   manageObjectFinalize: ->
     @onChange(null, value: 0)
-    @onSlide(null, value: 0)
+    @onSlide(null, value: $('#' + @itemId).slider("option", "min"))
 
 window.Slider = Slider
 
@@ -129,3 +137,9 @@ Array.prototype.findLastObservationBefore = (lookfor) ->
             right = middle
 
         this[middle]
+
+pad = (n) ->
+  if n < 10 then '0' + n else n
+
+Date.prototype.isoFormat = () ->
+  @getUTCFullYear() + "-" + pad(@getUTCMonth() + 1) + "-" + pad(@getUTCDate()) + "T" + pad(@getUTCHours()) + ':' + pad(@getUTCMinutes()) + ':' + pad(@getUTCSeconds())

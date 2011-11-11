@@ -1,6 +1,8 @@
 
 $('document').ready ->
-  window.slider = new window.Slider('mySliderDiv')
+  window.slider = new window.Slider('mySliderDiv', 'itsTextDiv')
+  window.slider.setMin(1234567890000)
+  window.slider.setMax(1243567890000)
   svg = document.getElementsByTagName("svg")[0]
   for element in svg.getElementsByTagName("*")
     try

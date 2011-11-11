@@ -31,9 +31,10 @@ class Bootstrap(View):
             pass
 
         result = []
-        level = 0
+        first, last = 1234567890000, 1243567890000
+        level = first
 
-        while level < 256:
+        while level < last:
             value = ''
 
             if request.GET['group'] in ['style:marker-end', 'style:marker-start']:
@@ -50,7 +51,7 @@ class Bootstrap(View):
                            'timestamp': level,
                            'value': value,
                            })
-            level += int(uniform(0, 64))
+            level += int(uniform(0, (last - first)/4))
         time.sleep(uniform(0.01, 0.05))  # faking database latency
         return result
 
@@ -75,5 +76,8 @@ class Update(View):
         deadline = datetime.strptime(request.GET['timestamp'], "%Y-%m-%dT%H:%M:%S")
         lppairs = [tuple(k.split(':')) for k in request.GET['keys'].split(',')]
         filtered_series = Series.from_lppairs(lppairs)
-        e = Event.filter_latest_before_deadline(filtered_series, deadline)
-        return list(e)
+        if filtered_series:
+            e = Event.filter_latest_before_deadline(filtered_series, deadline)
+            return list(e)
+        else:
+            return None
