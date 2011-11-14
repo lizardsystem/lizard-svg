@@ -78,6 +78,7 @@ class Update(View):
         filtered_series = Series.from_lppairs(lppairs)
         if filtered_series:
             e = Event.filter_latest_before_deadline(filtered_series, deadline)
-            return list(e)
+            return [(i.series.location.id, i.series.parameter.id, i.timestamp, i.value, i.flag, i.comment)
+                    for i in e]
         else:
             return None
